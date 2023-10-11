@@ -1,0 +1,16 @@
+Tải xampp tạo Db tên là doantotnghiep
+
+tài liệu gốc 
+https://sequelize.org/docs/v6/other-topics/migrations/
+
+Lúc mới clone từ Github về chạy
+    npx sequelize-cli db:migrate
+để tạo các table (Trước đấy nhớ tạo DB)
+
+    npx sequelize-cli db:seed:all
+để chèn bản ghi mẫu (tệp seeders)
+
+Cách thay thế riêng 1 bảng Kẹc:
+    xóa bảng Kẹc đi
+    vào bảng sequelizemeta xóa dòng có bảng Kẹc đi
+    npx sequelize-cli db:migrate như thường

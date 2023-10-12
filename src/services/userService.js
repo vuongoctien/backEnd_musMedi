@@ -15,40 +15,40 @@ let hashUserPassword = (password) => {
     })
 }
 
-let handleUserLogin = (email, password) => {
+let handleUserLogin = (nickName, password) => { // ok
 
     return new Promise(async (resolve, reject) => {
         try {
             let userData = {};
-            let isExist = await checkUserEmail(email)
-            if (isExist) {
-                let user = await db.Account.findOne({
-                    attributes: ['email', 'roleId', 'password', 'firstName', 'lastName'],
-                    where: { email: email },
+            let isExist = await checkUserEmail(nickName) // check xem tồn tại nickName chưa
+            if (isExist) { // nếu true (đã tồn tại)
+                let user = await db.Account.findOne({ // lấy ra thông tin nickName
+                    attributes: ['nickName', 'role', 'password', 'gmail', 'image'], // lôi thêm cột ra
+                    where: { nickName: nickName },
                     raw: true
                 })
 
 
 
-                if (user) {
+                if (user) { // ủa sao vẫn cần check tiếp à?
                     let check = await bcrypt.compareSync(password, user.password); // false
                     if (check) {
                         userData.errCode = 0
-                        userData.errMessage = 'ok'
+                        userData.errMessage = 'Đăng nhập thành công'
                         delete user.password
                         userData.user = user
                     } else {
                         userData.errCode = 3
-                        userData.errMessage = "wrong password"
+                        userData.errMessage = "Sai mật khẩu"
 
                     }
                 } else {
                     userData.errCode = 2
-                    userData.errMessage = `Account's not found`
+                    userData.errMessage = `Không tìm thấy tài khoản`
                 }
             } else {
                 userData.errCode = 1;
-                userData.errMessage = `Email của chú em đéo tồn tại`
+                userData.errMessage = `Tài khoản không tồn tại`
                 resolve(userData)
             }
 
@@ -59,11 +59,11 @@ let handleUserLogin = (email, password) => {
     })
 }
 
-let checkUserEmail = (userEmail) => {
+let checkUserEmail = (nickName) => { // hàm này trả ra true nếu trong DB đã tồn tại nickName, nếu chưa thì false
     return new Promise(async (resolve, reject) => {
         try {
             let user = await db.Account.findOne({
-                where: { email: userEmail }
+                where: { nickName: nickName }
             })
             if (user) {
                 resolve(true)

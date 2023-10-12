@@ -1,13 +1,13 @@
-// git init
+                                                                                            // git init
 
-//  git status
+                                                                                            //  git status
 
 git add . 
 
 git commit -m "
 
-//  git remote add origin https://github.com/vuongoctien/backEnd_musMedi.git
+                                                                                            //  git remote add origin https://github.com/vuongoctien/backEnd_musMedi.git
 
 git push origin master
 
-git checkout master
+                                                                                            // git checkout master

@@ -3,9 +3,17 @@ import CRUDservices from '../services/CRUDservices';
 
 let getHomePage = async (req, res) => { // hay, không dùng async await là thấy ngay hậu quả
     try {
-        let data = await db.Account.findAll();
+        // let dataAccount = await db.Account.findAll();
+        let dataClinic = await db.Clinic.findAll();
+        // let dataList_Specialty = await db.List_Specialty.findAll();
+        // let dataMedi_Package = await db.Medi_Package.findAll();
+        // let dataSpecialty = await db.Specialty.findAll();
         return res.render('homepage.ejs', {
-            data: JSON.stringify(data)
+            // dataAccount: JSON.stringify(dataAccount);
+            dataClinic: JSON.stringify(dataClinic)
+            // dataList_Specialty: JSON.stringify(dataList_Specialty)
+            // dataMedi_Package: JSON.stringify(dataMedi_Package)
+            // dataSpecialty: JSON.stringify(dataSpecialty)
         })
     } catch (e) {
         console.log(e)

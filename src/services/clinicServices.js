@@ -28,16 +28,16 @@ let createClinic = (data) => {
     })
 }
 
-let getAllClinic = () => {
+let getAllClinic = () => { //ok
     return new Promise(async (resolve, reject) => {
         try {
             let data = await db.Clinic.findAll()
-            if (data && data.length > 0) {
-                data.map(item => {
-                    item.image = new Buffer(item.image, 'base64').toString('binary')
-                    return item
-                })
-            }
+            // if (data && data.length > 0) {
+            //     data.map(item => {
+            //         item.image = new Buffer(item.image, 'base64').toString('binary')
+            //         return item
+            //     })
+            // }
             resolve({
                 errCode: 0,
                 errMes: 'Ok Clinic!',

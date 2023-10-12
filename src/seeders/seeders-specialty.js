@@ -6,7 +6,7 @@ module.exports = {
     return queryInterface.bulkInsert('specialties', [
       {
         name: 'Khác',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -14,7 +14,7 @@ module.exports = {
       },
       {
         name: 'Cơ xương khớp',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -22,7 +22,7 @@ module.exports = {
       },
       {
         name: 'Thần kinh',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -30,7 +30,7 @@ module.exports = {
       },
       {
         name: 'Tiêu hóa',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -38,7 +38,7 @@ module.exports = {
       },
       {
         name: 'Tim mạch',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -46,7 +46,7 @@ module.exports = {
       },
       {
         name: 'Tai mũi họng',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -54,7 +54,7 @@ module.exports = {
       },
       {
         name: 'Cột sống',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -62,7 +62,7 @@ module.exports = {
       },
       {
         name: 'Y học cổ truyền',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -70,7 +70,7 @@ module.exports = {
       },
       {
         name: 'Châm cứu',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -78,7 +78,7 @@ module.exports = {
       },
       {
         name: 'Sản phụ khoa',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -86,7 +86,7 @@ module.exports = {
       },
       {
         name: 'Siêu âm thai',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -94,7 +94,7 @@ module.exports = {
       },
       {
         name: 'Nhi khoa',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -102,7 +102,7 @@ module.exports = {
       },
       {
         name: 'Da liễu',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -110,7 +110,7 @@ module.exports = {
       },
       {
         name: 'Bệnh viêm gan',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -118,7 +118,7 @@ module.exports = {
       },
       {
         name: 'Sức khỏe tâm thần',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -126,7 +126,7 @@ module.exports = {
       },
       {
         name: 'Dị ứng miễn dịch',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -134,7 +134,7 @@ module.exports = {
       },
       {
         name: 'Hô hấp - Phổi',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -142,7 +142,7 @@ module.exports = {
       },
       {
         name: 'Ngoại thần kinh',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -150,7 +150,7 @@ module.exports = {
       },
       {
         name: 'Nam học',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -158,7 +158,7 @@ module.exports = {
       },
       {
         name: 'Mắt',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -166,7 +166,7 @@ module.exports = {
       },
       {
         name: 'Thận - tiết niệu',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -174,7 +174,7 @@ module.exports = {
       },
       {
         name: 'Nội khoa',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -182,7 +182,7 @@ module.exports = {
       },
       {
         name: 'Phục hồi chức năng',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -190,7 +190,7 @@ module.exports = {
       },
       {
         name: 'Chụp cộng hưởng từ',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -198,7 +198,7 @@ module.exports = {
       },
       {
         name: 'Chụp cắt lớp vi tính',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -206,7 +206,7 @@ module.exports = {
       },
       {
         name: 'Nội soi tiêu hóa',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -214,7 +214,7 @@ module.exports = {
       },
       {
         name: 'Ung bướu',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -222,7 +222,7 @@ module.exports = {
       },
       {
         name: 'Da liễu thẩm mỹ',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -230,7 +230,7 @@ module.exports = {
       },
       {
         name: 'Truyền nhiễm',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -238,7 +238,7 @@ module.exports = {
       },
       {
         name: 'Tạo hình hàm mặt',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -246,7 +246,7 @@ module.exports = {
       },
       {
         name: 'Vô sinh - hiếm muộn',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -254,7 +254,7 @@ module.exports = {
       },
       {
         name: 'Chấn thương chỉnh hình',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -262,7 +262,7 @@ module.exports = {
       },
       {
         name: 'Niềng răng',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -270,7 +270,7 @@ module.exports = {
       },
       {
         name: 'Bọc răng sứ',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -278,7 +278,7 @@ module.exports = {
       },
       {
         name: 'Trồng răng implant',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -286,7 +286,7 @@ module.exports = {
       },
       {
         name: 'Nhổ răng khôn',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -294,7 +294,7 @@ module.exports = {
       },
       {
         name: 'Nha khoa tổng quát',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -302,7 +302,7 @@ module.exports = {
       },
       {
         name: 'Nha khoa trẻ em',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),
@@ -310,7 +310,7 @@ module.exports = {
       },
       {
         name: 'Tư vấn, trị liệu Tâm lý',
-        image: null,
+        image: 'img',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         createdAt: new Date(),

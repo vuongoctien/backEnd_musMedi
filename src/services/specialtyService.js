@@ -33,7 +33,7 @@ let createSpeciatly = (data) => {
     })
 }
 
-let getAllSpeciatly = () => {
+let getAllSpeciatly = () => { //ok
     return new Promise(async (resolve, reject) => {
         try {
             let data = await db.Specialty.findAll()

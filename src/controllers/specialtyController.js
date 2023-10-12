@@ -13,7 +13,7 @@ let createSpeciatly = async (req, res) => {
     }
 }
 
-let getAllSpeciatly = async (req, res) => {
+let getAllSpeciatly = async (req, res) => { //ok
     try {
         let info = await specialtyService.getAllSpeciatly()
         return res.status(200).json(info)

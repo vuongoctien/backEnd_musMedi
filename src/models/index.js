@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; // file này chắc là file khởi tạo Sequelize, dùng để tạo id à?
 
 require('dotenv').config();
 const fs = require('fs');

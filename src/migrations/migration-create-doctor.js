@@ -1,8 +1,11 @@
 'use strict';
+
+const sequelize = require('sequelize');
+
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
     async up(queryInterface, Sequelize) {
-        await queryInterface.createTable('specialties', {
+        await queryInterface.createTable('doctors', {
             id: {
                 allowNull: false,
                 autoIncrement: true,
@@ -10,10 +13,14 @@ module.exports = {
                 type: Sequelize.INTEGER
             },
             name: { type: Sequelize.STRING },
+            position: { type: Sequelize.STRING },
+            // specialtyID: { type: Sequelize.INTEGER },
+            clinicID: { type: Sequelize.INTEGER },
             image: { type: Sequelize.BLOB('long') },
-            descriptionHTML: { type: Sequelize.TEXT },
             descriptionMarkdown: { type: Sequelize.TEXT },
-
+            descriptionHTML: { type: Sequelize.TEXT },
+            priceDefault: { type: Sequelize.INTEGER },
+            nickName: { type: Sequelize.STRING },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE
@@ -25,6 +32,6 @@ module.exports = {
         });
     },
     async down(queryInterface, Sequelize) {
-        await queryInterface.dropTable('specialties');
+        await queryInterface.dropTable('doctors');
     }
 };

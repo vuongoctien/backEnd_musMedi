@@ -2,25 +2,16 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
     async up(queryInterface, Sequelize) {
-        await queryInterface.createTable('allcodes', {
+        await queryInterface.createTable('list_specialties', {
             id: {
                 allowNull: false,
                 autoIncrement: true,
                 primaryKey: true,
                 type: Sequelize.INTEGER
             },
-            keyMap: {
-                type: Sequelize.STRING
-            },
-            type: {
-                type: Sequelize.STRING
-            },
-            valueEn: {
-                type: Sequelize.STRING
-            },
-            valueVi: {
-                type: Sequelize.STRING
-            },
+            specialtyID: { type: Sequelize.STRING },
+            dr_or_pk: { type: Sequelize.STRING },
+            dr_or_pk_ID: { type: Sequelize.INTEGER },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE
@@ -32,6 +23,6 @@ module.exports = {
         });
     },
     async down(queryInterface, Sequelize) {
-        await queryInterface.dropTable('allcodes');
+        await queryInterface.dropTable('list_specialties');
     }
 };

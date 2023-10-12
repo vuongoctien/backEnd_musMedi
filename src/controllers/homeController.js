@@ -3,7 +3,7 @@ import CRUDservices from '../services/CRUDservices';
 
 let getHomePage = async (req, res) => { // hay, không dùng async await là thấy ngay hậu quả
     try {
-        let data = await db.User.findAll();
+        let data = await db.Account.findAll();
         return res.render('homepage.ejs', {
             data: JSON.stringify(data)
         })

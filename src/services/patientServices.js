@@ -38,7 +38,7 @@ let postBookAppointment = (data) => { //cái này là đặt lịch khám
                 // })
 
                 // upsert patient
-                let user = await db.User.findOrCreate({ //findOrCreate là tìm hoặc tạo?
+                let user = await db.Account.findOrCreate({ //findOrCreate là tìm hoặc tạo?
                     where: { email: data.email }, // nếu điền email chuẩn sẽ ra chính xác user có sẵn, hay
                     defaults: { // 
                         email: data.email, // nếu check postman mình điền bừa email nên sẽ là create user mới

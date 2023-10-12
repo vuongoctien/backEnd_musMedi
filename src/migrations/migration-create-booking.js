@@ -9,24 +9,18 @@ module.exports = {
                 primaryKey: true,
                 type: Sequelize.INTEGER
             },
-            statusId: {
-                type: Sequelize.STRING
-            },
-            doctorId: {
-                type: Sequelize.INTEGER
-            },
-            patientId: {
-                type: Sequelize.INTEGER
-            },
-            date: {
-                type: Sequelize.STRING
-            },
-            timeType: {
-                type: Sequelize.STRING
-            },
-            token: {
-                type: Sequelize.STRING
-            },
+            scheduleID: { type: Sequelize.INTEGER },
+            patientID: { type: Sequelize.INTEGER },
+            forWho: { type: Sequelize.STRING },
+            yourName: { type: Sequelize.STRING },
+            yourPhoneNumber: { type: Sequelize.STRING },
+            yourGmail: { type: Sequelize.STRING },
+            patientName: { type: Sequelize.STRING },
+            patientBirthday: { type: Sequelize.STRING },
+            patientGender: { type: Sequelize.STRING },
+            patientCCCD: { type: Sequelize.STRING },
+            reason: { type: Sequelize.STRING },
+
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE

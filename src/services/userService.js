@@ -22,7 +22,7 @@ let handleUserLogin = (email, password) => {
             let userData = {};
             let isExist = await checkUserEmail(email)
             if (isExist) {
-                let user = await db.User.findOne({
+                let user = await db.Account.findOne({
                     attributes: ['email', 'roleId', 'password', 'firstName', 'lastName'],
                     where: { email: email },
                     raw: true
@@ -44,7 +44,7 @@ let handleUserLogin = (email, password) => {
                     }
                 } else {
                     userData.errCode = 2
-                    userData.errMessage = `User's not found`
+                    userData.errMessage = `Account's not found`
                 }
             } else {
                 userData.errCode = 1;
@@ -62,7 +62,7 @@ let handleUserLogin = (email, password) => {
 let checkUserEmail = (userEmail) => {
     return new Promise(async (resolve, reject) => {
         try {
-            let user = await db.User.findOne({
+            let user = await db.Account.findOne({
                 where: { email: userEmail }
             })
             if (user) {
@@ -92,14 +92,14 @@ let getAllUsers = (userId) => {
         try {
             let users = ''
             if (userId === 'ALL') {
-                users = db.User.findAll({
+                users = db.Account.findAll({
                     attributes: {
                         exclude: ['password'] // không trả ra password
                     }
                 })
             }
             if (userId && userId !== 'ALL') {
-                users = await db.User.findOne({
+                users = await db.Account.findOne({
                     where: { id: userId },
                     attributes: {
                         exclude: ['password'] // không trả ra password
@@ -124,7 +124,7 @@ let createNewUser = (data) => {
                 })
             } else {
                 let hashPasswordFromBcrypt = await hashUserPassword(data.password);
-                await db.User.create({
+                await db.Account.create({
                     // bên phải sửa theo name trong ejs
                     email: data.email,
                     password: hashPasswordFromBcrypt,
@@ -150,7 +150,7 @@ let createNewUser = (data) => {
 
 let deleteUser = (userId) => {
     return new Promise(async (resolve, reject) => {
-        let foundUser = await db.User.findOne({
+        let foundUser = await db.Account.findOne({
             where: { id: userId }
         })
         if (!foundUser) {
@@ -159,7 +159,7 @@ let deleteUser = (userId) => {
                 errMessage: `người dùng đéo rồn tại`
             })
         }
-        await db.User.destroy({
+        await db.Account.destroy({
             where: { id: userId }
         })
 
@@ -179,7 +179,7 @@ let updateUserData = (data) => {
                     errMessage: 'id đâu chú em?'
                 })
             }
-            let user = await db.User.findOne({
+            let user = await db.Account.findOne({
                 where: { id: data.id },
                 raw: false
             })
@@ -197,14 +197,14 @@ let updateUserData = (data) => {
 
                 await user.save()
 
-                // await db.User.save({
+                // await db.Account.save({
                 //     firstName: data.firstName,
                 //     lastName: data.lastName,
                 //     address: data.address,
                 //     phoneNumber: data.phonenumber,
                 // }, { where: { id: userId } })
 
-                // let allUsers = await db.User.findAll();
+                // let allUsers = await db.Account.findAll();
                 resolve({
                     errCode: 0,
                     message: 'update dc r'

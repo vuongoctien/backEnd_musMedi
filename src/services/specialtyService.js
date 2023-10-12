@@ -71,12 +71,12 @@ let getDetailSpeciatlyById = (inputId/*, location*/) => { // id chuyên khoa và
                 if (data) {
                     let doctorSpeciatly = []
                     // if (location === 'ALL') {
-                    doctorSpeciatly = await db.Doctor_Info.findAll({
+                    doctorSpeciatly = await db.Doctor.findAll({
                         where: { specialtyId: inputId },
                         attributes: ['doctorId'/*, 'provinceId'*/]
                     })
                     // } else {
-                    //     doctorSpeciatly = await db.Doctor_Info.findAll({
+                    //     doctorSpeciatly = await db.Doctor.findAll({
                     //         where: {
                     //             specialtyId: inputId,
                     //             provinceId: location

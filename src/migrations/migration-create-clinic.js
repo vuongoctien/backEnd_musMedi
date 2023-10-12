@@ -9,21 +9,13 @@ module.exports = {
                 primaryKey: true,
                 type: Sequelize.INTEGER
             },
-            name: {
-                type: Sequelize.STRING
-            },
-            address: {
-                type: Sequelize.STRING
-            },
-            descriptionMarkdown: {
-                type: Sequelize.TEXT
-            },
-            descriptionHTML: {
-                type: Sequelize.TEXT
-            },
-            image: {
-                type: Sequelize.BLOB('long')
-            },
+            name: { type: Sequelize.STRING },
+            address: { type: Sequelize.STRING },
+            image: { type: Sequelize.BLOB('long') },
+            province: { type: Sequelize.STRING },
+            descriptionMarkdown: { type: Sequelize.TEXT },
+            descriptionHTML: { type: Sequelize.TEXT },
+            nickName: { type: Sequelize.STRING },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE

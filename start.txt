@@ -1,4 +1,4 @@
-Tải xampp tạo Db tên là doantotnghiep
+Tải xampp tạo Db tên là musmedi
 
 tài liệu gốc 
 https://sequelize.org/docs/v6/other-topics/migrations/

@@ -7,7 +7,7 @@ const MAX_NUMBER_SCHDULE = process.env.MAX_NUMBER_SCHDULE
 let getTopDoctorHome = (limit) => {
     return new Promise(async (resolve, reject) => {
         try {
-            let users = await db.User.findAll(
+            let users = await db.Account.findAll(
                 {
                     limit: limit,
                     where: { roleId: 'R2' },
@@ -35,7 +35,7 @@ let getTopDoctorHome = (limit) => {
 let getAllDoctors = () => {
     return new Promise(async (resolve, reject) => {
         try {
-            let doctors = await db.User.findAll({
+            let doctors = await db.Account.findAll({
                 where: { roleId: 'R2' },
                 attributes: { exclude: ['password', 'image'] },
 
@@ -116,7 +116,7 @@ let saveDetailInfoDoctor = (inputData) => {
                 }
 
                 // upsert to Doctor_info
-                let doctorInfo = await db.Doctor_Info.findOne({
+                let doctorInfo = await db.Doctor.findOne({
                     where: { doctorId: inputData.doctorId },
                     raw: false
                 })
@@ -133,7 +133,7 @@ let saveDetailInfoDoctor = (inputData) => {
                     doctorInfo.clinicId = inputData.clinicId
                     await doctorInfo.save() // ồ nếu để raw: true thì hàm này bị báo lỗi nha
                 } else {
-                    await db.Doctor_Info.create({
+                    await db.Doctor.create({
                         doctorId: inputData.doctorId,
                         priceId: inputData.selectedPrice,
                         provinceId: inputData.selectedProvince,
@@ -166,7 +166,7 @@ let getDetailDoctorById = (inputId) => {
                     errMes: 'Missing required parameter'
                 })
             } else {
-                let data = await db.User.findOne({
+                let data = await db.Account.findOne({
                     where: { id: inputId },
                     attributes: { exclude: ['password'] },
                     include: [
@@ -180,7 +180,7 @@ let getDetailDoctorById = (inputId) => {
                             attributes: ['valueEn', 'valueVi']
                         },
                         {
-                            model: db.Doctor_Info,
+                            model: db.Doctor,
                             attributes: {
                                 exclude: ['id', 'doctorId']
                             },
@@ -277,7 +277,7 @@ let getScheduleByDate = ((doctorId, date) => {
                     },
                     include: [
                         { model: db.Allcode, as: 'timeTypeData', attributes: ['valueEn', 'valueVi'] },
-                        { model: db.User, as: 'doctorData', attributes: ['firstName', 'lastName'] }
+                        { model: db.Account, as: 'doctorData', attributes: ['firstName', 'lastName'] }
                     ],
                     raw: false,
                     nest: true
@@ -305,7 +305,7 @@ let getExtraInfoDocTorById = ((idInput) => {
                     errMes: 'Missing required parameter'
                 })
             } else {
-                let data = await db.Doctor_Info.findOne({
+                let data = await db.Doctor.findOne({
                     where: { doctorId: idInput },
                     attributes: {
                         exclude: ['id', 'doctorId']
@@ -342,7 +342,7 @@ let getProfileDocTorById = (inputId) => { // à cái này là lấy hết sạch
                     errMes: 'Missing required parameter'
                 })
             } else {
-                let data = await db.User.findOne({
+                let data = await db.Account.findOne({
                     where: { id: inputId },
                     attributes: {
                         exclude: ['password']
@@ -354,7 +354,7 @@ let getProfileDocTorById = (inputId) => { // à cái này là lấy hết sạch
                         },
                         { model: db.Allcode, as: 'positionData', attributes: ['valueEn', 'valueVi'] },
                         {
-                            model: db.Doctor_Info,
+                            model: db.Doctor,
                             attributes: {
                                 exclude: ['id', 'doctorId']
                             },
@@ -405,7 +405,7 @@ let getListPatientForDoctor = (doctorId, date) => {
                     },
                     include: [
                         {
-                            model: db.User, as: 'patientData',
+                            model: db.Account, as: 'patientData',
                             attributes: ['email', 'firstName', 'address', 'gender'],
                             include: [{ model: db.Allcode, as: 'genderData', attributes: ['valueEn', 'valueVi'] }]
                         }

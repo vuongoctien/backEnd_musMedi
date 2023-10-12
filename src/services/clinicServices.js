@@ -65,7 +65,7 @@ let getDetailClinicById = (inputId) => {
 
                 if (data) {
                     let doctorClinic = []
-                    doctorClinic = await db.Doctor_Info.findAll({
+                    doctorClinic = await db.Doctor.findAll({
                         where: { clinicId: inputId },
                         attributes: ['doctorId']
                     })

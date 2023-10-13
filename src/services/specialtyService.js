@@ -106,7 +106,7 @@ let editSpecialty = (newData) => { // truyền vào cục newData mình muốn s
                     })
                 } else {
                     resolve({
-                        errCode: 0,
+                        errCode: 2,
                         errMes: 'tao đéo thấy id nào như thế cả!'
                     })
                 }
@@ -120,9 +120,45 @@ let editSpecialty = (newData) => { // truyền vào cục newData mình muốn s
 
 }
 
+let deleteSpecialty = (id_specialty_delete) => { //ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!id_specialty_delete) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter!'
+                })
+            } else {
+                let foundSpecialty = await db.Specialty.findOne({
+                    where: { id: id_specialty_delete }
+                })
+                if (!foundSpecialty) {
+                    resolve({
+                        errCode: 2,
+                        errMessage: `chuyên khoa không tồn tại`
+                    })
+                }
+                await db.Specialty.destroy({
+                    where: { id: id_specialty_delete }
+                })
+
+                resolve({
+                    errCode: 0,
+                    message: 'đã xóa chuyên khoa'
+                })
+            }
+        } catch (e) {
+            reject(e)
+        }
+
+
+    })
+}
+
 module.exports = {
     createSpeciatly: createSpeciatly,
     getAllSpeciatly: getAllSpeciatly,
     getDetailSpecialtyById: getDetailSpecialtyById,
-    editSpecialty: editSpecialty
+    editSpecialty: editSpecialty,
+    deleteSpecialty: deleteSpecialty
 }

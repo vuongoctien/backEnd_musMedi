@@ -53,9 +53,25 @@ let editSpecialty = async (req, res) => {
 
 }
 
+let deleteSpecialty = async (req, res) => { //ok
+    try {
+        let info = await specialtyService.deleteSpecialty(req.body.id)
+        console.log('specialtyService req.body', req.body.id)
+        return res.status(200).json(info)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            errMes: "Error from server"
+        })
+    }
+
+}
+
 module.exports = {
     createSpeciatly: createSpeciatly,
     getAllSpeciatly: getAllSpeciatly,
     getDetailSpecialtyById: getDetailSpecialtyById,
-    editSpecialty: editSpecialty
+    editSpecialty: editSpecialty,
+    deleteSpecialty: deleteSpecialty
 }

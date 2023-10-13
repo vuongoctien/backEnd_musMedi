@@ -81,8 +81,48 @@ let getDetailSpecialtyById = (inputId) => { // ok
     })
 }
 
+let editSpecialty = (newData) => { // truyền vào cục newData mình muốn sửa 
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!newData) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter!'
+                })
+            } else {
+                let oldSpecialty = await db.Specialty.findOne({
+                    where: { id: newData.id }, // truy vấn bằng id của newData đó 
+                    raw: false // nếu không có dòng này sẽ dính lỗi oldSpecialty.save is not a function
+                })
+                if (oldSpecialty) {
+                    oldSpecialty.name = newData.name
+                    oldSpecialty.image = newData.image
+                    oldSpecialty.descriptionMarkdown = newData.descriptionMarkdown
+                    oldSpecialty.descriptionHTML = newData.descriptionHTML
+                    await oldSpecialty.save()
+                    resolve({
+                        errCode: 0,
+                        errMes: 'Đã sửa thành công, check DB mà xem!',
+                    })
+                } else {
+                    resolve({
+                        errCode: 0,
+                        errMes: 'tao đéo thấy id nào như thế cả!'
+                    })
+                }
+            }
+
+
+        } catch (e) {
+            reject(e)
+        }
+    })
+
+}
+
 module.exports = {
     createSpeciatly: createSpeciatly,
     getAllSpeciatly: getAllSpeciatly,
-    getDetailSpecialtyById: getDetailSpecialtyById
+    getDetailSpecialtyById: getDetailSpecialtyById,
+    editSpecialty: editSpecialty
 }

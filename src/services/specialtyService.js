@@ -54,10 +54,10 @@ let getAllSpeciatly = () => { //ok
     })
 }
 
-let getDetailSpeciatlyById = (inputId/*, location*/) => { // id chuyên khoa và location là ALL, hoaẹc mã tỉnh PRO1, PRO2 ...
+let getDetailSpecialtyById = (inputId) => { // ok
     return new Promise(async (resolve, reject) => {
         try {
-            if (!inputId /*|| !location*/) {
+            if (!inputId) {
                 resolve({
                     errCode: 1,
                     errMes: 'Missing parameter!'
@@ -65,27 +65,9 @@ let getDetailSpeciatlyById = (inputId/*, location*/) => { // id chuyên khoa và
             } else {
                 let data = await db.Specialty.findOne({
                     where: { id: inputId },
-                    attributes: ['descriptionHTML', 'descriptionMarkdown']
+                    attributes: ['name', 'image', 'descriptionHTML', 'descriptionMarkdown']
                 })
 
-                if (data) {
-                    let doctorSpeciatly = []
-                    // if (location === 'ALL') {
-                    doctorSpeciatly = await db.Doctor.findAll({
-                        where: { specialtyId: inputId },
-                        attributes: ['doctorId'/*, 'provinceId'*/]
-                    })
-                    // } else {
-                    //     doctorSpeciatly = await db.Doctor.findAll({
-                    //         where: {
-                    //             specialtyId: inputId,
-                    //             provinceId: location
-                    //         },
-                    //         attributes: ['doctorId', 'provinceId']
-                    //     })
-                    // }
-                    data.doctorSpeciatly = doctorSpeciatly
-                } else data = {}
                 resolve({
                     errCode: 0,
                     errMes: 'Ok!',
@@ -102,5 +84,5 @@ let getDetailSpeciatlyById = (inputId/*, location*/) => { // id chuyên khoa và
 module.exports = {
     createSpeciatly: createSpeciatly,
     getAllSpeciatly: getAllSpeciatly,
-    getDetailSpeciatlyById: getDetailSpeciatlyById
+    getDetailSpecialtyById: getDetailSpecialtyById
 }

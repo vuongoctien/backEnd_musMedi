@@ -26,9 +26,9 @@ let getAllSpeciatly = async (req, res) => { //ok
     }
 }
 
-let getDetailSpeciatlyById = async (req, res) => {
+let getDetailSpecialtyById = async (req, res) => { //0k
     try {
-        let info = await specialtyService.getDetailSpeciatlyById(req.query.id, req.query.location)
+        let info = await specialtyService.getDetailSpecialtyById(req.query.id)
         return res.status(200).json(info)
     } catch (e) {
         console.log(e)
@@ -42,5 +42,5 @@ let getDetailSpeciatlyById = async (req, res) => {
 module.exports = {
     createSpeciatly: createSpeciatly,
     getAllSpeciatly: getAllSpeciatly,
-    getDetailSpeciatlyById: getDetailSpeciatlyById
+    getDetailSpecialtyById: getDetailSpecialtyById
 }

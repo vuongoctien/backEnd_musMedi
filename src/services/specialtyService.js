@@ -1,7 +1,7 @@
 const db = require("../models")
 
 let createSpeciatly = (data) => {
-    return new Promise(async (resolve, reject) => {
+    return new Promise(async (resolve, reject) => { //ok
         try {
             if (!data.name || !data.imageBase64 || !data.descriptionHTML || !data.descriptionMarkdown) {
                 resolve({
@@ -84,7 +84,7 @@ let getDetailSpecialtyById = (inputId) => { // ok
 let editSpecialty = (newData) => { // truyền vào cục newData mình muốn sửa 
     return new Promise(async (resolve, reject) => {
         try {
-            if (!newData) {
+            if (!newData.id) {
                 resolve({
                     errCode: 1,
                     errMes: 'Missing parameter!'

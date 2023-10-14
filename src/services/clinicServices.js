@@ -95,8 +95,86 @@ let getDetailClinicById = (inputId) => { //ok
     })
 }
 
+let editClinic = (newData) => { // truyền vào cục newData mình muốn sửa 
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!newData.id) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter from clinic!'
+                })
+            } else {
+                let oldClinic = await db.Clinic.findOne({
+                    where: { id: newData.id }, // truy vấn bằng id của newData đó 
+                    raw: false // nếu không có dòng này sẽ dính lỗi oldClinic.save is not a function
+                })
+                if (oldClinic) {
+                    oldClinic.name = newData.name
+                    oldClinic.image = newData.image
+                    oldClinic.descriptionMarkdown = newData.descriptionMarkdown
+                    oldClinic.descriptionHTML = newData.descriptionHTML
+                    oldClinic.province = newData.province
+                    oldClinic.address = newData.address
+                    await oldClinic.save()
+                    resolve({
+                        errCode: 0,
+                        errMes: 'Đã sửa thành công, check DB mà xem!',
+                    })
+                } else {
+                    resolve({
+                        errCode: 2,
+                        errMes: 'tao đéo thấy id nào như thế cả!'
+                    })
+                }
+            }
+
+
+        } catch (e) {
+            reject(e)
+        }
+    })
+
+}
+
+let deleteClinic = (id_specialty_delete) => { //ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!id_specialty_delete) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter!'
+                })
+            } else {
+                let foundClinic = await db.Clinic.findOne({
+                    where: { id: id_specialty_delete }
+                })
+                if (!foundClinic) {
+                    resolve({
+                        errCode: 2,
+                        errMessage: `phòng khám không tồn tại`
+                    })
+                }
+                await db.Clinic.destroy({
+                    where: { id: id_specialty_delete }
+                })
+
+                resolve({
+                    errCode: 0,
+                    message: 'đã xóa phòng khám'
+                })
+            }
+        } catch (e) {
+            reject(e)
+        }
+
+
+    })
+}
+
 module.exports = {
     createClinic: createClinic,
     getAllClinic: getAllClinic,
-    getDetailClinicById: getDetailClinicById
+    getDetailClinicById: getDetailClinicById,
+    editClinic: editClinic,
+    deleteClinic: deleteClinic
 }

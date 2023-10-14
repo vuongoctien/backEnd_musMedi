@@ -1,6 +1,6 @@
 import specialtyService from '../services/specialtyService'
 
-let createSpeciatly = async (req, res) => {
+let createSpeciatly = async (req, res) => { //ok
     try {
         let info = await specialtyService.createSpeciatly(req.body)
         return res.status(200).json(info)
@@ -39,7 +39,7 @@ let getDetailSpecialtyById = async (req, res) => { //0k
     }
 }
 
-let editSpecialty = async (req, res) => {
+let editSpecialty = async (req, res) => { //ok
     try {
         let info = await specialtyService.editSpecialty(req.body)
         return res.status(200).json(info)
@@ -56,7 +56,6 @@ let editSpecialty = async (req, res) => {
 let deleteSpecialty = async (req, res) => { //ok
     try {
         let info = await specialtyService.deleteSpecialty(req.body.id)
-        console.log('specialtyService req.body', req.body.id)
         return res.status(200).json(info)
     } catch (e) {
         console.log(e)

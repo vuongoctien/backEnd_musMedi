@@ -1,6 +1,6 @@
 import clinicService from '../services/clinicServices'
 
-let createClinic = async (req, res) => {
+let createClinic = async (req, res) => { //ok
     try {
         let info = await clinicService.createClinic(req.body)
         return res.status(200).json(info)

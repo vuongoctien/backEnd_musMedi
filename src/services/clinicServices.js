@@ -1,9 +1,17 @@
 import db from "../models"
 
-let createClinic = (data) => {
+let createClinic = (data) => { //ok
     return new Promise(async (resolve, reject) => {
         try {
-            if (!data.name || !data.address || !data.imageBase64 || !data.descriptionHTML || !data.descriptionMarkdown) { //thông tin bệnh nhân điền vào modal
+            if (!data.name
+                || !data.address
+                || !data.imageBase64
+                || !data.descriptionHTML
+                || !data.descriptionMarkdown
+                || !data.province
+                || !data.nickName
+                || !data.password
+            ) { //thông tin bệnh nhân điền vào modal
                 resolve({
                     errCode: 1,
                     errMes: 'Missing parameter'
@@ -14,7 +22,10 @@ let createClinic = (data) => {
                     address: data.address,
                     image: data.imageBase64,
                     descriptionHTML: data.descriptionHTML,
-                    descriptionMarkdown: data.descriptionMarkdown
+                    descriptionMarkdown: data.descriptionMarkdown,
+                    province: data.province,
+                    nickName: data.nickName,
+                    password: data.password
                 })
             }
 
@@ -60,7 +71,7 @@ let getDetailClinicById = (inputId) => { //ok
             } else {
                 let data = await db.Clinic.findOne({
                     where: { id: inputId },
-                    attributes: ['name', 'address', 'province', 'descriptionHTML', 'descriptionMarkdown', 'nickname']
+                    attributes: ['name', 'address', 'province', 'descriptionHTML', 'descriptionMarkdown', 'nickname', 'image']
                 })
 
                 // if (data) { // Muốn gọi được cái này thì phải thêm ràng buộc quan hệ giữa các bảng, thôi để sau

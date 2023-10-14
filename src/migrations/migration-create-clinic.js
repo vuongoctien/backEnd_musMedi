@@ -16,6 +16,7 @@ module.exports = {
             descriptionMarkdown: { type: Sequelize.TEXT },
             descriptionHTML: { type: Sequelize.TEXT },
             nickName: { type: Sequelize.STRING },
+            password: { type: Sequelize.STRING },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE

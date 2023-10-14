@@ -12,6 +12,7 @@ module.exports = {
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'doraemon',
+        password: 'keckeckec',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -23,6 +24,7 @@ module.exports = {
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'o_long_vien',
+        password: 'keckeckec',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -34,6 +36,7 @@ module.exports = {
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'novagen',
+        password: 'keckeckec',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -45,6 +48,7 @@ module.exports = {
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'tieu_ngao_giang_ho',
+        password: 'keckeckec',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -56,6 +60,7 @@ module.exports = {
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'hong_ngoc_cs5',
+        password: 'keckeckec',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -67,6 +72,7 @@ module.exports = {
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'brain_care',
+        password: 'keckeckec',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -78,6 +84,7 @@ module.exports = {
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'saigonvietuc',
+        password: 'keckeckec',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -89,6 +96,7 @@ module.exports = {
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'van_hanh',
+        password: 'keckeckec',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -100,6 +108,7 @@ module.exports = {
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'chiropractic_q1',
+        password: 'keckeckec',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -111,6 +120,7 @@ module.exports = {
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'chiropractic_q5',
+        password: 'keckeckec',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -122,6 +132,7 @@ module.exports = {
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'anh_hung_xa_dieu',
+        password: 'keckeckec',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -133,6 +144,7 @@ module.exports = {
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'than_dieu_dai_hiep',
+        password: 'keckeckec',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -144,6 +156,7 @@ module.exports = {
         descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'y_thien_do_long_ky',
+        password: 'keckeckec',
         createdAt: new Date(),
         updatedAt: new Date()
       },

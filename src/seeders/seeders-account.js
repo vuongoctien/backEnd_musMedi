@@ -9,7 +9,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHeEYltcGKu0hzxT.iw4Cdd6stGy2T4g/y", //vb2tnus
                 role: 'Cơ sở Y tế',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -18,7 +18,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHeEYltcGKu0hzxT.iw4Cdd6stGy2T4g/y", //vb2tnus
                 role: 'Cơ sở Y tế',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -27,7 +27,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHeEYltcGKu0hzxT.iw4Cdd6stGy2T4g/y", //vb2tnus
                 role: 'Cơ sở Y tế',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -36,7 +36,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHeEYltcGKu0hzxT.iw4Cdd6stGy2T4g/y", //vb2tnus
                 role: 'Cơ sở Y tế',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -45,7 +45,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHeEYltcGKu0hzxT.iw4Cdd6stGy2T4g/y", //vb2tnus
                 role: 'Cơ sở Y tế',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -54,7 +54,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHeEYltcGKu0hzxT.iw4Cdd6stGy2T4g/y", //vb2tnus
                 role: 'Cơ sở Y tế',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -63,7 +63,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHeEYltcGKu0hzxT.iw4Cdd6stGy2T4g/y", //vb2tnus
                 role: 'Cơ sở Y tế',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -72,7 +72,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHeEYltcGKu0hzxT.iw4Cdd6stGy2T4g/y", //vb2tnus
                 role: 'Cơ sở Y tế',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -81,7 +81,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHeEYltcGKu0hzxT.iw4Cdd6stGy2T4g/y", //vb2tnus
                 role: 'Cơ sở Y tế',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -90,7 +90,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHeEYltcGKu0hzxT.iw4Cdd6stGy2T4g/y", //vb2tnus
                 role: 'Cơ sở Y tế',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -99,7 +99,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHeEYltcGKu0hzxT.iw4Cdd6stGy2T4g/y", //vb2tnus
                 role: 'Cơ sở Y tế',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -108,7 +108,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHeEYltcGKu0hzxT.iw4Cdd6stGy2T4g/y", //vb2tnus
                 role: 'Cơ sở Y tế',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -117,7 +117,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHeEYltcGKu0hzxT.iw4Cdd6stGy2T4g/y", //vb2tnus
                 role: 'Cơ sở Y tế',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -126,7 +126,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -135,7 +135,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -144,7 +144,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -153,7 +153,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -162,7 +162,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -171,7 +171,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -180,7 +180,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -189,7 +189,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -198,7 +198,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -207,7 +207,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -216,7 +216,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -225,7 +225,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -234,7 +234,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -243,7 +243,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -252,7 +252,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -261,7 +261,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -270,7 +270,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -279,7 +279,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -288,7 +288,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -297,7 +297,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -306,7 +306,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -315,7 +315,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -324,7 +324,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -333,7 +333,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -342,7 +342,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -351,7 +351,7 @@ module.exports = {
                 password: '',
                 role: 'Bác sĩ',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -360,7 +360,7 @@ module.exports = {
                 password: "$2a$10$gM4e91FqJpi12r.huvlo0uoPPdNLyBKadRvm2jmOtuMBIgXJYq8fa", //benhnhan
                 role: 'Bệnh nhân',
                 gmail: 'chuyentoan01@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -369,7 +369,7 @@ module.exports = {
                 password: "$2a$10$gM4e91FqJpi12r.huvlo0uoPPdNLyBKadRvm2jmOtuMBIgXJYq8fa", //benhnhan
                 role: 'Bệnh nhân',
                 gmail: 'benhnhan1@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -378,7 +378,7 @@ module.exports = {
                 password: "$2a$10$gM4e91FqJpi12r.huvlo0uoPPdNLyBKadRvm2jmOtuMBIgXJYq8fa", //benhnhan
                 role: 'Bệnh nhân',
                 gmail: 'benhnhan2@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -387,7 +387,7 @@ module.exports = {
                 password: "$2a$10$gM4e91FqJpi12r.huvlo0uoPPdNLyBKadRvm2jmOtuMBIgXJYq8fa", //benhnhan
                 role: 'Bệnh nhân',
                 gmail: 'benhnhan3@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -396,7 +396,7 @@ module.exports = {
                 password: "$2a$10$gM4e91FqJpi12r.huvlo0uoPPdNLyBKadRvm2jmOtuMBIgXJYq8fa", //benhnhan
                 role: 'Bệnh nhân',
                 gmail: 'benhnhan4@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -405,7 +405,7 @@ module.exports = {
                 password: "$2a$10$el2VBJ6j8MtorzkpWO8RHelyG0FUntajsIM.3mb00TFkcE4UWFs8O", //bookingcare 
                 role: 'Quản trị viên',
                 gmail: '@gmail.com',
-                image: 'img',
+                image: '',
                 createdAt: new Date(),
                 updatedAt: new Date()
             },

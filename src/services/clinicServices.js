@@ -32,12 +32,12 @@ let getAllClinic = () => { //ok
     return new Promise(async (resolve, reject) => {
         try {
             let data = await db.Clinic.findAll()
-            // if (data && data.length > 0) {
-            //     data.map(item => {
-            //         item.image = new Buffer(item.image, 'base64').toString('binary')
-            //         return item
-            //     })
-            // }
+            if (data && data.length > 0) {
+                data.map(item => {
+                    item.image = new Buffer(item.image, 'base64').toString('binary')
+                    return item
+                })
+            }
             resolve({
                 errCode: 0,
                 errMes: 'Ok Clinic!',
@@ -49,7 +49,7 @@ let getAllClinic = () => { //ok
     })
 }
 
-let getDetailClinicById = (inputId) => {
+let getDetailClinicById = (inputId) => { //ok
     return new Promise(async (resolve, reject) => {
         try {
             if (!inputId) {
@@ -60,17 +60,17 @@ let getDetailClinicById = (inputId) => {
             } else {
                 let data = await db.Clinic.findOne({
                     where: { id: inputId },
-                    attributes: ['name', 'address', 'descriptionHTML', 'descriptionMarkdown']
+                    attributes: ['name', 'address', 'province', 'descriptionHTML', 'descriptionMarkdown', 'nickname']
                 })
 
-                if (data) {
-                    let doctorClinic = []
-                    doctorClinic = await db.Doctor.findAll({
-                        where: { clinicId: inputId },
-                        attributes: ['doctorId']
-                    })
-                    data.doctorClinic = doctorClinic
-                } else data = {}
+                // if (data) { // Muốn gọi được cái này thì phải thêm ràng buộc quan hệ giữa các bảng, thôi để sau
+                //     let doctorClinic = []
+                //     doctorClinic = await db.Doctor.findAll({
+                //         where: { clinicId: inputId },
+                //         attributes: ['doctorId', 'name']
+                //     })
+                //     data.doctorClinic = doctorClinic
+                // } else data = {}
                 resolve({
                     errCode: 0,
                     errMes: 'Ok!',

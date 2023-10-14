@@ -9,7 +9,7 @@ module.exports = {
                 position: 'Fake position',
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 1, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -20,7 +20,7 @@ module.exports = {
                 position: 'Fake position', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 1, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -31,7 +31,7 @@ module.exports = {
                 position: 'Fake position', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 1, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -42,7 +42,7 @@ module.exports = {
                 position: 'Fake position', // chức danh
                 //specialtyID: 1, // của chuyên khoa nào
                 clinicID: 1, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -53,7 +53,7 @@ module.exports = {
                 position: 'Fake position', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 2, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -64,7 +64,7 @@ module.exports = {
                 position: 'Fake position', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 2, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -75,7 +75,7 @@ module.exports = {
                 position: 'Fake position', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 2, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -86,7 +86,7 @@ module.exports = {
                 position: 'Fake position', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 2, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -97,7 +97,7 @@ module.exports = {
                 position: 'Fake position', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 4, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -108,7 +108,7 @@ module.exports = {
                 position: 'Fake position', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 4, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -119,7 +119,7 @@ module.exports = {
                 position: 'Fake position', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 4, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -130,7 +130,7 @@ module.exports = {
                 position: 'Fake position', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 4, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -141,7 +141,7 @@ module.exports = {
                 position: 'Fake position', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 4, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -152,7 +152,7 @@ module.exports = {
                 position: 'Fake position', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 4, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -163,7 +163,7 @@ module.exports = {
                 position: 'Tiến sĩ tâm lý', // chức danh
                 //specialtyID: 39, // của chuyên khoa nào
                 clinicID: 6, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -174,7 +174,7 @@ module.exports = {
                 position: 'Thạc sĩ tâm lý học', // chức danh
                 //specialtyID: 39, // của chuyên khoa nào
                 clinicID: 6, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -185,7 +185,7 @@ module.exports = {
                 position: 'Thạc sĩ tâm lý', // chức danh
                 //specialtyID: 39, // của chuyên khoa nào
                 clinicID: 6, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -196,7 +196,7 @@ module.exports = {
                 position: 'Thạc sĩ tâm lý học lâm sàng', // chức danh
                 //specialtyID: 39, // của chuyên khoa nào
                 clinicID: 6, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -207,7 +207,7 @@ module.exports = {
                 position: 'Thạc sĩ, Chuyên gia Tâm lý', // chức danh
                 //specialtyID: 39, // của chuyên khoa nào
                 clinicID: 6, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -218,7 +218,7 @@ module.exports = {
                 position: 'Chuyên gia Tâm lý', // chức danh
                 //specialtyID: 39, // của chuyên khoa nào
                 clinicID: 6, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -229,7 +229,7 @@ module.exports = {
                 position: 'Bác sĩ Chuyên khoa II', // chức danh
                 //specialtyID: 22, // của chuyên khoa nào
                 clinicID: 7, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -240,7 +240,7 @@ module.exports = {
                 position: 'Thạc sĩ, Bác sĩ Chuyên khoa I', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 8, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -251,7 +251,7 @@ module.exports = {
                 position: 'Thạc sĩ, Bác sĩ', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 8, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -262,7 +262,7 @@ module.exports = {
                 position: 'Bác sĩ Chuyên khoa I', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 8, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -273,7 +273,7 @@ module.exports = {
                 position: 'Bác sĩ', // chức danh
                 //specialtyID: 1, // của chuyên khoa nào
                 clinicID: 8, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -284,7 +284,7 @@ module.exports = {
                 position: 'Chuyên viên Tâm lý ', // chức danh
                 //specialtyID: 39, // của chuyên khoa nào
                 clinicID: 8, // của cơ sở y tế nào?
-                image: 'img',
+                image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
@@ -295,7 +295,7 @@ module.exports = {
             //     position: 'Fake position', // chức danh
             //     //specialtyID: 0, // của chuyên khoa nào
             //     clinicID: 0, // của cơ sở y tế nào?
-            //     image: 'img',
+            //     image:'',
             //     descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
             //     descriptionHTML: 'alo alo descriptionHTML hahaha',
             //     priceDefault: 250, // giá mặc định

@@ -26,7 +26,7 @@ let getAllClinic = async (req, res) => { //ok
     }
 }
 
-let getDetailClinicById = async (req, res) => {
+let getDetailClinicById = async (req, res) => { //ok
     try {
         let info = await clinicService.getDetailClinicById(req.query.id)
         return res.status(200).json(info)

@@ -1,4 +1,19 @@
 import db from "../models"
+import bcrypt from 'bcryptjs'
+
+/***************************** Hàm này nhận vào pass thô, trả ra pass dị */
+const salt = bcrypt.genSaltSync(10);
+let hashUserPassword = (password) => { // hàm này nhận vào password gốc, trả ra đống lằng nhằng
+    return new Promise(async (resolve, reject) => {
+        try {
+            let hashPassword = await bcrypt.hashSync(password, salt);
+            resolve(hashPassword)
+        } catch (e) {
+            reject(e);
+        }
+    })
+}
+/************************************************************************* */
 
 let createClinic = (data) => { //ok
     return new Promise(async (resolve, reject) => {
@@ -25,7 +40,7 @@ let createClinic = (data) => { //ok
                     descriptionMarkdown: data.descriptionMarkdown,
                     province: data.province,
                     nickName: data.nickName,
-                    password: data.password
+                    password: await hashUserPassword(data.password) // phải hash nó đi
                 })
             }
 
@@ -171,10 +186,76 @@ let deleteClinic = (id_specialty_delete) => { //ok
     })
 }
 
+/****************************************LOGIN */
+
+let checkUserEmail = (nickName) => { // hàm này trả ra true nếu trong DB đã tồn tại nickName, nếu chưa thì false
+    return new Promise(async (resolve, reject) => {
+        try {
+            let user = await db.Clinic.findOne({
+                where: { nickName: nickName }
+            })
+            if (user) {
+                resolve(true)
+            } else {
+                resolve(false)
+            }
+        } catch (e) {
+            reject(e)
+
+        }
+    })
+}
+
+let loginClinic = (nickName, password) => { // ok
+
+    return new Promise(async (resolve, reject) => {
+        try {
+            let userData = {};
+            let isExist = await checkUserEmail(nickName) // check xem tồn tại nickName chưa
+            if (isExist) { // nếu true (đã tồn tại)
+                let user = await db.Clinic.findOne({ // lấy ra thông tin nickName
+                    attributes: ['nickName', 'password', 'province'], // lôi thêm cột ra
+                    where: { nickName: nickName },
+                    raw: true
+                })
+
+
+
+                if (user) { // ủa sao vẫn cần check tiếp à?
+                    let check = await bcrypt.compareSync(password, user.password); // à hàm này chắc là check xem pass gốc và pass biến dị có khớp không
+                    if (check) {
+                        userData.errCode = 0
+                        userData.errMessage = 'Đăng nhập thành công'
+                        delete user.password
+                        userData.user = user
+                    } else {
+                        userData.errCode = 3
+                        userData.errMessage = "Sai mật khẩu"
+
+                    }
+                } else {
+                    userData.errCode = 2
+                    userData.errMessage = `Không tìm thấy tài khoản`
+                }
+            } else {
+                userData.errCode = 1;
+                userData.errMessage = `Tài khoản không tồn tại`
+                resolve(userData)
+            }
+
+            resolve(userData)
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+/******************************************************************************** */
+
 module.exports = {
     createClinic: createClinic,
     getAllClinic: getAllClinic,
     getDetailClinicById: getDetailClinicById,
     editClinic: editClinic,
-    deleteClinic: deleteClinic
+    deleteClinic: deleteClinic,
+    loginClinic: loginClinic
 }

@@ -67,11 +67,32 @@ let deleteClinic = async (req, res) => { //ok
 
 }
 
+let loginClinic = async (req, res) => { // ok
+    let nickName = req.body.nickName
+    let password = req.body.password
+
+    if (!nickName || !password) {
+        return res.status(500).json({
+            errCode: 1,
+            message: 'Missing input parameter'
+        })
+    }
+
+    let userData = await clinicService.loginClinic(nickName, password)
+
+    return res.status(200).json({
+        errCode: userData.errCode,
+        message: userData.errMessage,
+        user: userData.user ? userData.user : { 'toiyeuem': "ratnhieu" }
+    })
+}
+
 module.exports = {
     createClinic: createClinic,
     getAllClinic: getAllClinic,
     getDetailClinicById: getDetailClinicById,
     editClinic: editClinic,
-    deleteClinic: deleteClinic
+    deleteClinic: deleteClinic,
+    loginClinic: loginClinic
 
 }

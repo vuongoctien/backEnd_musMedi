@@ -3,8 +3,9 @@ import bcrypt from 'bcryptjs'
 
 const { resolveInclude } = require("ejs")
 
+/***************************** Hàm này nhận vào pass thô, trả ra pass dị */
 const salt = bcrypt.genSaltSync(10);
-let hashUserPassword = (password) => {
+let hashUserPassword = (password) => { // hàm này nhận vào password gốc, trả ra đống lằng nhằng
     return new Promise(async (resolve, reject) => {
         try {
             let hashPassword = await bcrypt.hashSync(password, salt);
@@ -14,6 +15,7 @@ let hashUserPassword = (password) => {
         }
     })
 }
+/************************************************************************* */
 
 let handleUserLogin = (nickName, password) => { // ok
 
@@ -31,7 +33,7 @@ let handleUserLogin = (nickName, password) => { // ok
 
 
                 if (user) { // ủa sao vẫn cần check tiếp à?
-                    let check = await bcrypt.compareSync(password, user.password); // false
+                    let check = await bcrypt.compareSync(password, user.password); // à hàm này chắc là check xem pass gốc và pass biến dị có khớp không
                     if (check) {
                         userData.errCode = 0
                         userData.errMessage = 'Đăng nhập thành công'

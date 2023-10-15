@@ -25,10 +25,6 @@ module.exports = (sequelize, DataTypes) => {
   Account.init({
     nickName: DataTypes.STRING,
     password: DataTypes.STRING,
-    // fullName: DataTypes.STRING,
-    role: DataTypes.STRING,
-    gmail: DataTypes.STRING,
-    image: DataTypes.BLOB('long')
   }, {
     sequelize,
     modelName: 'Account',

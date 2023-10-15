@@ -11,10 +11,6 @@ module.exports = {
       },
       nickName: { type: Sequelize.STRING },
       password: { type: Sequelize.STRING },
-      // fullName: { type: Sequelize.STRING },
-      role: { type: Sequelize.STRING },
-      gmail: { type: Sequelize.STRING },
-      image: { type: Sequelize.BLOB('long') },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

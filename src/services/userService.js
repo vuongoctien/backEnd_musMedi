@@ -25,7 +25,7 @@ let handleUserLogin = (nickName, password) => { // ok
             let isExist = await checkUserEmail(nickName) // check xem tồn tại nickName chưa
             if (isExist) { // nếu true (đã tồn tại)
                 let user = await db.Account.findOne({ // lấy ra thông tin nickName
-                    attributes: ['nickName', 'role', 'password', 'gmail', 'image'], // lôi thêm cột ra
+                    attributes: ['nickName', 'password'], // lôi thêm cột ra
                     where: { nickName: nickName },
                     raw: true
                 })

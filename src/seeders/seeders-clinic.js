@@ -13,6 +13,7 @@ module.exports = {
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'doraemon',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
+        status: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -25,6 +26,7 @@ module.exports = {
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'o_long_vien',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
+        status: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -37,6 +39,7 @@ module.exports = {
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'novagen',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
+        status: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -49,6 +52,7 @@ module.exports = {
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'tieu_ngao_giang_ho',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
+        status: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -61,6 +65,7 @@ module.exports = {
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'hong_ngoc_cs5',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
+        status: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -73,6 +78,7 @@ module.exports = {
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'brain_care',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
+        status: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -85,6 +91,7 @@ module.exports = {
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'saigonvietuc',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
+        status: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -97,6 +104,7 @@ module.exports = {
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'van_hanh',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
+        status: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -109,6 +117,7 @@ module.exports = {
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'chiropractic_q1',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
+        status: 0,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -121,6 +130,7 @@ module.exports = {
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'chiropractic_q5',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
+        status: 0,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -133,6 +143,7 @@ module.exports = {
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'anh_hung_xa_dieu',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
+        status: 0,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -145,6 +156,7 @@ module.exports = {
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'than_dieu_dai_hiep',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
+        status: 0,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -157,6 +169,7 @@ module.exports = {
         descriptionHTML: 'alo alo descriptionHTML hahaha',
         nickName: 'y_thien_do_long_ky',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
+        status: 0,
         createdAt: new Date(),
         updatedAt: new Date()
       },

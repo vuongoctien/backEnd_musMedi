@@ -22,6 +22,7 @@ module.exports = {
             priceDefault: { type: Sequelize.INTEGER },
             nickName: { type: Sequelize.STRING },
             password: { type: Sequelize.STRING },
+            status: { type: Sequelize.BOOLEAN },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE

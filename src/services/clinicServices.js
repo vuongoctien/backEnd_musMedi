@@ -38,17 +38,19 @@ let createClinic = (data) => { //ok
                         errCode: 2,
                         errMes: 'nickName đã tồn tại'
                     })
+                } else {
+                    await db.Clinic.create({
+                        name: data.name,
+                        address: data.address,
+                        image: data.imageBase64,
+                        descriptionHTML: data.descriptionHTML,
+                        descriptionMarkdown: data.descriptionMarkdown,
+                        province: data.province,
+                        nickName: data.nickName,
+                        status: data.status,
+                        password: await hashUserPassword(data.password) // phải hash nó đi
+                    })
                 }
-                await db.Clinic.create({
-                    name: data.name,
-                    address: data.address,
-                    image: data.imageBase64,
-                    descriptionHTML: data.descriptionHTML,
-                    descriptionMarkdown: data.descriptionMarkdown,
-                    province: data.province,
-                    nickName: data.nickName,
-                    password: await hashUserPassword(data.password) // phải hash nó đi
-                })
             }
 
             resolve({
@@ -93,7 +95,7 @@ let getDetailClinicById = (inputId) => { //ok
             } else {
                 let data = await db.Clinic.findOne({
                     where: { id: inputId },
-                    attributes: ['name', 'address', 'province', 'descriptionHTML', 'descriptionMarkdown', 'nickname', 'image']
+                    attributes: ['name', 'address', 'province', 'descriptionHTML', 'descriptionMarkdown', 'nickname', 'image', 'status']
                 })
 
                 // if (data) { // Muốn gọi được cái này thì phải thêm ràng buộc quan hệ giữa các bảng, thôi để sau
@@ -137,6 +139,7 @@ let editClinic = (newData) => { // truyền vào cục newData mình muốn sử
                     oldClinic.descriptionHTML = newData.descriptionHTML
                     oldClinic.province = newData.province
                     oldClinic.address = newData.address
+                    oldClinic.status = newData.status
                     await oldClinic.save()
                     resolve({
                         errCode: 0,

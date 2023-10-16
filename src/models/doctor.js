@@ -23,7 +23,8 @@ module.exports = (sequelize, DataTypes) => {
         descriptionHTML: DataTypes.TEXT,
         priceDefault: DataTypes.INTEGER, // giá mặc định
         nickName: DataTypes.STRING, // tài khoản
-        password: DataTypes.STRING
+        password: DataTypes.STRING,
+        status: DataTypes.BOOLEAN,
     }, {
         sequelize,
         modelName: 'Doctor',

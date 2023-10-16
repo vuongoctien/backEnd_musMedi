@@ -224,29 +224,35 @@ let loginClinic = (nickName, password) => { // ok
             let isExist = await checkUserEmail(nickName) // check xem tồn tại nickName chưa
             if (isExist) { // nếu true (đã tồn tại)
                 let user = await db.Clinic.findOne({ // lấy ra thông tin nickName
-                    attributes: ['id', 'name', 'address', 'nickName', 'password', 'province'], // lôi thêm cột ra
+                    attributes: ['id', 'name', 'address', 'nickName', 'password', 'province', 'status'], // lôi thêm cột ra
                     where: { nickName: nickName },
                     raw: true
                 })
+                if (user.status === 1) { // nếu trạng thái = 1
+                    if (user) { // ủa sao vẫn cần check tiếp à?
+                        let check = await bcrypt.compareSync(password, user.password); // à hàm này chắc là check xem pass gốc và pass biến dị có khớp không
+                        if (check) {
+                            userData.errCode = 0
+                            userData.errMessage = 'Đăng nhập thành công'
+                            delete user.password
+                            userData.user = user
+                        } else {
+                            userData.errCode = 3
+                            userData.errMessage = "Sai mật khẩu"
 
-
-
-                if (user) { // ủa sao vẫn cần check tiếp à?
-                    let check = await bcrypt.compareSync(password, user.password); // à hàm này chắc là check xem pass gốc và pass biến dị có khớp không
-                    if (check) {
-                        userData.errCode = 0
-                        userData.errMessage = 'Đăng nhập thành công'
-                        delete user.password
-                        userData.user = user
+                        }
                     } else {
-                        userData.errCode = 3
-                        userData.errMessage = "Sai mật khẩu"
-
+                        userData.errCode = 2
+                        userData.errMessage = `Không tìm thấy tài khoản`
                     }
-                } else {
-                    userData.errCode = 2
-                    userData.errMessage = `Không tìm thấy tài khoản`
                 }
+                if (user.status === 0) { // nếu trạng thái = 0
+                    userData.errCode = 4
+                    userData.errMessage = `Tài khoản đang bị ngừng hoạt động`
+                }
+
+
+
             } else {
                 userData.errCode = 1;
                 userData.errMessage = `Tài khoản không tồn tại`

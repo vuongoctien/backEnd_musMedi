@@ -21,6 +21,7 @@ module.exports = {
             descriptionHTML: { type: Sequelize.TEXT },
             priceDefault: { type: Sequelize.INTEGER },
             nickName: { type: Sequelize.STRING },
+            password: { type: Sequelize.STRING },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE

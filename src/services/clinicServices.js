@@ -32,6 +32,13 @@ let createClinic = (data) => { //ok
                     errMes: 'Missing parameter'
                 })
             } else {
+                let isExist = await checkUserEmail(data.nickName) // check xem tồn tại nickName chưa
+                if (isExist) { // nếu true (đã tồn tại)
+                    resolve({
+                        errCode: 2,
+                        errMes: 'nickName đã tồn tại'
+                    })
+                }
                 await db.Clinic.create({
                     name: data.name,
                     address: data.address,

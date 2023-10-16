@@ -14,6 +14,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'nobita', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Shizuka Minamoto', // tên bác sĩ 
@@ -25,6 +26,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'shizuka', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Takeshi Goda', // tên bác sĩ 
@@ -36,6 +38,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'jaian', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Suneo Honekawa', // tên bác sĩ 
@@ -47,6 +50,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'suneo', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Lông Mày Dài', // tên bác sĩ 
@@ -58,6 +62,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien1', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Sư Phụ Bự', // tên bác sĩ 
@@ -69,6 +74,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien2', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'A Lượng', // tên bác sĩ 
@@ -80,6 +86,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien3', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Tiểu Sư Đệ', // tên bác sĩ 
@@ -91,6 +98,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien4', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Lệnh Hồ Xung', // tên bác sĩ 
@@ -102,6 +110,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'lenh_ho_xung', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Nhạc Bất Quần', // tên bác sĩ 
@@ -113,6 +122,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'nhac_bat_quan', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Nhạc Linh San', // tên bác sĩ 
@@ -124,6 +134,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'nhac_linh_san', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Đông Phương Bất Bại', // tên bác sĩ 
@@ -135,6 +146,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'dpbb', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Nhậm Ngã Hành', // tên bác sĩ 
@@ -146,6 +158,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'nham_nga_hanh', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Lâm Bình Chi', // tên bác sĩ 
@@ -157,6 +170,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'lam_binh_chi', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Nguyễn Thắm', // tên bác sĩ 
@@ -168,6 +182,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'tham_nguyen', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Nguyễn Thị Thúy Hằng', // tên bác sĩ 
@@ -179,6 +194,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'hang_nguyen', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Lê Thế Hanh', // tên bác sĩ 
@@ -190,6 +206,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'hanh_le', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Đặng Minh Khuê', // tên bác sĩ 
@@ -201,6 +218,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'khue_dang', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Nguyễn Thị Thanh Vân', // tên bác sĩ 
@@ -212,6 +230,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'van_nguyen', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Hoàng Lê Thủy', // tên bác sĩ 
@@ -223,6 +242,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'thuy_hoang', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Trần Thị Ánh Loan', // tên bác sĩ 
@@ -234,6 +254,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'loan_tran', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Lê Thụy Minh An', // tên bác sĩ 
@@ -245,6 +266,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'an_le', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Nguyễn Anh Diễm Thúy', // tên bác sĩ 
@@ -256,6 +278,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'thuy_nguyen', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Nguyễn Tuấn Anh', // tên bác sĩ 
@@ -267,6 +290,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'anh_nguyen', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Lê Thị Tuyết Nhung', // tên bác sĩ 
@@ -278,6 +302,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'nhung_le', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             {
                 name: 'Nhiêu Quang Thiện Nhân', // tên bác sĩ 
@@ -289,6 +314,7 @@ module.exports = {
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
                 priceDefault: 250, // giá mặc định
                 nickName: 'nhan_nhieu', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
             },
             // {
             //     name: '', // tên bác sĩ 

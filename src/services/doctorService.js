@@ -1,8 +1,94 @@
 import db from "../models/index"
 require('dotenv').config()
 import _ from "lodash"
+import bcrypt from 'bcryptjs'
 
 const MAX_NUMBER_SCHDULE = process.env.MAX_NUMBER_SCHDULE
+
+/***************************** Hàm này nhận vào pass thô, trả ra pass dị */
+const salt = bcrypt.genSaltSync(10);
+let hashUserPassword = (password) => { // hàm này nhận vào password gốc, trả ra đống lằng nhằng
+    return new Promise(async (resolve, reject) => {
+        try {
+            let hashPassword = await bcrypt.hashSync(password, salt);
+            resolve(hashPassword)
+        } catch (e) {
+            reject(e);
+        }
+    })
+}
+/************************************************************************* */
+
+let checkUserEmail = (nickName) => { // hàm này trả ra true nếu trong DB đã tồn tại nickName, nếu chưa thì false
+    return new Promise(async (resolve, reject) => {
+        try {
+            let user = await db.Doctor.findOne({
+                where: { nickName: nickName }
+            })
+            if (user) {
+                resolve(true)
+            } else {
+                resolve(false)
+            }
+        } catch (e) {
+            reject(e)
+
+        }
+    })
+}
+
+let createDoctor = (data) => { //ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!data.name
+                || !data.position
+                || !data.imageBase64
+                || !data.descriptionHTML
+                || !data.descriptionMarkdown
+                || !data.nickName
+                || !data.password
+                ///////////////////////
+                || !data.clinicID
+                || !data.status
+                || !data.priceDefault
+            ) { //thông tin bệnh nhân điền vào modal
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter'
+                })
+            } else {
+                let isExist = await checkUserEmail(data.nickName) // check xem tồn tại nickName chưa
+                if (isExist) { // nếu true (đã tồn tại)
+                    resolve({
+                        errCode: 2,
+                        errMes: 'nickName đã tồn tại'
+                    })
+                } else {
+                    await db.Doctor.create({
+                        name: data.name,
+                        position: data.position,
+                        image: data.imageBase64,
+                        descriptionHTML: data.descriptionHTML,
+                        descriptionMarkdown: data.descriptionMarkdown,
+                        nickName: data.nickName,
+                        password: await hashUserPassword(data.password), // phải hash nó đi
+                        ////////////////
+                        status: data.status,
+                        clinicID: data.clinicID,
+                        priceDefault: data.priceDefault,
+                    })
+                }
+            }
+
+            resolve({
+                errCode: 0,
+                errMes: 'ok createClinic'
+            })
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
 
 let getTopDoctorHome = (limit) => {
     return new Promise(async (resolve, reject) => {
@@ -435,5 +521,6 @@ module.exports = {
     getScheduleByDate: getScheduleByDate,
     getExtraInfoDocTorById: getExtraInfoDocTorById,
     getProfileDocTorById: getProfileDocTorById,
-    getListPatientForDoctor: getListPatientForDoctor
+    getListPatientForDoctor: getListPatientForDoctor,
+    createDoctor: createDoctor,
 }

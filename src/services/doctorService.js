@@ -90,6 +90,44 @@ let createDoctor = (data) => { //ok
     })
 }
 
+let getAllDoctorByClinicId = (idClinic) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!idClinic) { //thông tin bệnh nhân điền vào modal
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter'
+                })
+            } else {
+                let all_doctor_of_clinic = await db.Doctor.findAll({
+                    where: { clinicID: idClinic },
+                    // attributes: ['name']
+                })
+                resolve({
+                    errCode: 0,
+                    errMes: 'ok createClinic',
+                    all_doctor_of_clinic
+                })
+            }
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************************************* */
 let getTopDoctorHome = (limit) => {
     return new Promise(async (resolve, reject) => {
         try {
@@ -523,4 +561,5 @@ module.exports = {
     getProfileDocTorById: getProfileDocTorById,
     getListPatientForDoctor: getListPatientForDoctor,
     createDoctor: createDoctor,
+    getAllDoctorByClinicId: getAllDoctorByClinicId,
 }

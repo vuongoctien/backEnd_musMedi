@@ -13,6 +13,32 @@ let createDoctor = async (req, res) => { //ok
     }
 }
 
+let getAllDoctorByClinicId = async (req, res) => { //0k
+    try {
+        let info = await doctorService.getAllDoctorByClinicId(req.query.idClinic)
+        return res.status(200).json(info)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            errMes: "Error from server"
+        })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let getTopDoctorHome = async (req, res) => {
     let limit = req.query.limit
 
@@ -150,4 +176,5 @@ module.exports = {
     getProfileDocTorById: getProfileDocTorById,
     getListPatientForDoctor: getListPatientForDoctor,
     createDoctor: createDoctor,
+    getAllDoctorByClinicId: getAllDoctorByClinicId,
 }

@@ -190,7 +190,7 @@ module.exports = {
                 name: 'Nguyễn Thắm', // tên bác sĩ 
                 position: 'Tiến sĩ tâm lý', // chức danh
                 //specialtyID: 39, // của chuyên khoa nào
-                clinicID: 6, // của cơ sở y tế nào?
+                clinicID: 5, // của cơ sở y tế nào?
                 image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
@@ -203,7 +203,7 @@ module.exports = {
                 name: 'Nguyễn Thị Thúy Hằng', // tên bác sĩ 
                 position: 'Thạc sĩ tâm lý học', // chức danh
                 //specialtyID: 39, // của chuyên khoa nào
-                clinicID: 6, // của cơ sở y tế nào?
+                clinicID: 5, // của cơ sở y tế nào?
                 image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
@@ -216,7 +216,7 @@ module.exports = {
                 name: 'Lê Thế Hanh', // tên bác sĩ 
                 position: 'Thạc sĩ tâm lý', // chức danh
                 //specialtyID: 39, // của chuyên khoa nào
-                clinicID: 6, // của cơ sở y tế nào?
+                clinicID: 5, // của cơ sở y tế nào?
                 image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
@@ -229,7 +229,7 @@ module.exports = {
                 name: 'Đặng Minh Khuê', // tên bác sĩ 
                 position: 'Thạc sĩ tâm lý học lâm sàng', // chức danh
                 //specialtyID: 39, // của chuyên khoa nào
-                clinicID: 6, // của cơ sở y tế nào?
+                clinicID: 5, // của cơ sở y tế nào?
                 image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
@@ -242,7 +242,7 @@ module.exports = {
                 name: 'Nguyễn Thị Thanh Vân', // tên bác sĩ 
                 position: 'Thạc sĩ, Chuyên gia Tâm lý', // chức danh
                 //specialtyID: 39, // của chuyên khoa nào
-                clinicID: 6, // của cơ sở y tế nào?
+                clinicID: 5, // của cơ sở y tế nào?
                 image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',
@@ -255,7 +255,7 @@ module.exports = {
                 name: 'Hoàng Lê Thủy', // tên bác sĩ 
                 position: 'Chuyên gia Tâm lý', // chức danh
                 //specialtyID: 39, // của chuyên khoa nào
-                clinicID: 6, // của cơ sở y tế nào?
+                clinicID: 5, // của cơ sở y tế nào?
                 image: '',
                 descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
                 descriptionHTML: 'alo alo descriptionHTML hahaha',

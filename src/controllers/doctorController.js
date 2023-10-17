@@ -26,6 +26,19 @@ let getAllDoctorByClinicId = async (req, res) => { //0k
     }
 }
 
+let editDoctorOfClinic = async (req, res) => { //ok
+    try {
+        let info = await doctorService.editDoctorOfClinic(req.body)
+        return res.status(200).json(info)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            errMes: "Error from server"
+        })
+    }
+
+}
 
 
 
@@ -177,4 +190,5 @@ module.exports = {
     getListPatientForDoctor: getListPatientForDoctor,
     createDoctor: createDoctor,
     getAllDoctorByClinicId: getAllDoctorByClinicId,
+    editDoctorOfClinic: editDoctorOfClinic,
 }

@@ -101,7 +101,7 @@ let getAllDoctorByClinicId = (idClinic) => {
             } else {
                 let all_doctor_of_clinic = await db.Doctor.findAll({
                     where: { clinicID: idClinic },
-                    // attributes: ['name']
+                    attributes: { exclude: ['password'] },
                 })
                 all_doctor_of_clinic && all_doctor_of_clinic.map((item, index) => {
                     if (item.image) {
@@ -118,6 +118,55 @@ let getAllDoctorByClinicId = (idClinic) => {
             reject(e)
         }
     })
+}
+
+let editDoctorOfClinic = (newData) => { // truyền vào cục newData mình muốn sửa 
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!newData.idClinic ||
+                !newData.idDoctor ||
+                !newData.name ||
+                !newData.image ||
+                !newData.position ||
+                !newData.descriptionMarkdown ||
+                !newData.descriptionHTML) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter!'
+                })
+            } else {
+                let oldSpecialty = await db.Doctor.findOne({
+                    where: {
+                        clinicID: newData.idClinic, // tìm đúng CSYT, thực ra bước này có thể bỏ bớt
+                        id: newData.idDoctor // tìm đúng id Bsi
+                    }, // truy vấn bằng id của newData đó 
+                    raw: false // nếu không có dòng này sẽ dính lỗi oldSpecialty.save is not a function
+                })
+                if (oldSpecialty) {
+                    oldSpecialty.name = newData.name
+                    oldSpecialty.image = newData.image
+                    oldSpecialty.descriptionMarkdown = newData.descriptionMarkdown
+                    oldSpecialty.descriptionHTML = newData.descriptionHTML
+                    oldSpecialty.position = newData.position
+                    await oldSpecialty.save()
+                    resolve({
+                        errCode: 0,
+                        errMes: 'Đã sửa thành công, check DB mà xem!',
+                    })
+                } else {
+                    resolve({
+                        errCode: 2,
+                        errMes: 'tao đéo thấy id nào như thế cả!'
+                    })
+                }
+            }
+
+
+        } catch (e) {
+            reject(e)
+        }
+    })
+
 }
 
 
@@ -567,4 +616,5 @@ module.exports = {
     getListPatientForDoctor: getListPatientForDoctor,
     createDoctor: createDoctor,
     getAllDoctorByClinicId: getAllDoctorByClinicId,
+    editDoctorOfClinic: editDoctorOfClinic,
 }

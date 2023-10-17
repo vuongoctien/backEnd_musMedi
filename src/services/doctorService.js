@@ -103,6 +103,11 @@ let getAllDoctorByClinicId = (idClinic) => {
                     where: { clinicID: idClinic },
                     // attributes: ['name']
                 })
+                all_doctor_of_clinic && all_doctor_of_clinic.map((item, index) => {
+                    if (item.image) {
+                        item.image = new Buffer(item.image, 'base64').toString('binary')
+                    }
+                })//Nếu không Buffer trước từ Backend thì rất dễ toang
                 resolve({
                     errCode: 0,
                     errMes: 'ok createClinic',

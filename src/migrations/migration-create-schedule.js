@@ -13,6 +13,7 @@ module.exports = {
             dr_or_pk: { type: Sequelize.STRING },
             dr_or_pk_ID: { type: Sequelize.INTEGER },
             clockTime: { type: Sequelize.STRING },
+            date: { type: Sequelize.DATE },
             price: { type: Sequelize.INTEGER },
             currentNumber: { type: Sequelize.INTEGER },
             maxNumber: { type: Sequelize.INTEGER },

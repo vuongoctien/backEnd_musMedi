@@ -16,6 +16,8 @@ module.exports = {
                 nickName: 'nobita', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Shizuka Minamoto', // tên bác sĩ 
@@ -29,6 +31,8 @@ module.exports = {
                 nickName: 'shizuka', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Takeshi Goda', // tên bác sĩ 
@@ -42,6 +46,8 @@ module.exports = {
                 nickName: 'jaian', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Suneo Honekawa', // tên bác sĩ 
@@ -55,6 +61,8 @@ module.exports = {
                 nickName: 'suneo', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Lông Mày Dài', // tên bác sĩ 
@@ -68,6 +76,8 @@ module.exports = {
                 nickName: 'olongvien1', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Sư Phụ Bự', // tên bác sĩ 
@@ -81,6 +91,8 @@ module.exports = {
                 nickName: 'olongvien2', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'A Lượng', // tên bác sĩ 
@@ -94,6 +106,8 @@ module.exports = {
                 nickName: 'olongvien3', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Tiểu Sư Đệ', // tên bác sĩ 
@@ -107,6 +121,8 @@ module.exports = {
                 nickName: 'olongvien4', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Lệnh Hồ Xung', // tên bác sĩ 
@@ -120,6 +136,8 @@ module.exports = {
                 nickName: 'lenh_ho_xung', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Nhạc Bất Quần', // tên bác sĩ 
@@ -133,6 +151,8 @@ module.exports = {
                 nickName: 'nhac_bat_quan', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Nhạc Linh San', // tên bác sĩ 
@@ -146,6 +166,8 @@ module.exports = {
                 nickName: 'nhac_linh_san', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Đông Phương Bất Bại', // tên bác sĩ 
@@ -159,6 +181,8 @@ module.exports = {
                 nickName: 'dpbb', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Nhậm Ngã Hành', // tên bác sĩ 
@@ -172,6 +196,8 @@ module.exports = {
                 nickName: 'nham_nga_hanh', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Lâm Bình Chi', // tên bác sĩ 
@@ -185,6 +211,8 @@ module.exports = {
                 nickName: 'lam_binh_chi', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Nguyễn Thắm', // tên bác sĩ 
@@ -198,6 +226,8 @@ module.exports = {
                 nickName: 'tham_nguyen', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Nguyễn Thị Thúy Hằng', // tên bác sĩ 
@@ -211,6 +241,8 @@ module.exports = {
                 nickName: 'hang_nguyen', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Lê Thế Hanh', // tên bác sĩ 
@@ -224,6 +256,8 @@ module.exports = {
                 nickName: 'hanh_le', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Đặng Minh Khuê', // tên bác sĩ 
@@ -237,6 +271,8 @@ module.exports = {
                 nickName: 'khue_dang', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Nguyễn Thị Thanh Vân', // tên bác sĩ 
@@ -250,6 +286,8 @@ module.exports = {
                 nickName: 'van_nguyen', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Hoàng Lê Thủy', // tên bác sĩ 
@@ -263,6 +301,8 @@ module.exports = {
                 nickName: 'thuy_hoang', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Trần Thị Ánh Loan', // tên bác sĩ 
@@ -276,6 +316,8 @@ module.exports = {
                 nickName: 'loan_tran', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Lê Thụy Minh An', // tên bác sĩ 
@@ -289,6 +331,8 @@ module.exports = {
                 nickName: 'an_le', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Nguyễn Anh Diễm Thúy', // tên bác sĩ 
@@ -302,6 +346,8 @@ module.exports = {
                 nickName: 'thuy_nguyen', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Nguyễn Tuấn Anh', // tên bác sĩ 
@@ -315,6 +361,8 @@ module.exports = {
                 nickName: 'anh_nguyen', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Lê Thị Tuyết Nhung', // tên bác sĩ 
@@ -328,6 +376,8 @@ module.exports = {
                 nickName: 'nhung_le', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Nhiêu Quang Thiện Nhân', // tên bác sĩ 
@@ -341,6 +391,8 @@ module.exports = {
                 nickName: 'nhan_nhieu', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             // {
             //     name: '', // tên bác sĩ 

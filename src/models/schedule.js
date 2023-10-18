@@ -18,6 +18,7 @@ module.exports = (sequelize, DataTypes) => {
         dr_or_pk: DataTypes.STRING,
         dr_or_pk_ID: DataTypes.INTEGER,
         clockTime: DataTypes.STRING,
+        date: DataTypes.DATE,
         price: DataTypes.INTEGER,
         currentNumber: DataTypes.INTEGER,
         maxNumber: DataTypes.INTEGER

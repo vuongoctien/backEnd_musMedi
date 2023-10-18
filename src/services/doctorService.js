@@ -123,32 +123,27 @@ let getAllDoctorByClinicId = (idClinic) => {
 let editDoctorOfClinic = (newData) => { // truyền vào cục newData mình muốn sửa 
     return new Promise(async (resolve, reject) => {
         try {
-            if (!newData.idClinic ||
-                !newData.idDoctor ||
-                !newData.name ||
-                !newData.image ||
-                !newData.position ||
-                !newData.descriptionMarkdown ||
-                !newData.descriptionHTML) {
+            if (!newData.idClinic || !newData.idDoctor) {
                 resolve({
                     errCode: 1,
                     errMes: 'Missing parameter!'
                 })
             } else {
-                let oldSpecialty = await db.Doctor.findOne({
+                let oldDoctor = await db.Doctor.findOne({
                     where: {
                         clinicID: newData.idClinic, // tìm đúng CSYT, thực ra bước này có thể bỏ bớt
                         id: newData.idDoctor // tìm đúng id Bsi
                     }, // truy vấn bằng id của newData đó 
-                    raw: false // nếu không có dòng này sẽ dính lỗi oldSpecialty.save is not a function
+                    raw: false // nếu không có dòng này sẽ dính lỗi oldDoctor.save is not a function
                 })
-                if (oldSpecialty) {
-                    oldSpecialty.name = newData.name
-                    oldSpecialty.image = newData.image
-                    oldSpecialty.descriptionMarkdown = newData.descriptionMarkdown
-                    oldSpecialty.descriptionHTML = newData.descriptionHTML
-                    oldSpecialty.position = newData.position
-                    await oldSpecialty.save()
+                if (oldDoctor) {
+                    // mình sẽ chỉnh thành, có trường nào thì sửa trường đó, không thì thôi
+                    if (newData.name) oldDoctor.name = newData.name
+                    if (!newData.image) oldDoctor.image = newData.image
+                    if (!newData.position) oldDoctor.position = newData.position
+                    if (!newData.descriptionMarkdown) oldDoctor.descriptionMarkdown = newData.descriptionMarkdown
+                    if (!newData.descriptionHTML) oldDoctor.descriptionHTML = newData.descriptionHTML
+                    await oldDoctor.save()
                     resolve({
                         errCode: 0,
                         errMes: 'Đã sửa thành công, check DB mà xem!',

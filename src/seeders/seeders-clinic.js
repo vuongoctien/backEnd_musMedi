@@ -46,7 +46,7 @@ module.exports = {
         <li>Mang đến cho bạn sự yên tâm tối đa khi đến với Bệnh Viện</li>
         </ul>
         `,
-        nickName: 'novagen',
+        nickName: 'homles',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 1,
         createdAt: new Date(),
@@ -59,7 +59,7 @@ module.exports = {
         province: 'Hà Nội',
         descriptionMarkdown: `Bệnh viện *Truyện Kiều Nguyễn Du* là một bệnh viện công lập, được thành lập từ năm 1901, cung cấp các dịch vụ khám chữa bệnh đa dạng, đáp ứng nhu cầu của người dân trên địa bàn Hà Nội và các tỉnh lân cận`,
         descriptionHTML: `<p>Bệnh viện <em>Truyện Kiều Nguyễn Du</em> là một bệnh viện công lập, được thành lập từ năm 1901, cung cấp các dịch vụ khám chữa bệnh đa dạng, đáp ứng nhu cầu của người dân trên địa bàn Hà Nội và các tỉnh lân cận</p>`,
-        nickName: 'tieu_ngao_giang_ho',
+        nickName: 'nguyendu',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 1,
         createdAt: new Date(),
@@ -72,7 +72,7 @@ module.exports = {
         province: 'Thành phố Hồ Chí Minh',
         descriptionMarkdown: `Xã hội càng phát triển con người gặp nhiều những áp lực, sự mất kết nối, mất cân bằng… ảnh hưởng đến sức khỏe tinh thần nghiêm trọng. Viện Tâm lý Giáo dục Harry Potter với đội ngũ chuyên gia là các tiến sỹ đầu ngành về tâm lý, sức khỏe tâm thần trên 15 năm kinh nghiệm, yêu nghề, tâm huyết với nghề  luôn trăn trở với những nỗi đau của cộng đồng cũng như xã hội đang gặp phải và luôn tìm giải pháp để chữa lành, để tháo gỡ. Harry Potter  ra đời với sứ mệnh ”Vì cộng đồng hạnh phúc hơn từng phút giây!`,
         descriptionHTML: `<p>Xã hội càng phát triển con người gặp nhiều những áp lực, sự mất kết nối, mất cân bằng… ảnh hưởng đến sức khỏe tinh thần nghiêm trọng. Viện Tâm lý Giáo dục Harry Potter với đội ngũ chuyên gia là các tiến sỹ đầu ngành về tâm lý, sức khỏe tâm thần trên 15 năm kinh nghiệm, yêu nghề, tâm huyết với nghề  luôn trăn trở với những nỗi đau của cộng đồng cũng như xã hội đang gặp phải và luôn tìm giải pháp để chữa lành, để tháo gỡ. Harry Potter  ra đời với sứ mệnh ”Vì cộng đồng hạnh phúc hơn từng phút giây!</p>`,
-        nickName: 'hong_ngoc_cs5',
+        nickName: 'harrypotter',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 1,
         createdAt: new Date(),
@@ -85,7 +85,7 @@ module.exports = {
         province: 'Thành phố Hồ Chí Minh',
         descriptionMarkdown: `(Đang cập nhật)`,
         descriptionHTML: `<p>(Đang cập nhật)</p>`,
-        nickName: 'brain_care',
+        nickName: 'conan',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 1,
         createdAt: new Date(),
@@ -98,7 +98,7 @@ module.exports = {
         province: 'Hải Phòng',
         descriptionMarkdown: `Bệnh viện **Anh Hùng Xạ Điêu** thành lập vào 2004, luôn muốn mang đến các dịch vụ chăm sóc sức khỏe tối ưu về mặt chất lượng với chi phí hợp lý`,
         descriptionHTML: `<p>Bệnh viện <strong>Anh Hùng Xạ Điêu</strong> thành lập vào 2004, luôn muốn mang đến các dịch vụ chăm sóc sức khỏe tối ưu về mặt chất lượng với chi phí hợp lý</p>`,
-        nickName: 'anh_hung_xa_dieu',
+        nickName: 'ahxd',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 0,
         createdAt: new Date(),
@@ -116,7 +116,7 @@ module.exports = {
         <li>Bệnh viện có đội ngũ bác sĩ giỏi, giàu kinh nghiệm và trang thiết bị hiện đại</li>
         </ul>
         `,
-        nickName: 'than_dieu_dai_hiep',
+        nickName: 'tddh',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 0,
         createdAt: new Date(),
@@ -133,13 +133,12 @@ module.exports = {
         descriptionHTML: `<h4>Phòng khám Nha khoa Ỷ Thiên Đồ Long Ký do giáo chủ Trương Vô Kỵ bảo kê</h4>
         <p>Đây là một bệnh viện chuyên khoa răng hàm mặt lớn nhất ở miền Tây Nam Bộ. Là một địa chỉ khám chữa bệnh uy tín và đáng tin cậy cho người dân thành phố Cần Thơ và các tỉnh lân cận</p>
         `,
-        nickName: 'y_thien_do_long_ky',
+        nickName: 'ytdlk',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 0,
         createdAt: new Date(),
         updatedAt: new Date()
       },
-
     ]);
   },
 

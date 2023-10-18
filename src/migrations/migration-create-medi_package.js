@@ -11,7 +11,7 @@ module.exports = {
             },
             name: { type: Sequelize.STRING },
             clinicID: { type: Sequelize.INTEGER },
-            // specialtyID: { type: Sequelize.INTEGER },
+            image: { type: Sequelize.BLOB('long') },
             descriptionMarkdown: { type: Sequelize.TEXT },
             descriptionHTML: { type: Sequelize.TEXT },
             packageType: { type: Sequelize.STRING },

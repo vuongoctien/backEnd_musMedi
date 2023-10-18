@@ -6,12 +6,34 @@ module.exports = {
         return queryInterface.bulkInsert('doctor', [
             {
                 name: 'Nobi Nobita', // tên bác sĩ 
-                position: 'Fake position',
+                position: 'Giáo sư, Tiến sĩ, Bác sĩ',
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 1, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Nobi
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Nobi
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'nobita', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -21,12 +43,34 @@ module.exports = {
             },
             {
                 name: 'Shizuka Minamoto', // tên bác sĩ 
-                position: 'Fake position', // chức danh
+                position: 'Bác sĩ chuyên khoa 2', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 1, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Shizzuka
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Shizzuka
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'shizuka', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -36,12 +80,34 @@ module.exports = {
             },
             {
                 name: 'Takeshi Goda', // tên bác sĩ 
-                position: 'Fake position', // chức danh
+                position: 'Thạc sĩ, Bác sĩ', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 1, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Jaian
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Jaian
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'jaian', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -51,12 +117,34 @@ module.exports = {
             },
             {
                 name: 'Suneo Honekawa', // tên bác sĩ 
-                position: 'Fake position', // chức danh
+                position: 'Phó Giáo sư, Tiến sĩ, Giảng viên cao cấp', // chức danh
                 //specialtyID: 1, // của chuyên khoa nào
                 clinicID: 1, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Xeko
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Xeko
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'suneo', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -66,12 +154,34 @@ module.exports = {
             },
             {
                 name: 'Lông Mày Dài', // tên bác sĩ 
-                position: 'Fake position', // chức danh
+                position: 'Tiến sĩ, Bác sĩ', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 2, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Đại Sư Phụ
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Đại Sư Phụ
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien1', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -81,12 +191,34 @@ module.exports = {
             },
             {
                 name: 'Sư Phụ Bự', // tên bác sĩ 
-                position: 'Fake position', // chức danh
+                position: 'Thạc sĩ, Bác sĩ', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 2, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Nhị Sư Phụ
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Nhị Sư Phụ
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien2', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -96,12 +228,34 @@ module.exports = {
             },
             {
                 name: 'A Lượng', // tên bác sĩ 
-                position: 'Fake position', // chức danh
+                position: 'Bác sĩ chuyên khoa 1', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 2, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Đại sư huynh
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Đại sư huynh
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien3', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -111,12 +265,34 @@ module.exports = {
             },
             {
                 name: 'Tiểu Sư Đệ', // tên bác sĩ 
-                position: 'Fake position', // chức danh
+                position: 'Bác sĩ cao cấp hạng 1', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 2, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem tiuểu đẹ
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem tiuểu đẹ
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien4', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -125,286 +301,698 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Lệnh Hồ Xung', // tên bác sĩ 
-                position: 'Fake position', // chức danh
+                name: 'Sherlock Holmes', // tên bác sĩ 
+                position: 'Giáo sư, Tiến sĩ', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
+                clinicID: 3, // của cơ sở y tế nào?
+                image: '',
+                descriptionMarkdown: `
+#### Lorem Thám tử
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Thám tử
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                priceDefault: 250, // giá mặc định
+                nickName: '', // tài khoản
+            },
+            {
+                name: 'John Watson', // tên bác sĩ 
+                position: 'Bác sĩ', // chức danh
+                //specialtyID: 0, // của chuyên khoa nào
+                clinicID: 3, // của cơ sở y tế nào?
+                image: '',
+                descriptionMarkdown: `
+#### Lorem trợ lý
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem trợ lý
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                priceDefault: 250, // giá mặc định
+                nickName: '', // tài khoản
+            },
+            {
+                name: 'Thúy Kiều', // tên bác sĩ 
+                position: 'Bác sĩ hạng 3', // chức danh
+                //specialtyID: 4, // của chuyên khoa nào
                 clinicID: 4, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Kiều
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Kiều
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
-                nickName: 'lenh_ho_xung', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
+                nickName: '', // tài khoản
             },
             {
-                name: 'Nhạc Bất Quần', // tên bác sĩ 
-                position: 'Fake position', // chức danh
-                //specialtyID: 0, // của chuyên khoa nào
+                name: 'Từ Hải', // tên bác sĩ 
+                position: 'Phó giáo sư, Tiến Sĩ, Bác sĩ chuyên khoa 2', // chức danh
+                //specialtyID: 4, // của chuyên khoa nào
                 clinicID: 4, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem chít đứng
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem chít đứng
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
-                nickName: 'nhac_bat_quan', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
+                nickName: '', // tài khoản
             },
             {
-                name: 'Nhạc Linh San', // tên bác sĩ 
-                position: 'Fake position', // chức danh
-                //specialtyID: 0, // của chuyên khoa nào
+                name: 'Kim Trọng', // tên bác sĩ 
+                position: 'Bác sĩ chuyên khoa 2', // chức danh
+                //specialtyID: 4, // của chuyên khoa nào
                 clinicID: 4, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Kim Trọng
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Kim Trọng
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
-                nickName: 'nhac_linh_san', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
+                nickName: '', // tài khoản
             },
             {
-                name: 'Đông Phương Bất Bại', // tên bác sĩ 
-                position: 'Fake position', // chức danh
+                name: 'Ron Weasley', // tên bác sĩ 
+                position: 'Bác sĩ chuyên khoa 2', // chức danh
+                //specialtyID: 5, // của chuyên khoa nào
+                clinicID: 5, // của cơ sở y tế nào?
+                image: '',
+                descriptionMarkdown: `
+#### Lorem Ron
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Ron
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                priceDefault: 250, // giá mặc định
+                nickName: '', // tài khoản
+            },
+            {
+                name: 'Hermione Granger', // tên bác sĩ 
+                position: 'Bác sĩ chuyên khoa 1', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
-                clinicID: 4, // của cơ sở y tế nào?
+                clinicID: 5, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Hơ mai ô ni
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Hơ mai ô ni
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
-                nickName: 'dpbb', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
+                nickName: '', // tài khoản
             },
             {
-                name: 'Nhậm Ngã Hành', // tên bác sĩ 
-                position: 'Fake position', // chức danh
+                name: 'Quách Tĩnh', // tên bác sĩ 
+                position: 'Thạc sĩ, Bác sĩ', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
-                clinicID: 4, // của cơ sở y tế nào?
-                image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
-                priceDefault: 250, // giá mặc định
-                nickName: 'nham_nga_hanh', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
-            {
-                name: 'Lâm Bình Chi', // tên bác sĩ 
-                position: 'Fake position', // chức danh
-                //specialtyID: 0, // của chuyên khoa nào
-                clinicID: 4, // của cơ sở y tế nào?
-                image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
-                priceDefault: 250, // giá mặc định
-                nickName: 'lam_binh_chi', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
-            {
-                name: 'Nguyễn Thắm', // tên bác sĩ 
-                position: 'Tiến sĩ tâm lý', // chức danh
-                //specialtyID: 39, // của chuyên khoa nào
-                clinicID: 5, // của cơ sở y tế nào?
-                image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
-                priceDefault: 250, // giá mặc định
-                nickName: 'tham_nguyen', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
-            {
-                name: 'Nguyễn Thị Thúy Hằng', // tên bác sĩ 
-                position: 'Thạc sĩ tâm lý học', // chức danh
-                //specialtyID: 39, // của chuyên khoa nào
-                clinicID: 5, // của cơ sở y tế nào?
-                image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
-                priceDefault: 250, // giá mặc định
-                nickName: 'hang_nguyen', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
-            {
-                name: 'Lê Thế Hanh', // tên bác sĩ 
-                position: 'Thạc sĩ tâm lý', // chức danh
-                //specialtyID: 39, // của chuyên khoa nào
-                clinicID: 5, // của cơ sở y tế nào?
-                image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
-                priceDefault: 250, // giá mặc định
-                nickName: 'hanh_le', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
-            {
-                name: 'Đặng Minh Khuê', // tên bác sĩ 
-                position: 'Thạc sĩ tâm lý học lâm sàng', // chức danh
-                //specialtyID: 39, // của chuyên khoa nào
-                clinicID: 5, // của cơ sở y tế nào?
-                image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
-                priceDefault: 250, // giá mặc định
-                nickName: 'khue_dang', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
-            {
-                name: 'Nguyễn Thị Thanh Vân', // tên bác sĩ 
-                position: 'Thạc sĩ, Chuyên gia Tâm lý', // chức danh
-                //specialtyID: 39, // của chuyên khoa nào
-                clinicID: 5, // của cơ sở y tế nào?
-                image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
-                priceDefault: 250, // giá mặc định
-                nickName: 'van_nguyen', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
-            {
-                name: 'Hoàng Lê Thủy', // tên bác sĩ 
-                position: 'Chuyên gia Tâm lý', // chức danh
-                //specialtyID: 39, // của chuyên khoa nào
-                clinicID: 5, // của cơ sở y tế nào?
-                image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
-                priceDefault: 250, // giá mặc định
-                nickName: 'thuy_hoang', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
-            {
-                name: 'Trần Thị Ánh Loan', // tên bác sĩ 
-                position: 'Bác sĩ Chuyên khoa II', // chức danh
-                //specialtyID: 22, // của chuyên khoa nào
                 clinicID: 7, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Tĩnh ca ca
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Tĩnh ca ca
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
-                nickName: 'loan_tran', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
+                nickName: '', // tài khoản
             },
             {
-                name: 'Lê Thụy Minh An', // tên bác sĩ 
-                position: 'Thạc sĩ, Bác sĩ Chuyên khoa I', // chức danh
+                name: 'Khưu Xử Cơ', // tên bác sĩ 
+                position: 'Bác sĩ', // chức danh
+                //specialtyID: 0, // của chuyên khoa nào
+                clinicID: 7, // của cơ sở y tế nào?
+                image: '',
+                descriptionMarkdown: `
+#### Lorem Đạo trưởng
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Đạo trưởng
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                priceDefault: 250, // giá mặc định
+                nickName: '', // tài khoản
+            },
+            {
+                name: 'Dương Quá', // tên bác sĩ 
+                position: 'Bác sĩ chuyên khoa 1', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 8, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Quá nhi
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Quá nhi
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
-                nickName: 'an_le', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
+                nickName: '', // tài khoản
             },
             {
-                name: 'Nguyễn Anh Diễm Thúy', // tên bác sĩ 
+                name: 'Doãn Chí Bình', // tên bác sĩ 
+                position: 'Bác sĩ', // chức danh
+                //specialtyID: 0, // của chuyên khoa nào
+                clinicID: 8, // của cơ sở y tế nào?
+                image: '',
+                descriptionMarkdown: `
+#### Lorem Doãn đại hiệp
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Doãn đại hiệp
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                priceDefault: 250, // giá mặc định
+                nickName: '', // tài khoản
+            },
+            {
+                name: 'Quách Đại Hiệp', // tên bác sĩ 
                 position: 'Thạc sĩ, Bác sĩ', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 8, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Bắc hiệp
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Bắc hiệp
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
-                nickName: 'thuy_nguyen', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
+                nickName: '', // tài khoản
             },
             {
-                name: 'Nguyễn Tuấn Anh', // tên bác sĩ 
-                position: 'Bác sĩ Chuyên khoa I', // chức danh
+                name: 'Kim Luân Pháp Vương', // tên bác sĩ 
+                position: 'Phó giáo sư, Tiến sĩ, Bác sĩ', // chức danh
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 8, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Ngũ luân
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Ngũ luân
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
-                nickName: 'anh_nguyen', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
+                nickName: '', // tài khoản
             },
             {
-                name: 'Lê Thị Tuyết Nhung', // tên bác sĩ 
+                name: 'Trương Vô Kỵ', // tên bác sĩ 
+                position: 'Bác sĩ chuyên khoa 2', // chức danh
+                //specialtyID: 0, // của chuyên khoa nào
+                clinicID: 9, // của cơ sở y tế nào?
+                image: '',
+                descriptionMarkdown: `
+#### Lorem giáo chủ Minh Giáo
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem giáo chủ Minh Giáo
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                priceDefault: 250, // giá mặc định
+                nickName: '', // tài khoản
+            },
+            {
+                name: 'Tạ Tốn', // tên bác sĩ 
+                position: 'Tiến sĩ, Bác sĩ', // chức danh
+                //specialtyID: 0, // của chuyên khoa nào
+                clinicID: 9, // của cơ sở y tế nào?
+                image: '',
+                descriptionMarkdown: `
+#### Lorem Kim Mao Sư Vương
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Kim Mao Sư Vương
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                priceDefault: 250, // giá mặc định
+                nickName: '', // tài khoản
+            },
+            {
+                name: 'Tử Sam Long Vương', // tên bác sĩ 
+                position: 'Bác sĩ hạng 1', // chức danh
+                //specialtyID: 0, // của chuyên khoa nào
+                clinicID: 9, // của cơ sở y tế nào?
+                image: '',
+                descriptionMarkdown: `
+#### Lorem Tử Sam 
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Tử Sam 
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                priceDefault: 250, // giá mặc định
+                nickName: '', // tài khoản
+            },
+            {
+                name: 'Triệu Mẫn', // tên bác sĩ 
+                position: 'Thạc sĩ, bác sĩ', // chức danh
+                //specialtyID: 0, // của chuyên khoa nào
+                clinicID: 9, // của cơ sở y tế nào?
+                image: '',
+                descriptionMarkdown: `
+#### Lorem Mẫn x2 Đặc Mục Nhĩ
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Mẫn x2 Đặc Mục Nhĩ
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                priceDefault: 250, // giá mặc định
+                nickName: '', // tài khoản
+            },
+            {
+                name: 'Trương Tam Phong', // tên bác sĩ 
                 position: 'Bác sĩ', // chức danh
-                //specialtyID: 1, // của chuyên khoa nào
-                clinicID: 8, // của cơ sở y tế nào?
+                //specialtyID: 0, // của chuyên khoa nào
+                clinicID: 9, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem Quân Bảo
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Quân Bảo
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
-                nickName: 'nhung_le', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
+                nickName: '', // tài khoản
             },
             {
-                name: 'Nhiêu Quang Thiện Nhân', // tên bác sĩ 
-                position: 'Chuyên viên Tâm lý ', // chức danh
-                //specialtyID: 39, // của chuyên khoa nào
-                clinicID: 8, // của cơ sở y tế nào?
+                name: 'Vi Nhất Tiếu', // tên bác sĩ 
+                position: 'Bác sĩ', // chức danh
+                //specialtyID: 0, // của chuyên khoa nào
+                clinicID: 9, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-                descriptionHTML: 'alo alo descriptionHTML hahaha',
+                descriptionMarkdown: `
+#### Lorem ThanhDực
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem ThanhDực
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
                 priceDefault: 250, // giá mặc định
-                nickName: 'nhan_nhieu', // tài khoản
-                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
-                status: 1,
-                createdAt: new Date(),
-                updatedAt: new Date()
+                nickName: '', // tài khoản
             },
-            // {
-            //     name: '', // tên bác sĩ 
-            //     position: 'Fake position', // chức danh
-            //     //specialtyID: 0, // của chuyên khoa nào
-            //     clinicID: 0, // của cơ sở y tế nào?
-            //     image:'',
-            //     descriptionMarkdown: 'abc đây là descriptionMarkdown gì gì đó',
-            //     descriptionHTML: 'alo alo descriptionHTML hahaha',
-            //     priceDefault: 250, // giá mặc định
-            //     nickName: '', // tài khoản
-            // },
+            {
+                name: 'Dương Tiêu', // tên bác sĩ 
+                position: 'Phó giáo sư, Tiến sĩ', // chức danh
+                //specialtyID: 0, // của chuyên khoa nào
+                clinicID: 9, // của cơ sở y tế nào?
+                image: '',
+                descriptionMarkdown: `
+#### Lorem Tả sứ
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Tả sứ
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                priceDefault: 250, // giá mặc định
+                nickName: '', // tài khoản
+            },
+            {
+                name: 'Ân Ly', // tên bác sĩ 
+                position: 'Tiến sĩ, Bác sĩ', // chức danh
+                //specialtyID: 0, // của chuyên khoa nào
+                clinicID: 9, // của cơ sở y tế nào?
+                image: '',
+                descriptionMarkdown: `
+#### Lorem Thù Nhi
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
+                descriptionHTML: `
+#### Lorem Thù Nhi
+
+1. sit amet, consectetur adipiscing elit
+2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+3.  Ut enim ad minim veniam
+4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+* Duis aute irure dolor in reprehenderit 
+* in voluptate velit esse cillum dolore eu f
+
+****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                priceDefault: 250, // giá mặc định
+                nickName: '', // tài khoản
+            },
         ]);
     },
 

@@ -10,20 +10,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 1, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Nobi
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Nobi
+                descriptionMarkdown: `#### Lorem nobi dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -34,6 +21,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem nobi dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'nobita', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -47,20 +47,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 1, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Shizzuka
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Shizzuka
+                descriptionMarkdown: `#### Lorem xuka dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -71,6 +58,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem xuka dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'shizuka', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -84,20 +84,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 1, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Jaian
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Jaian
+                descriptionMarkdown: `#### Lorem chaien dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -108,6 +95,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem chaien dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'jaian', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -121,20 +121,7 @@ module.exports = {
                 //specialtyID: 1, // của chuyên khoa nào
                 clinicID: 1, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Xeko
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Xeko
+                descriptionMarkdown: `#### Lorem xeko dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -145,6 +132,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem xeko dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'suneo', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -158,20 +158,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 2, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Đại Sư Phụ
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Đại Sư Phụ
+                descriptionMarkdown: `#### Lorem daiSuPhu dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -182,6 +169,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem daiSuPhu dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien1', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -195,20 +195,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 2, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Nhị Sư Phụ
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Nhị Sư Phụ
+                descriptionMarkdown: `#### Lorem nhiSuPhu dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -219,6 +206,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem nhiSuPhu dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien2', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -232,20 +232,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 2, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Đại sư huynh
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Đại sư huynh
+                descriptionMarkdown: `#### Lorem daiSuHuynh dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -256,6 +243,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem daiSuHuynh dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien3', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -269,20 +269,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 2, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem tiuểu đẹ
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem tiuểu đẹ
+                descriptionMarkdown: `#### Lorem tieuDe dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -293,6 +280,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem tieuDe dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien4', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -306,20 +306,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 3, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Thám tử
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Thám tử
+                descriptionMarkdown: `#### Lorem thamTu dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -330,6 +317,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem thamTu dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -339,20 +339,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 3, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem trợ lý
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem trợ lý
+                descriptionMarkdown: `#### Lorem troLy dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -363,6 +350,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem troLy dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -372,20 +372,7 @@ module.exports = {
                 //specialtyID: 4, // của chuyên khoa nào
                 clinicID: 4, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Kiều
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Kiều
+                descriptionMarkdown: `#### Lorem Kieu dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -396,6 +383,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem Kieu dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -405,20 +405,7 @@ module.exports = {
                 //specialtyID: 4, // của chuyên khoa nào
                 clinicID: 4, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem chít đứng
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem chít đứng
+                descriptionMarkdown: `#### Lorem ChetDung dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -429,6 +416,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem ChetDung dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -438,20 +438,7 @@ module.exports = {
                 //specialtyID: 4, // của chuyên khoa nào
                 clinicID: 4, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Kim Trọng
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Kim Trọng
+                descriptionMarkdown: `#### Lorem kimtrong dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -462,6 +449,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem kimtrong dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -471,20 +471,7 @@ module.exports = {
                 //specialtyID: 5, // của chuyên khoa nào
                 clinicID: 5, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Ron
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Ron
+                descriptionMarkdown: `#### Lorem RON dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -495,6 +482,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem RON dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -504,20 +504,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 5, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Hơ mai ô ni
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Hơ mai ô ni
+                descriptionMarkdown: `#### Lorem HERMIONE dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -528,6 +515,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem HERMIONE dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -537,20 +537,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 7, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Tĩnh ca ca
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Tĩnh ca ca
+                descriptionMarkdown: `#### Lorem TinhKK dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -561,6 +548,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem TinhKK dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -570,20 +570,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 7, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Đạo trưởng
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Đạo trưởng
+                descriptionMarkdown: `#### Lorem daoTruong dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -594,6 +581,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem daoTruong dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -603,20 +603,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 8, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Quá nhi
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Quá nhi
+                descriptionMarkdown: `#### Lorem QuaNhi dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -627,6 +614,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem QuaNhi dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -636,20 +636,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 8, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Doãn đại hiệp
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Doãn đại hiệp
+                descriptionMarkdown: `#### Lorem Doan dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -660,6 +647,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem Doan dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -669,20 +669,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 8, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Bắc hiệp
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Bắc hiệp
+                descriptionMarkdown: `#### Lorem BacHiep dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -693,6 +680,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem BacHiep dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -702,20 +702,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 8, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Ngũ luân
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Ngũ luân
+                descriptionMarkdown: `#### Lorem 5luan dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -726,6 +713,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem 5luan dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -735,20 +735,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 9, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem giáo chủ Minh Giáo
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem giáo chủ Minh Giáo
+                descriptionMarkdown: `#### Lorem giaochuMinhGiao dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -759,6 +746,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem giaochuMinhGiao dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -768,20 +768,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 9, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Kim Mao Sư Vương
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Kim Mao Sư Vương
+                descriptionMarkdown: `#### Lorem nghiaPhu dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -792,6 +779,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem nghiaPhu dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -801,20 +801,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 9, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Tử Sam 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Tử Sam 
+                descriptionMarkdown: `#### Lorem daiYTy dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -825,6 +812,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem daiYTy dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -834,20 +834,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 9, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Mẫn x2 Đặc Mục Nhĩ
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Mẫn x2 Đặc Mục Nhĩ
+                descriptionMarkdown: `#### Lorem Man2DacMucNhi dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -858,6 +845,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem Man2DacMucNhi dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -867,20 +867,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 9, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Quân Bảo
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Quân Bảo
+                descriptionMarkdown: `#### Lorem QuanBao dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -891,6 +878,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem QuanBao dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -900,20 +900,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 9, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem ThanhDực
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem ThanhDực
+                descriptionMarkdown: `#### Lorem ThanhDucBucVuong dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -924,6 +911,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem ThanhDucBucVuong dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -933,20 +933,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 9, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Tả sứ
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Tả sứ
+                descriptionMarkdown: `#### Lorem TaSu dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -957,6 +944,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem TaSu dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },
@@ -966,20 +966,7 @@ module.exports = {
                 //specialtyID: 0, // của chuyên khoa nào
                 clinicID: 9, // của cơ sở y tế nào?
                 image: '',
-                descriptionMarkdown: `
-#### Lorem Thù Nhi
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*"`,
-                descriptionHTML: `
-#### Lorem Thù Nhi
+                descriptionMarkdown: `#### Lorem ThuNhi dolor 
 
 1. sit amet, consectetur adipiscing elit
 2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -990,6 +977,19 @@ module.exports = {
 * in voluptate velit esse cillum dolore eu f
 
 ****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
+                descriptionHTML: `<h4>Lorem ThuNhi dolor</h4>
+<ol>
+<li>sit amet, consectetur adipiscing elit</li>
+<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+<li>Ut enim ad minim veniam</li>
+<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+</ol>
+<ul>
+<li>Duis aute irure dolor in reprehenderit</li>
+<li>in voluptate velit esse cillum dolore eu f</li>
+</ul>
+<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+`,
                 priceDefault: 250, // giá mặc định
                 nickName: '', // tài khoản
             },

@@ -139,10 +139,10 @@ let editDoctorOfClinic = (newData) => { // truyền vào cục newData mình mu�
                 if (oldDoctor) {
                     // mình sẽ chỉnh thành, có trường nào thì sửa trường đó, không thì thôi
                     if (newData.name) oldDoctor.name = newData.name
-                    if (!newData.image) oldDoctor.image = newData.image
-                    if (!newData.position) oldDoctor.position = newData.position
-                    if (!newData.descriptionMarkdown) oldDoctor.descriptionMarkdown = newData.descriptionMarkdown
-                    if (!newData.descriptionHTML) oldDoctor.descriptionHTML = newData.descriptionHTML
+                    if (newData.image) oldDoctor.image = newData.image
+                    if (newData.position) oldDoctor.position = newData.position
+                    if (newData.descriptionMarkdown) oldDoctor.descriptionMarkdown = newData.descriptionMarkdown
+                    if (newData.descriptionHTML) oldDoctor.descriptionHTML = newData.descriptionHTML
                     await oldDoctor.save()
                     resolve({
                         errCode: 0,
@@ -339,31 +339,31 @@ let getDetailDoctorById = (inputId) => {
                     errMes: 'Missing required parameter'
                 })
             } else {
-                let data = await db.Account.findOne({
+                let data = await db.Doctor.findOne({
                     where: { id: inputId },
                     attributes: { exclude: ['password'] },
-                    include: [
-                        {
-                            model: db.Markdown,
-                            attributes: ['description', 'contentHTML', 'contentMarkdown']
-                        },
-                        {
-                            model: db.Allcode,
-                            as: 'positionData',
-                            attributes: ['valueEn', 'valueVi']
-                        },
-                        {
-                            model: db.Doctor,
-                            attributes: {
-                                exclude: ['id', 'doctorId']
-                            },
-                            include: [
-                                { model: db.Allcode, as: 'priceTypeData', attributes: ['valueEn', 'valueVi'] },
-                                { model: db.Allcode, as: 'provinceTypeData', attributes: ['valueEn', 'valueVi'] },
-                                { model: db.Allcode, as: 'paymentTypeData', attributes: ['valueEn', 'valueVi'] },
-                            ]
-                        }
-                    ],
+                    // include: [
+                    //     {
+                    //         model: db.Markdown,
+                    //         attributes: ['description', 'contentHTML', 'contentMarkdown']
+                    //     },
+                    //     {
+                    //         model: db.Allcode,
+                    //         as: 'positionData',
+                    //         attributes: ['valueEn', 'valueVi']
+                    //     },
+                    //     {
+                    //         model: db.Doctor,
+                    //         attributes: {
+                    //             exclude: ['id', 'doctorId']
+                    //         },
+                    //         include: [
+                    //             { model: db.Allcode, as: 'priceTypeData', attributes: ['valueEn', 'valueVi'] },
+                    //             { model: db.Allcode, as: 'provinceTypeData', attributes: ['valueEn', 'valueVi'] },
+                    //             { model: db.Allcode, as: 'paymentTypeData', attributes: ['valueEn', 'valueVi'] },
+                    //         ]
+                    //     }
+                    // ],
                     raw: false,
                     nest: true
                 })

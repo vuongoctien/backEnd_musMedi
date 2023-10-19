@@ -40,19 +40,54 @@ let editDoctorOfClinic = async (req, res) => { //ok
 
 }
 
+/**Viết gộp MediPackage vào luôn*/
+
+let createMediPackage = async (req, res) => {
+    try {
+        let info = await doctorService.createMediPackage(req.body)
+        return res.status(200).json(info)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            errMes: "Error from server"
+        })
+    }
+}
+
+let getAllMediPackageByClinicId = async (req, res) => {
+    try {
+        let info = await doctorService.getAllMediPackageByClinicId(req.query.idClinic)
+        return res.status(200).json(info)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            errMes: "Error from server"
+        })
+    }
+}
+
+let editMediPackageOfClinic = async (req, res) => {
+    try {
+        let info = await doctorService.editMediPackageOfClinic(req.body)
+        return res.status(200).json(info)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            errMes: "Error from server"
+        })
+    }
+}
+
+/****************************** */
 
 
 
 
 
-
-
-
-
-
-
-
-let getTopDoctorHome = async (req, res) => {
+let getTopDoctorHome = async (req, res) => { //ok
     let limit = req.query.limit
 
     if (!limit) {
@@ -188,7 +223,9 @@ module.exports = {
     getExtraInfoDocTorById: getExtraInfoDocTorById,
     getProfileDocTorById: getProfileDocTorById,
     getListPatientForDoctor: getListPatientForDoctor,
-    createDoctor: createDoctor,
-    getAllDoctorByClinicId: getAllDoctorByClinicId,
-    editDoctorOfClinic: editDoctorOfClinic,
+    createDoctor: createDoctor, createMediPackage: createMediPackage,
+    getAllDoctorByClinicId: getAllDoctorByClinicId, getAllMediPackageByClinicId: getAllMediPackageByClinicId,
+    editDoctorOfClinic: editDoctorOfClinic, editMediPackageOfClinic: editMediPackageOfClinic,
+
+
 }

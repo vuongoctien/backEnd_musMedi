@@ -16,6 +16,7 @@ module.exports = {
             descriptionHTML: { type: Sequelize.TEXT },
             packageType: { type: Sequelize.STRING },
             priceDefault: { type: Sequelize.INTEGER },
+            status: { type: Sequelize.BOOLEAN },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE

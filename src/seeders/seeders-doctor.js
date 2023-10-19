@@ -331,7 +331,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'sherlock', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'John Watson', // tên bác sĩ 
@@ -364,7 +368,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'anhtroly', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Thúy Kiều', // tên bác sĩ 
@@ -397,7 +405,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'thuykieu', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Từ Hải', // tên bác sĩ 
@@ -430,7 +442,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'tuhai', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Kim Trọng', // tên bác sĩ 
@@ -463,7 +479,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'kimtrong', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Ron Weasley', // tên bác sĩ 
@@ -496,7 +516,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'ron', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Hermione Granger', // tên bác sĩ 
@@ -529,7 +553,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'hermi1', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Quách Tĩnh', // tên bác sĩ 
@@ -562,7 +590,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'quachtinh', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Khưu Xử Cơ', // tên bác sĩ 
@@ -595,7 +627,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'khuuxuco', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Dương Quá', // tên bác sĩ 
@@ -628,7 +664,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'duongqua', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Doãn Chí Bình', // tên bác sĩ 
@@ -661,7 +701,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'doanchibinh', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Quách Đại Hiệp', // tên bác sĩ 
@@ -694,7 +738,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'quachdaihiep', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Kim Luân Pháp Vương', // tên bác sĩ 
@@ -727,7 +775,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'kimluanphapvuong', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Trương Vô Kỵ', // tên bác sĩ 
@@ -760,7 +812,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'truongvoky', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Tạ Tốn', // tên bác sĩ 
@@ -793,7 +849,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'taton', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Tử Sam Long Vương', // tên bác sĩ 
@@ -826,7 +886,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'tusamlongvuong', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Triệu Mẫn', // tên bác sĩ 
@@ -859,7 +923,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'trieuman', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Trương Tam Phong', // tên bác sĩ 
@@ -892,7 +960,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'truong3phong', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Vi Nhất Tiếu', // tên bác sĩ 
@@ -925,7 +997,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'vinhattieu', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Dương Tiêu', // tên bác sĩ 
@@ -958,7 +1034,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'duongtieu', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 name: 'Ân Ly', // tên bác sĩ 
@@ -991,7 +1071,11 @@ module.exports = {
 <p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
 `,
                 priceDefault: 250, // giá mặc định
-                nickName: '', // tài khoản
+                nickName: 'anly', // tài khoản
+                password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
+                status: 1,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
         ]);
     },

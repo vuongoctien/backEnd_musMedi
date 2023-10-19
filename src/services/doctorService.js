@@ -82,7 +82,7 @@ let createDoctor = (data) => { //ok
 
             resolve({
                 errCode: 0,
-                errMes: 'ok createClinic'
+                errMes: 'ok created doctor'
             })
         } catch (e) {
             reject(e)
@@ -110,7 +110,7 @@ let getAllDoctorByClinicId = (idClinic) => {
                 })//Nếu không Buffer trước từ Backend thì rất dễ toang
                 resolve({
                     errCode: 0,
-                    errMes: 'ok createClinic',
+                    errMes: 'ok đã findAll',
                     all_doctor_of_clinic
                 })
             }
@@ -163,6 +163,122 @@ let editDoctorOfClinic = (newData) => { // truyền vào cục newData mình mu�
     })
 
 }
+
+/**Viết gộp MediPackage vào luôn*/
+let createMediPackage = (data) => { //ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!data.name
+                || !data.imageBase64
+                || !data.descriptionHTML
+                || !data.descriptionMarkdown
+                || !data.packageType
+                ///////////////////////
+                || !data.clinicID
+                || !data.status
+                || !data.priceDefault
+            ) { //thông tin bệnh nhân điền vào modal
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter'
+                })
+            } else {
+                await db.Medi_Package.create({
+                    name: data.name,
+                    image: data.imageBase64,
+                    descriptionHTML: data.descriptionHTML,
+                    descriptionMarkdown: data.descriptionMarkdown,
+                    packageType: data.packageType,
+                    ////////////////
+                    status: data.status,
+                    clinicID: data.clinicID,
+                    priceDefault: data.priceDefault,
+                })
+            }
+
+            resolve({
+                errCode: 0,
+                errMes: 'ok created MediPackage'
+            })
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
+let getAllMediPackageByClinicId = (idClinic) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!idClinic) { //thông tin bệnh nhân điền vào modal
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter'
+                })
+            } else {
+                let all_mediPackage_of_clinic = await db.Medi_Package.findAll({
+                    where: { clinicID: idClinic },
+                })
+                all_mediPackage_of_clinic && all_mediPackage_of_clinic.map((item, index) => {
+                    if (item.image) {
+                        item.image = new Buffer(item.image, 'base64').toString('binary')
+                    }
+                })//Nếu không Buffer trước từ Backend thì rất dễ toang
+                resolve({
+                    errCode: 0,
+                    errMes: 'ok đã findAll',
+                    all_mediPackage_of_clinic
+                })
+            }
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
+let editMediPackageOfClinic = (newData) => { // truyền vào cục newData mình muốn sửa 
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!newData.idClinic || !newData.idMediPackage) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter!'
+                })
+            } else {
+                let oldDoctor = await db.Medi_Package.findOne({
+                    where: {
+                        clinicID: newData.idClinic, // tìm đúng CSYT, thực ra bước này có thể bỏ bớt
+                        id: newData.idMediPackage // tìm đúng id Bsi
+                    }, // truy vấn bằng id của newData đó 
+                    raw: false // nếu không có dòng này sẽ dính lỗi oldDoctor.save is not a function
+                })
+                if (oldDoctor) {
+                    // mình sẽ chỉnh thành, có trường nào thì sửa trường đó, không thì thôi
+                    // if (newData.name) oldDoctor.name = newData.name
+                    // if (newData.image) oldDoctor.image = newData.image
+                    // if (newData.position) oldDoctor.position = newData.position
+                    // if (newData.descriptionMarkdown) oldDoctor.descriptionMarkdown = newData.descriptionMarkdown
+                    // if (newData.descriptionHTML) oldDoctor.descriptionHTML = newData.descriptionHTML
+                    await oldDoctor.save()
+                    resolve({
+                        errCode: 0,
+                        errMes: 'Đã sửa thành công, check DB mà xem!',
+                    })
+                } else {
+                    resolve({
+                        errCode: 2,
+                        errMes: 'tao đéo thấy id nào như thế cả!'
+                    })
+                }
+            }
+
+
+        } catch (e) {
+            reject(e)
+        }
+    })
+
+}
+/****************************** */
 
 
 
@@ -609,7 +725,7 @@ module.exports = {
     getExtraInfoDocTorById: getExtraInfoDocTorById,
     getProfileDocTorById: getProfileDocTorById,
     getListPatientForDoctor: getListPatientForDoctor,
-    createDoctor: createDoctor,
-    getAllDoctorByClinicId: getAllDoctorByClinicId,
-    editDoctorOfClinic: editDoctorOfClinic,
+    createDoctor: createDoctor, createMediPackage: createMediPackage,
+    getAllDoctorByClinicId: getAllDoctorByClinicId, getAllMediPackageByClinicId: getAllMediPackageByClinicId,
+    editDoctorOfClinic: editDoctorOfClinic, editMediPackageOfClinic: editMediPackageOfClinic,
 }

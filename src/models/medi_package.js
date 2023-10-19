@@ -22,6 +22,7 @@ module.exports = (sequelize, DataTypes) => {
         descriptionHTML: DataTypes.TEXT,
         packageType: DataTypes.STRING, // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
         priceDefault: DataTypes.INTEGER, // giá mặc định
+        status: DataTypes.BOOLEAN,
     }, {
         sequelize,
         modelName: 'Medi_Package',

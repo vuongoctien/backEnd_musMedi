@@ -71,6 +71,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Xét nghiệm', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -141,6 +142,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Xét nghiệm', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -211,6 +213,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -281,6 +284,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -351,6 +355,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -421,6 +426,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -491,6 +497,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -561,6 +568,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -631,6 +639,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -701,6 +710,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Khác', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -771,6 +781,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Khác', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -841,6 +852,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -911,6 +923,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -981,6 +994,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1051,6 +1065,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1121,6 +1136,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Khác', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1191,6 +1207,7 @@ pharetra. Praesent vel eros vitae lectus facilisis feugiat. Nullam egestas scele
 `,
                 packageType: 'Khác', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
+                status: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },

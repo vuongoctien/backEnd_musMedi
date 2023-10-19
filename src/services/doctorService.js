@@ -253,11 +253,11 @@ let editMediPackageOfClinic = (newData) => { // truyền vào cục newData mìn
                 })
                 if (oldDoctor) {
                     // mình sẽ chỉnh thành, có trường nào thì sửa trường đó, không thì thôi
-                    // if (newData.name) oldDoctor.name = newData.name
-                    // if (newData.image) oldDoctor.image = newData.image
-                    // if (newData.position) oldDoctor.position = newData.position
-                    // if (newData.descriptionMarkdown) oldDoctor.descriptionMarkdown = newData.descriptionMarkdown
-                    // if (newData.descriptionHTML) oldDoctor.descriptionHTML = newData.descriptionHTML
+                    if (newData.name) oldDoctor.name = newData.name
+                    if (newData.image) oldDoctor.image = newData.image
+                    if (newData.packageType) oldDoctor.packageType = newData.packageType
+                    if (newData.descriptionMarkdown) oldDoctor.descriptionMarkdown = newData.descriptionMarkdown
+                    if (newData.descriptionHTML) oldDoctor.descriptionHTML = newData.descriptionHTML
                     await oldDoctor.save()
                     resolve({
                         errCode: 0,
@@ -446,7 +446,7 @@ let saveDetailInfoDoctor = (inputData) => {
     })
 }
 
-let getDetailDoctorById = (inputId) => {
+let getDetailDoctorById = (inputId) => { //ok
     return new Promise(async (resolve, reject) => {
         try {
             if (!inputId) {
@@ -458,6 +458,61 @@ let getDetailDoctorById = (inputId) => {
                 let data = await db.Doctor.findOne({
                     where: { id: inputId },
                     attributes: { exclude: ['password'] },
+                    // include: [
+                    //     {
+                    //         model: db.Markdown,
+                    //         attributes: ['description', 'contentHTML', 'contentMarkdown']
+                    //     },
+                    //     {
+                    //         model: db.Allcode,
+                    //         as: 'positionData',
+                    //         attributes: ['valueEn', 'valueVi']
+                    //     },
+                    //     {
+                    //         model: db.Doctor,
+                    //         attributes: {
+                    //             exclude: ['id', 'doctorId']
+                    //         },
+                    //         include: [
+                    //             { model: db.Allcode, as: 'priceTypeData', attributes: ['valueEn', 'valueVi'] },
+                    //             { model: db.Allcode, as: 'provinceTypeData', attributes: ['valueEn', 'valueVi'] },
+                    //             { model: db.Allcode, as: 'paymentTypeData', attributes: ['valueEn', 'valueVi'] },
+                    //         ]
+                    //     }
+                    // ],
+                    raw: false,
+                    nest: true
+                })
+
+                if (data && data.image) {
+                    data.image = new Buffer(data.image, 'base64').toString('binary')
+                }
+
+                if (!data) data = {}
+
+                resolve({
+                    errCode: 0,
+                    data: data
+                })
+            }
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
+let getDetailMediPackageById = (inputId) => { //ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!inputId) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing required parameter'
+                })
+            } else {
+                let data = await db.Medi_Package.findOne({
+                    where: { id: inputId },
+                    // attributes: { exclude: ['password'] },
                     // include: [
                     //     {
                     //         model: db.Markdown,
@@ -720,6 +775,7 @@ module.exports = {
     getAllDoctors: getAllDoctors,
     saveDetailInfoDoctor: saveDetailInfoDoctor,
     getDetailDoctorById: getDetailDoctorById,
+    getDetailMediPackageById: getDetailMediPackageById,
     bulkCreateSchedule: bulkCreateSchedule,
     getScheduleByDate: getScheduleByDate,
     getExtraInfoDocTorById: getExtraInfoDocTorById,

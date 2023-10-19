@@ -100,7 +100,7 @@ module.exports = {
         descriptionHTML: `<p>Bệnh viện <strong>Anh Hùng Xạ Điêu</strong> thành lập vào 2004, luôn muốn mang đến các dịch vụ chăm sóc sức khỏe tối ưu về mặt chất lượng với chi phí hợp lý</p>`,
         nickName: 'ahxd',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
-        status: 0,
+        status: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -118,7 +118,7 @@ module.exports = {
         `,
         nickName: 'tddh',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
-        status: 0,
+        status: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -135,7 +135,7 @@ module.exports = {
         `,
         nickName: 'ytdlk',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
-        status: 0,
+        status: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },

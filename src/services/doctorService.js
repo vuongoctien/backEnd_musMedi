@@ -180,18 +180,18 @@ let editDoctorOfClinic = (newData) => { // truyền vào cục newData mình mu�
 let getTopDoctorHome = (limit) => {
     return new Promise(async (resolve, reject) => {
         try {
-            let users = await db.Account.findAll(
+            let users = await db.Doctor.findAll(
                 {
                     limit: limit,
-                    where: { roleId: 'R2' },
-                    order: [['createdAt', "DESC"]],
+                    // where: { roleId: 'R2' },
+                    // order: [['createdAt', "DESC"]],
                     attributes: { exclude: ['password'] },
-                    include: [
-                        { model: db.Allcode, as: 'positionData', attributes: ['ValueEn', 'ValueVi'] },
-                        { model: db.Allcode, as: 'genderData', attributes: ['ValueEn', 'ValueVi'] }
-                    ],
-                    raw: true,
-                    nest: true
+                    // include: [
+                    //     { model: db.Allcode, as: 'positionData', attributes: ['ValueEn', 'ValueVi'] },
+                    //     { model: db.Allcode, as: 'genderData', attributes: ['ValueEn', 'ValueVi'] }
+                    // ],
+                    // raw: true,
+                    // nest: true
                 }
             )
 

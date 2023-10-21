@@ -224,7 +224,7 @@ let loginClinic = (nickName, password) => { // ok
             let isExist = await checkUserEmail(nickName) // check xem tồn tại nickName chưa
             if (isExist) { // nếu true (đã tồn tại)
                 let user = await db.Clinic.findOne({ // lấy ra thông tin nickName
-                    attributes: ['id', 'name', 'address', 'nickName', 'password', 'province', 'status'], // lôi thêm cột ra
+                    // attributes: ['id', 'name', 'address', 'nickName', 'password', 'province', 'status'], // chọn cột lôi ra
                     where: { nickName: nickName },
                     raw: true
                 })

@@ -68,8 +68,25 @@ let deleteSchedule = (schedule_detete) => { //ok
     })
 }
 
+let getSchedule = () => { // ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            let data = await db.Schedule.findAll()
+            resolve({
+                errCode: 0,
+                errMes: 'Ok!',
+                data
+            })
+
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
 module.exports = {
     createSchedule: createSchedule,
     deleteSchedule: deleteSchedule,
+    getSchedule: getSchedule,
 
 }

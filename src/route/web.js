@@ -66,6 +66,7 @@ let initWebRoutes = (app) => {
 
     router.post('/api/create-schedule', scheduleController.createSchedule) //ok
     router.delete('/api/delete-schedule', scheduleController.deleteSchedule) //ok
+    router.get('/api/get-schedule', scheduleController.getSchedule) // ok
 
     return app.use("/", router);
 }

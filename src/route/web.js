@@ -5,6 +5,7 @@ import doctorConTroller from "../controllers/doctorController"
 import patientController from "../controllers/patientController"
 import specialtyController from "../controllers/specialtyController"
 import clinicController from "../controllers/clinicController"
+import scheduleController from "../controllers/scheduleController"
 
 let router = express.Router();
 
@@ -62,6 +63,9 @@ let initWebRoutes = (app) => {
     router.put('/api/edit-clinic', clinicController.editClinic); //ok
     router.delete('/api/delete-clinic', clinicController.deleteClinic) //ok
     router.post('/api/login-clinic', clinicController.loginClinic) // ok
+
+    router.post('/api/create-schedule', scheduleController.createSchedule) //ok
+    router.delete('/api/delete-schedule', scheduleController.deleteSchedule) //ok
 
     return app.use("/", router);
 }

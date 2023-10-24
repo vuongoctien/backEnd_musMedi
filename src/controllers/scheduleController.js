@@ -38,9 +38,37 @@ let getSchedule = async (req, res) => { //ok
     }
 }
 
+let getDoctorByIdClinicAndIdDoctor = async (req, res) => { //ok
+    try {
+        let info = await scheduleServices.getDoctorByIdClinicAndIdDoctor(req.query)
+        return res.status(200).json(info)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            errMes: "Error from server"
+        })
+    }
+}
+
+let getMediPkByIdClinicAndIdDoctor = async (req, res) => { //ok
+    try {
+        let info = await scheduleServices.getMediPkByIdClinicAndIdDoctor(req.query)
+        return res.status(200).json(info)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            errMes: "Error from server"
+        })
+    }
+}
+
 module.exports = {
     createSchedule: createSchedule,
     deleteSchedule: deleteSchedule,
     getSchedule: getSchedule,
+    getDoctorByIdClinicAndIdDoctor: getDoctorByIdClinicAndIdDoctor,
+    getMediPkByIdClinicAndIdDoctor: getMediPkByIdClinicAndIdDoctor,
 
 }

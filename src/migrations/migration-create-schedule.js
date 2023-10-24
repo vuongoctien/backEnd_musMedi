@@ -10,10 +10,10 @@ module.exports = {
                 type: Sequelize.INTEGER
             },
             date: { type: Sequelize.DATEONLY },
+            clinicID: { type: Sequelize.INTEGER },
             dr_or_pk: { type: Sequelize.BOOLEAN },
             dr_or_pk_ID: { type: Sequelize.INTEGER },
             clockTime: { type: Sequelize.STRING },
-            price: { type: Sequelize.STRING },
             // currentNumber: { type: Sequelize.INTEGER },
             // maxNumber: { type: Sequelize.INTEGER },
             createdAt: {

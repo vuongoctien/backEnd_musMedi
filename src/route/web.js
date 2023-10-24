@@ -64,9 +64,12 @@ let initWebRoutes = (app) => {
     router.delete('/api/delete-clinic', clinicController.deleteClinic) //ok
     router.post('/api/login-clinic', clinicController.loginClinic) // ok
 
+
     router.post('/api/create-schedule', scheduleController.createSchedule) //ok
     router.delete('/api/delete-schedule', scheduleController.deleteSchedule) //ok
     router.get('/api/get-schedule', scheduleController.getSchedule) // ok
+    router.get('/api/get-doctor-by-idclinic-and-iddoctor', scheduleController.getDoctorByIdClinicAndIdDoctor) // ok
+    router.get('/api/get-medipk-by-idclinic-and-iddoctor', scheduleController.getMediPkByIdClinicAndIdDoctor) // ok
 
     return app.use("/", router);
 }

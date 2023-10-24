@@ -27,7 +27,7 @@ let deleteSchedule = async (req, res) => { //ok
 
 let getSchedule = async (req, res) => { //ok
     try {
-        let info = await scheduleServices.getSchedule()
+        let info = await scheduleServices.getSchedule(req.query)
         return res.status(200).json(info)
     } catch (e) {
         console.log(e)

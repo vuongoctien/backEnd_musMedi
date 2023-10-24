@@ -74,16 +74,43 @@ let deleteSchedule = (schedule_detete) => { //ok
     })
 }
 
-let getSchedule = () => { // ok
+let getSchedule = (query) => { // ok
     return new Promise(async (resolve, reject) => {
         try {
-            let data = await db.Schedule.findAll()
-            resolve({
-                errCode: 0,
-                errMes: 'Ok!',
-                data
-            })
-
+            if (!query.clinicID) { //thông tin bệnh nhân điền vào modal
+                resolve({
+                    errCode: 1,
+                    errMes: 'Thiếu clinicID'
+                })
+            } else {
+                if (query.dr_or_pk && query.dr_or_pk_ID) {
+                    let all_schedule = await db.Schedule.findAll({
+                        where: {
+                            clinicID: query.clinicID,
+                            dr_or_pk: query.dr_or_pk,
+                            dr_or_pk_ID: query.dr_or_pk_ID
+                        },
+                        attributes: { exclude: ['id', 'createAt', 'updateAt'] }
+                    })
+                    resolve({
+                        errCode: 0,
+                        errMes: 'Đã tìm lịch cho riêng bsi/goi dvu',
+                        all_schedule
+                    })
+                } else {
+                    let all_schedule = await db.Schedule.findAll({
+                        where: {
+                            clinicID: query.clinicID
+                        },
+                        attributes: { exclude: ['id', 'createAt', 'updateAt'] }
+                    })
+                    resolve({
+                        errCode: 0,
+                        errMes: 'Đã tìm hết lịch cho cả clinic luôn',
+                        all_schedule
+                    })
+                }
+            }
         } catch (e) {
             reject(e)
         }

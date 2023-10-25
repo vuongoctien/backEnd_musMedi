@@ -43,6 +43,8 @@ let createDoctor = (data) => { //ok
             if (!data.name
                 || !data.position
                 || !data.imageBase64
+                || !data.intro
+                || !data.thongtinkham
                 || !data.descriptionHTML
                 || !data.descriptionMarkdown
                 || !data.nickName
@@ -68,6 +70,8 @@ let createDoctor = (data) => { //ok
                         name: data.name,
                         position: data.position,
                         image: data.imageBase64,
+                        intro: data.intro,
+                        thongtinkham: data.thongtinkham,
                         descriptionHTML: data.descriptionHTML,
                         descriptionMarkdown: data.descriptionMarkdown,
                         nickName: data.nickName,
@@ -140,6 +144,8 @@ let editDoctorOfClinic = (newData) => { // truyền vào cục newData mình mu�
                     // mình sẽ chỉnh thành, có trường nào thì sửa trường đó, không thì thôi
                     if (newData.name) oldDoctor.name = newData.name
                     if (newData.image) oldDoctor.image = newData.image
+                    if (newData.intro) oldDoctor.intro = newData.intro
+                    if (newData.thongtinkham) oldDoctor.thongtinkham = newData.thongtinkham
                     if (newData.position) oldDoctor.position = newData.position
                     if (newData.descriptionMarkdown) oldDoctor.descriptionMarkdown = newData.descriptionMarkdown
                     if (newData.descriptionHTML) oldDoctor.descriptionHTML = newData.descriptionHTML
@@ -170,6 +176,8 @@ let createMediPackage = (data) => { //ok
         try {
             if (!data.name
                 || !data.imageBase64
+                || !data.intro
+                || !data.thongtinkham
                 || !data.descriptionHTML
                 || !data.descriptionMarkdown
                 || !data.packageType
@@ -186,6 +194,8 @@ let createMediPackage = (data) => { //ok
                 await db.Medi_Package.create({
                     name: data.name,
                     image: data.imageBase64,
+                    intro: data.intro,
+                    thongtinkham: data.thongtinkham,
                     descriptionHTML: data.descriptionHTML,
                     descriptionMarkdown: data.descriptionMarkdown,
                     packageType: data.packageType,
@@ -255,6 +265,8 @@ let editMediPackageOfClinic = (newData) => { // truyền vào cục newData mìn
                     // mình sẽ chỉnh thành, có trường nào thì sửa trường đó, không thì thôi
                     if (newData.name) oldDoctor.name = newData.name
                     if (newData.image) oldDoctor.image = newData.image
+                    if (newData.intro) oldDoctor.intro = newData.intro
+                    if (newData.thongtinkham) oldDoctor.thongtinkham = newData.thongtinkham
                     if (newData.packageType) oldDoctor.packageType = newData.packageType
                     if (newData.descriptionMarkdown) oldDoctor.descriptionMarkdown = newData.descriptionMarkdown
                     if (newData.descriptionHTML) oldDoctor.descriptionHTML = newData.descriptionHTML

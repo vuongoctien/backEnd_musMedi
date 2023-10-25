@@ -12,6 +12,8 @@ module.exports = {
             name: { type: Sequelize.STRING },
             clinicID: { type: Sequelize.INTEGER },
             image: { type: Sequelize.BLOB('long') },
+            intro: { type: Sequelize.TEXT },
+            thongtinkham: { type: Sequelize.TEXT },
             descriptionMarkdown: { type: Sequelize.TEXT },
             descriptionHTML: { type: Sequelize.TEXT },
             packageType: { type: Sequelize.STRING },

@@ -17,7 +17,8 @@ module.exports = (sequelize, DataTypes) => {
         name: DataTypes.STRING, // tên gói dịch vụ
         clinicID: DataTypes.INTEGER, // của cơ sở y tế nào?
         image: DataTypes.BLOB('long'),
-        // specialtyID: DataTypes.INTEGER, // của chuyên khoa nào
+        intro: DataTypes.TEXT,
+        thongtinkham: DataTypes.TEXT,
         descriptionMarkdown: DataTypes.TEXT,
         descriptionHTML: DataTypes.TEXT,
         packageType: DataTypes.STRING, // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.

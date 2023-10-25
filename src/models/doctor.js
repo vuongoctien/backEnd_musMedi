@@ -19,6 +19,8 @@ module.exports = (sequelize, DataTypes) => {
         // specialtyID: DataTypes.INTEGER, // của chuyên khoa nào
         clinicID: DataTypes.INTEGER, // của cơ sở y tế nào?
         image: DataTypes.BLOB('long'),
+        intro: DataTypes.TEXT,
+        thongtinkham: DataTypes.TEXT,
         descriptionMarkdown: DataTypes.TEXT,
         descriptionHTML: DataTypes.TEXT,
         priceDefault: DataTypes.INTEGER, // giá mặc định

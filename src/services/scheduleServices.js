@@ -117,6 +117,36 @@ let getSchedule = (query) => { // ok
     })
 }
 
+let getScheduleForUser = (query) => { // ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!query.clinicID || !query.dr_or_pk || !query.dr_or_pk_ID || !query.date) { //thông tin bệnh nhân điền vào modal
+                resolve({
+                    errCode: 1,
+                    errMes: 'missing para'
+                })
+            } else {
+                let all_schedule = await db.Schedule.findAll({
+                    where: {
+                        clinicID: query.clinicID,
+                        dr_or_pk: query.dr_or_pk,
+                        dr_or_pk_ID: query.dr_or_pk_ID,
+                        date: query.date
+                    },
+                    attributes: { exclude: ['id', 'createAt', 'updateAt'] }
+                })
+                resolve({
+                    errCode: 0,
+                    errMes: 'Đã tìm lịch cho user',
+                    all_schedule
+                })
+            }
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
 let getDoctorByIdClinicAndIdDoctor = (query) => { // ok
     return new Promise(async (resolve, reject) => {
         try {
@@ -181,5 +211,6 @@ module.exports = {
     getSchedule: getSchedule,
     getDoctorByIdClinicAndIdDoctor: getDoctorByIdClinicAndIdDoctor,
     getMediPkByIdClinicAndIdDoctor: getMediPkByIdClinicAndIdDoctor,
+    getScheduleForUser: getScheduleForUser,
 
 }

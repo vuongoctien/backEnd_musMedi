@@ -91,11 +91,32 @@ let getTopDoctorHome = async (req, res) => { //ok
     let limit = req.query.limit
 
     if (!limit) {
-        limit = 8
-        console.log('thiếu limit rồi, tạm đặt limit=8')
+        limit = 999999999
+        console.log('thiếu limit rồi, tạm đặt limit=999999999')
     }
     try {
         let response = await doctorService.getTopDoctorHome(+limit)
+        // ôi anh ấy đã nói rồi mà mình không chịu nghe
+        // lỗi là do limit đang được hiểu là string, thêm dấu + vào để đổi thành int _video63
+        return res.status(200).json(response)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            message: "Error from sever"
+        })
+    }
+}
+
+let getTopMediPackageHome = async (req, res) => { //ok
+    let limit = req.query.limit
+
+    if (!limit) {
+        limit = 999999999
+        console.log('thiếu limit rồi, tạm đặt limit=999999999')
+    }
+    try {
+        let response = await doctorService.getTopMediPackageHome(+limit)
         // ôi anh ấy đã nói rồi mà mình không chịu nghe
         // lỗi là do limit đang được hiểu là string, thêm dấu + vào để đổi thành int _video63
         return res.status(200).json(response)
@@ -240,6 +261,7 @@ module.exports = {
     createDoctor: createDoctor, createMediPackage: createMediPackage,
     getAllDoctorByClinicId: getAllDoctorByClinicId, getAllMediPackageByClinicId: getAllMediPackageByClinicId,
     editDoctorOfClinic: editDoctorOfClinic, editMediPackageOfClinic: editMediPackageOfClinic,
+    getTopMediPackageHome: getTopMediPackageHome,
 
 
 }

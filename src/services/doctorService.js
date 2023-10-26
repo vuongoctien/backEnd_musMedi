@@ -333,6 +333,33 @@ let getTopDoctorHome = (limit) => {
     })
 }
 
+let getTopMediPackageHome = (limit) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            let users = await db.Medi_Package.findAll(
+                {
+                    limit: limit,
+                    // where: { roleId: 'R2' },
+                    // order: [['createdAt', "DESC"]],
+                    // include: [
+                    //     { model: db.Allcode, as: 'positionData', attributes: ['ValueEn', 'ValueVi'] },
+                    //     { model: db.Allcode, as: 'genderData', attributes: ['ValueEn', 'ValueVi'] }
+                    // ],
+                    // raw: true,
+                    // nest: true
+                }
+            )
+
+            resolve({
+                errCode: 0,
+                data: users
+            })
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
 let getAllDoctors = () => {
     return new Promise(async (resolve, reject) => {
         try {
@@ -796,4 +823,5 @@ module.exports = {
     createDoctor: createDoctor, createMediPackage: createMediPackage,
     getAllDoctorByClinicId: getAllDoctorByClinicId, getAllMediPackageByClinicId: getAllMediPackageByClinicId,
     editDoctorOfClinic: editDoctorOfClinic, editMediPackageOfClinic: editMediPackageOfClinic,
+    getTopMediPackageHome: getTopMediPackageHome,
 }

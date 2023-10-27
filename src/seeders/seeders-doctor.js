@@ -23,29 +23,68 @@ Bác sĩ khám cho người bệnh từ 16 tuổi trở lên`,
                LOẠI BẢO HIỂM ÁP DỤNG.
                + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
                + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem nobi dolor 
+                descriptionMarkdown: `**Bác sĩ Nobi Nobita**
 
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem nobi dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+                * Bác sĩ Chuyên Khoa Trị Liệu Thần Kinh Cột Sống
+                * Cử nhân Khoa học về Vận động học, chuyên ngành Tiền vật lý trị liệu tại Đại học bang San Diego - Mỹ
+                * Tốt nghiệp Bác sĩ Thần kinh Cột sống tại Đại học Life Chiropractic College - Mỹ (2010)
+                * Bác sĩ đã từng hành nghề ở Mỹ, Singapore và Indonesia.
+                * Chữa bệnh Thần kinh Cột sống không dùng thuốc hay phẫu thuật.
+                
+                Bác sĩ Eric đề ra sứ mệnh cho bản thân là “Hướng dẫn, điều trị, và truyền cảm hứng cho càng nhiều gia đình càng tốt trong việc giữ vững sức khỏe tối ưu thông qua phương pháp tự nhiên về trị liệu thần kinh cột sống”.
+                
+                Bác sĩ Eric cho rằng việc dành thời gian để giải thích cho bệnh nhân về chẩn đoán bệnh là tối quan trọng, qua đó bệnh nhân có thể hiểu chính xác những nguyên nhân dẫn đến bệnh trạng của mình. Ông luôn đưa ra phác đồ điều trị cụ thể cho từng bệnh nhân và theo sát các bước trong tiến trình phục hồi cũng như trong giai đoạn phòng ngừa việc tái đau trở lại.
+                
+                Bác sĩ Eric là người yêu công việc chăm sóc bệnh nhân của mình. Ngoài ra, những lúc rãnh rỗi ông thích đi du lịch, lặn biển, tập thể dục, chơi bóng chày, và dành thời gian với gia đình của mình. Mục tiêu của Bác sĩ Eric là giúp bệnh nhân có được một cuộc sống không còn đau đớn và giúp cơ thể họ vận động hết khả năng vốn có với sức khỏe tối ưu.
+                
+                **Bác sĩ khám và điều trị**
+                
+                * Thoát vị đĩa đệm
+                * Thoái hóa đốt sống cổ, lưng
+                * Đau dây thần kinh tọa
+                * Hội chứng rễ dây thần kinh
+                * Đau đầu
+                * Chứng đau vai
+                * Đau khuỷu tay
+                * Đau cổ tay
+                * Cong vẹo cột sống
+                * Đau thắt lưng
+                * Đau đầu gối
+                * Các chứng đau bàn chân
+                * Đau mắt cá
+                * Chấn thương thể thao
+                * Phục hồi chức năng
+                * Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt`,
+                descriptionHTML: `<p><strong>Bác sĩ Nobi Nobita</strong></p>
+                <ul>
+                <li>Bác sĩ Chuyên Khoa Trị Liệu Thần Kinh Cột Sống</li>
+                <li>Cử nhân Khoa học về Vận động học, chuyên ngành Tiền vật lý trị liệu tại Đại học bang San Diego - Mỹ</li>
+                <li>Tốt nghiệp Bác sĩ Thần kinh Cột sống tại Đại học Life Chiropractic College - Mỹ (2010)</li>
+                <li>Bác sĩ đã từng hành nghề ở Mỹ, Singapore và Indonesia.</li>
+                <li>Chữa bệnh Thần kinh Cột sống không dùng thuốc hay phẫu thuật.</li>
+                </ul>
+                <p>Bác sĩ Eric đề ra sứ mệnh cho bản thân là “Hướng dẫn, điều trị, và truyền cảm hứng cho càng nhiều gia đình càng tốt trong việc giữ vững sức khỏe tối ưu thông qua phương pháp tự nhiên về trị liệu thần kinh cột sống”.</p>
+                <p>Bác sĩ Eric cho rằng việc dành thời gian để giải thích cho bệnh nhân về chẩn đoán bệnh là tối quan trọng, qua đó bệnh nhân có thể hiểu chính xác những nguyên nhân dẫn đến bệnh trạng của mình. Ông luôn đưa ra phác đồ điều trị cụ thể cho từng bệnh nhân và theo sát các bước trong tiến trình phục hồi cũng như trong giai đoạn phòng ngừa việc tái đau trở lại.</p>
+                <p>Bác sĩ Eric là người yêu công việc chăm sóc bệnh nhân của mình. Ngoài ra, những lúc rãnh rỗi ông thích đi du lịch, lặn biển, tập thể dục, chơi bóng chày, và dành thời gian với gia đình của mình. Mục tiêu của Bác sĩ Eric là giúp bệnh nhân có được một cuộc sống không còn đau đớn và giúp cơ thể họ vận động hết khả năng vốn có với sức khỏe tối ưu.</p>
+                <p><strong>Bác sĩ khám và điều trị</strong></p>
+                <ul>
+                <li>Thoát vị đĩa đệm</li>
+                <li>Thoái hóa đốt sống cổ, lưng</li>
+                <li>Đau dây thần kinh tọa</li>
+                <li>Hội chứng rễ dây thần kinh</li>
+                <li>Đau đầu</li>
+                <li>Chứng đau vai</li>
+                <li>Đau khuỷu tay</li>
+                <li>Đau cổ tay</li>
+                <li>Cong vẹo cột sống</li>
+                <li>Đau thắt lưng</li>
+                <li>Đau đầu gối</li>
+                <li>Các chứng đau bàn chân</li>
+                <li>Đau mắt cá</li>
+                <li>Chấn thương thể thao</li>
+                <li>Phục hồi chức năng</li>
+                <li>Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt</li>
+                </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'nobita', // tài khoản
@@ -74,29 +113,72 @@ Bác sĩ khám cho người bệnh từ 18 tuổi trở lên`,
                 LOẠI BẢO HIỂM ÁP DỤNG
                 + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
                 + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem xuka dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem xuka dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+                descriptionMarkdown: `**Bác sĩ Shizuka Minamoto**
+                * Bác sĩ có 20 năm kinh nghiệm Trị liệu thần kinh cột sống
+                * Bác sĩ có 5 năm làm giảng viên tại trường LACC
+                * Có chứng chỉ hành nghề tại Việt Nam, Philippines, bang California và bang Texas (Mỹ)
+                
+                **Khám và điều trị**
+                * Thoát vị đĩa đệm
+                * Thoái hóa đốt sống cổ, lưng
+                * Đau dây thần kinh tọa
+                * Hội chứng rễ dây thần kinh
+                * Đau đầu
+                * Chứng đau vai
+                * Đau khuỷu tay
+                * Đau cổ tay
+                * Cong vẹo cột sống
+                * Đau thắt lưng
+                * Đau đầu gối
+                * Các chứng đau bàn chân
+                * Đau mắt cá
+                * Chấn thương thể thao
+                * Phục hồi chức năng
+                * Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt
+                
+                **Qúa trình công tác**
+                * 5 năm làm giảng viên tại trường LACC
+                * Thành viên đội y tế của đội tuyển Olympic Trung Quốc trong 2 kì 2018 - 2020
+                * Năm 2019, Bác sĩ vinh dự là diễn giả của Đại học Thể dục Thể Thao Bắc Kinh
+                * Có chứng chỉ hành nghề tại Việt Nam, Philippines, bang California và bang Texas (Mỹ)
+                * Qúa trình đào tạo
+                * Tốt nghiệp Đại học Bang New York
+                * Tốt nghiệp trường Los Angeles College of Chiropractic (LACC) chuyên về Trị liệu thần kinh cột sống tại miền Nam bang California`,
+                descriptionHTML: `<p><strong>Bác sĩ Shizuka Minamoto</strong></p>
+                <ul>
+                <li>Bác sĩ có 20 năm kinh nghiệm Trị liệu thần kinh cột sống</li>
+                <li>Bác sĩ có 5 năm làm giảng viên tại trường LACC</li>
+                <li>Có chứng chỉ hành nghề tại Việt Nam, Philippines, bang California và bang Texas (Mỹ)</li>
+                </ul>
+                <p><strong>Khám và điều trị</strong></p>
+                <ul>
+                <li>Thoát vị đĩa đệm</li>
+                <li>Thoái hóa đốt sống cổ, lưng</li>
+                <li>Đau dây thần kinh tọa</li>
+                <li>Hội chứng rễ dây thần kinh</li>
+                <li>Đau đầu</li>
+                <li>Chứng đau vai</li>
+                <li>Đau khuỷu tay</li>
+                <li>Đau cổ tay</li>
+                <li>Cong vẹo cột sống</li>
+                <li>Đau thắt lưng</li>
+                <li>Đau đầu gối</li>
+                <li>Các chứng đau bàn chân</li>
+                <li>Đau mắt cá</li>
+                <li>Chấn thương thể thao</li>
+                <li>Phục hồi chức năng</li>
+                <li>Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt</li>
+                </ul>
+                <p><strong>Qúa trình công tác</strong></p>
+                <ul>
+                <li>5 năm làm giảng viên tại trường LACC</li>
+                <li>Thành viên đội y tế của đội tuyển Olympic Trung Quốc trong 2 kì 2018 - 2020</li>
+                <li>Năm 2019, Bác sĩ vinh dự là diễn giả của Đại học Thể dục Thể Thao Bắc Kinh</li>
+                <li>Có chứng chỉ hành nghề tại Việt Nam, Philippines, bang California và bang Texas (Mỹ)</li>
+                <li>Qúa trình đào tạo</li>
+                <li>Tốt nghiệp Đại học Bang New York</li>
+                <li>Tốt nghiệp trường Los Angeles College of Chiropractic (LACC) chuyên về Trị liệu thần kinh cột sống tại miền Nam bang California</li>
+                </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'shizuka', // tài khoản
@@ -129,30 +211,57 @@ Tham gia giảng dạy về bệnh lý gan mật tại Bệnh viện Quân Y 103
                 LOẠI BẢO HIỂM ÁP DỤNG
                 + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
                 + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem chaien dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem chaien dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+                descriptionMarkdown: `**Bác sĩ Takeshi Goda**
+                * Bác sĩ có kinh nghiệm trên 20 năm trong trị liệu thần kinh cột sống
+                * Tốt nghiệp Trường Đại học Trị liệu Thần kinh Cột sống New York (1996)
+                * Ông từng làm việc về Trị liệu thần kinh cột sống tại Peru trong 2 năm 
+                * Ông là bác sĩ đầu tiên ở khu vực Đông Nam Á đạt chứng nhận về phương pháp kéo dãn giảm áp cột sống Kennedy trong việc điều trị thoát vị đĩa đệm
+                
+                Bác sĩ Timothy từng tham gia chương trình tình nguyện và áp dụng Phương pháp trị liệu thần kinh cột sống để khám chữa chữa bệnh cho nhiều bệnh nhân ở các nước kém phát triển như Haiti, Ecuador, Jamaica và Cộng Hòa Dominica. Ông cũng là người mang những phương thức trị liệu phục hồi chức năng mơi đến với Việt Nam.
+                
+                **Khám và điều trị**
+                * Trị liệu thần kinh cột sống
+                * Thoát vị đĩa đệm
+                * Đau dây thần kinh tọa
+                * Đau đầu
+                * Chứng đau vai
+                * Đau khuỷu tay
+                * Đau cổ tay
+                * Cong vẹo cột sống
+                * Chấn thương cột sống
+                * Thoái hóa đốt sống cổ, lưng
+                * Đau thắt lưng
+                * Đau đầu gối
+                * Các chứng đau bàn chân
+                * Đau mắt cá
+                * Dị tật bàn chân bẹt ở trẻ em`,
+                descriptionHTML: `<p><strong>Bác sĩ Takeshi Goda</strong></p>
+                <ul>
+                <li>Bác sĩ có kinh nghiệm trên 20 năm trong trị liệu thần kinh cột sống</li>
+                <li>Tốt nghiệp Trường Đại học Trị liệu Thần kinh Cột sống New York (1996)</li>
+                <li>Ông từng làm việc về Trị liệu thần kinh cột sống tại Peru trong 2 năm</li>
+                <li>Ông là bác sĩ đầu tiên ở khu vực Đông Nam Á đạt chứng nhận về phương pháp kéo dãn giảm áp cột sống Kennedy trong việc điều trị thoát vị đĩa đệm</li>
+                </ul>
+                <p>Bác sĩ Timothy từng tham gia chương trình tình nguyện và áp dụng Phương pháp trị liệu thần kinh cột sống để khám chữa chữa bệnh cho nhiều bệnh nhân ở các nước kém phát triển như Haiti, Ecuador, Jamaica và Cộng Hòa Dominica. Ông cũng là người mang những phương thức trị liệu phục hồi chức năng mơi đến với Việt Nam.</p>
+                <p><strong>Khám và điều trị</strong></p>
+                <ul>
+                <li>Trị liệu thần kinh cột sống</li>
+                <li>Thoát vị đĩa đệm</li>
+                <li>Đau dây thần kinh tọa</li>
+                <li>Đau đầu</li>
+                <li>Chứng đau vai</li>
+                <li>Đau khuỷu tay</li>
+                <li>Đau cổ tay</li>
+                <li>Cong vẹo cột sống</li>
+                <li>Chấn thương cột sống</li>
+                <li>Thoái hóa đốt sống cổ, lưng</li>
+                <li>Đau thắt lưng</li>
+                <li>Đau đầu gối</li>
+                <li>Các chứng đau bàn chân</li>
+                <li>Đau mắt cá</li>
+                <li>Dị tật bàn chân bẹt ở trẻ em</li>
+                </ul>
+                `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'jaian', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -190,30 +299,58 @@ Bác sĩ chỉ khám và tư vấn thai, không siêu âm thai, không khám ph�
                  LOẠI BẢO HIỂM ÁP DỤNG
                  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
                  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem xeko dolor 
+                descriptionMarkdown: `**Bác sĩ Suneo Hokenawa**
 
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem xeko dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+                * Bác sĩ Hoisang Gong sinh ra ở Hàn Quốc và lớn lên ở Mỹ
+                * Bác sĩ chuyên khoa Trị liệu Thần kinh Cột sống
+                * Tốt nghiệp trường Đại học Life ở Marietta, Georgia, Mỹ (2012)
+                * Bác sĩ từng làm việc nhiều năm về trị liệu chấn thương thể thao và mô mềm, đau cổ và đau lưng
+                * Tham gia các chuyên đề sức khỏe trên báo chí truyền hình
+                
+                Trong quá trình học tập và nghiên cứu tại Đại học Life University, Bác sĩ Hoisang đã không ngừng trau dồi và nâng cao kỹ năng qua việc tham gia nhiều hội thảo, bao gồm hội thảo về chuyên môn chỉnh nắn đốt sống cổ Gonstead và Graston.
+                
+                **Khám và điều trị**
+                * Thoát vị đĩa đệm
+                * Thoái hóa cột sống
+                * Đau thần kinh tọa
+                * Đau thắt lưng
+                * Chấn thương thể thao
+                * Phục hồi chức năng
+                * Vẹo cột sống
+                * Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt
+                * Đau đầu
+                * Đau vai
+                * Đau cổ tay, khuỷu tay
+                * Đau đầu gối
+                * Đau bàn chân
+                * Đau mắt cá chân`,
+                descriptionHTML: `<p><strong>Bác sĩ Suneo Hokenawa</strong></p>
+                <ul>
+                <li>Bác sĩ Hoisang Gong sinh ra ở Hàn Quốc và lớn lên ở Mỹ</li>
+                <li>Bác sĩ chuyên khoa Trị liệu Thần kinh Cột sống</li>
+                <li>Tốt nghiệp trường Đại học Life ở Marietta, Georgia, Mỹ (2012)</li>
+                <li>Bác sĩ từng làm việc nhiều năm về trị liệu chấn thương thể thao và mô mềm, đau cổ và đau lưng</li>
+                <li>Tham gia các chuyên đề sức khỏe trên báo chí truyền hình</li>
+                </ul>
+                <p>Trong quá trình học tập và nghiên cứu tại Đại học Life University, Bác sĩ Hoisang đã không ngừng trau dồi và nâng cao kỹ năng qua việc tham gia nhiều hội thảo, bao gồm hội thảo về chuyên môn chỉnh nắn đốt sống cổ Gonstead và Graston.</p>
+                <p><strong>Khám và điều trị</strong></p>
+                <ul>
+                <li>Thoát vị đĩa đệm</li>
+                <li>Thoái hóa cột sống</li>
+                <li>Đau thần kinh tọa</li>
+                <li>Đau thắt lưng</li>
+                <li>Chấn thương thể thao</li>
+                <li>Phục hồi chức năng</li>
+                <li>Vẹo cột sống</li>
+                <li>Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt</li>
+                <li>Đau đầu</li>
+                <li>Đau vai</li>
+                <li>Đau cổ tay, khuỷu tay</li>
+                <li>Đau đầu gối</li>
+                <li>Đau bàn chân</li>
+                <li>Đau mắt cá chân</li>
+                </ul>
+                `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'suneo', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -237,30 +374,61 @@ Bác sĩ nhận khám từ 15 tuổi trở lên `,
                  LOẠI BẢO HIỂM ÁP DỤNG
                  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
                  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem daiSuPhu dolor 
+                descriptionMarkdown: `**Bác sĩ Lông mày dài**
 
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem daiSuPhu dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+                * Tốt nghiệp Trường Đào tạo Chuyên khoa Thần kinh Cột sống Palmer - Hoa Kỳ (2014)
+                * Bác sĩ Chuyên khoa Trị liệu Thần kinh Cột sống từng làm việc tại Hoa Kỳ, Ấn Độ, Campuchia
+                * Cử nhân Khoa học chuyên ngành Sinh học Con người, Trường Đại học bang Michigan (2012)
+                
+                BS. Luke không ngừng nâng cao kiến thức và tham dự những khóa học chuyên sâu và hội thảo Chuyên ngành Thần kinh Cột sống trong điều trị Chấn thương Thể Thao, sử dụng Băng dán Cơ trong thể thao, kỹ thuật nắn chỉnh Flexion-Distraction và kỹ thuật Graston.
+                
+                Bác sĩ Luke mang tới nhiều kĩ thuật để giúp những bệnh nhân đạt được sức khỏe tốt nhất. Bác sĩ tin rằng cột sống là bộ phận quan trọng nhất trong cơ thể và nếu cột sống có thể thực hiện tối đa chức năng thì cả cơ thể có thể hoạt động một cách tốt nhất. Bác sĩ sử dụng triết lý này khi nói chuyện và tư vấn cho bệnh nhân những lợi ích của Trị liệu Thần kinh Cột sống có thể mang lại cho tình trạng riêng biệt của họ.
+                
+                **Khám và điều trị**
+                * Thoát vị đĩa đệm
+                * Thoái hóa đốt sống cổ, lưng
+                * Đau dây thần kinh tọa
+                * Hội chứng rễ dây thần kinh
+                * Đau đầu
+                * Chứng đau vai
+                * Đau khuỷu tay
+                * Đau cổ tay
+                * Cong vẹo cột sống
+                * Đau thắt lưng
+                * Đau đầu gối
+                * Các chứng đau bàn chân
+                * Đau mắt cá
+                * Chấn thương thể thao
+                * Phục hồi chức năng
+                * Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt`,
+                descriptionHTML: `<p><strong>Bác sĩ Lông mày dài</strong></p>
+                <ul>
+                <li>Tốt nghiệp Trường Đào tạo Chuyên khoa Thần kinh Cột sống Palmer - Hoa Kỳ (2014)</li>
+                <li>Bác sĩ Chuyên khoa Trị liệu Thần kinh Cột sống từng làm việc tại Hoa Kỳ, Ấn Độ, Campuchia</li>
+                <li>Cử nhân Khoa học chuyên ngành Sinh học Con người, Trường Đại học bang Michigan (2012)</li>
+                </ul>
+                <p>BS. Luke không ngừng nâng cao kiến thức và tham dự những khóa học chuyên sâu và hội thảo Chuyên ngành Thần kinh Cột sống trong điều trị Chấn thương Thể Thao, sử dụng Băng dán Cơ trong thể thao, kỹ thuật nắn chỉnh Flexion-Distraction và kỹ thuật Graston.</p>
+                <p>Bác sĩ Luke mang tới nhiều kĩ thuật để giúp những bệnh nhân đạt được sức khỏe tốt nhất. Bác sĩ tin rằng cột sống là bộ phận quan trọng nhất trong cơ thể và nếu cột sống có thể thực hiện tối đa chức năng thì cả cơ thể có thể hoạt động một cách tốt nhất. Bác sĩ sử dụng triết lý này khi nói chuyện và tư vấn cho bệnh nhân những lợi ích của Trị liệu Thần kinh Cột sống có thể mang lại cho tình trạng riêng biệt của họ.</p>
+                <p><strong>Khám và điều trị</strong></p>
+                <ul>
+                <li>Thoát vị đĩa đệm</li>
+                <li>Thoái hóa đốt sống cổ, lưng</li>
+                <li>Đau dây thần kinh tọa</li>
+                <li>Hội chứng rễ dây thần kinh</li>
+                <li>Đau đầu</li>
+                <li>Chứng đau vai</li>
+                <li>Đau khuỷu tay</li>
+                <li>Đau cổ tay</li>
+                <li>Cong vẹo cột sống</li>
+                <li>Đau thắt lưng</li>
+                <li>Đau đầu gối</li>
+                <li>Các chứng đau bàn chân</li>
+                <li>Đau mắt cá</li>
+                <li>Chấn thương thể thao</li>
+                <li>Phục hồi chức năng</li>
+                <li>Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt</li>
+                </ul>
+                `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien1', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -283,30 +451,85 @@ Từng công tác tại Bệnh viện Trưng Vương
                  LOẠI BẢO HIỂM ÁP DỤNG
                  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
                  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem nhiSuPhu dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem nhiSuPhu dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+                descriptionMarkdown: `**Tiến sĩ, Bác sĩ Sư Phụ Bự**
+                * 20 năm kinh nghiệm lĩnh vực Tim mạch
+                * Hiện là trưởng khoa Q2 - Viện Tim mạch - Bệnh viện Bạch Mai
+                * Từng đào tạo và tu nghiệp tại nước ngoài: Hoa Kỳ, Australia, Cộng hòa Liên bang Đức
+                
+                **Khám và điều trị**
+                
+                Các bệnh lý Nội Tim mạch:
+                
+                * Đau ngực trái, bệnh mạch vành (sau đặt stent, sau mổ bắc cầu)
+                * Tăng huyết áp, hạ huyết áp
+                * Rối loạn mỡ máu, Dinh dưỡng cho bệnh nhân rối loạn mỡ máu
+                * Xơ vữa động mạch
+                * Điều trị bệnh mạch vành
+                * Bệnh van tim (Hẹp hở van tim)
+                * Bệnh cơ tim
+                * Chẩn đoán bệnh tim bẩm sinh ở người lớn, đặc biệt tầm soát và điều trị bệnh tim bẩm sinh ở trẻ em, sơ sinh
+                * Khám bệnh mạch máu ngoại biên
+                * Tư vấn, phát hiện sớm và phòng ngừa các bệnh lý tim mạch
+                * Tư vấn sử dụng thuốc chống đông máu
+                * Tư vấn bệnh tăng huyết áp
+                * Điều trị bệnh tăng huyết áp
+                * Tư vấn dinh dưỡng và chế độ sinh hoạt, tập luyện cho bệnh nhân tăng huyết áp...
+                
+                **Quá trình công tác**
+                
+                * Trưởng khoa Q2 - Viện Tim mạch - Bệnh viện Bạch Mai
+                **
+                Quá trình đào tạo**
+                * Tiến sĩ Y khoa - Đại học Y Hà Nội
+                * Đào tạo Fellow Course về Tim mạch can thiệp của Hội tim mạch can thiệp Hoa Kì (SCAI) - Las Vegas, Hoa Kỳ
+                * Đào tạo sau đại học về tim mạch người lớn - Bệnh viện Royal North Shore Hospital, Sydney, Australia
+                * Bác sĩ Đa khoa, hệ Bác sĩ Nội trú chuyên ngành Tim mạch - Đại học Y Hà Nội
+                
+                **Sách và các công trình nghiên cứu, báo cáo khoa học**
+                * Tham gia biên soạn 2 cuốn sách chuyên ngành đã xuất bản
+                * 3 công trình khoa học
+                * 30 bài báo khoa học chuyên ngành`,
+                descriptionHTML: `<p><strong>Tiến sĩ, Bác sĩ Sư Phụ Bự</strong></p>
+                <ul>
+                <li>20 năm kinh nghiệm lĩnh vực Tim mạch</li>
+                <li>Hiện là trưởng khoa Q2 - Viện Tim mạch - Bệnh viện Bạch Mai</li>
+                <li>Từng đào tạo và tu nghiệp tại nước ngoài: Hoa Kỳ, Australia, Cộng hòa Liên bang Đức</li>
+                </ul>
+                <p><strong>Khám và điều trị</strong></p>
+                <p>Các bệnh lý Nội Tim mạch:</p>
+                <ul>
+                <li>Đau ngực trái, bệnh mạch vành (sau đặt stent, sau mổ bắc cầu)</li>
+                <li>Tăng huyết áp, hạ huyết áp</li>
+                <li>Rối loạn mỡ máu, Dinh dưỡng cho bệnh nhân rối loạn mỡ máu</li>
+                <li>Xơ vữa động mạch</li>
+                <li>Điều trị bệnh mạch vành</li>
+                <li>Bệnh van tim (Hẹp hở van tim)</li>
+                <li>Bệnh cơ tim</li>
+                <li>Chẩn đoán bệnh tim bẩm sinh ở người lớn, đặc biệt tầm soát và điều trị bệnh tim bẩm sinh ở trẻ em, sơ sinh</li>
+                <li>Khám bệnh mạch máu ngoại biên</li>
+                <li>Tư vấn, phát hiện sớm và phòng ngừa các bệnh lý tim mạch</li>
+                <li>Tư vấn sử dụng thuốc chống đông máu</li>
+                <li>Tư vấn bệnh tăng huyết áp</li>
+                <li>Điều trị bệnh tăng huyết áp</li>
+                <li>Tư vấn dinh dưỡng và chế độ sinh hoạt, tập luyện cho bệnh nhân tăng huyết áp...</li>
+                </ul>
+                <p><strong>Quá trình công tác</strong></p>
+                <ul>
+                <li>Trưởng khoa Q2 - Viện Tim mạch - Bệnh viện Bạch Mai
+                **
+                Quá trình đào tạo**</li>
+                <li>Tiến sĩ Y khoa - Đại học Y Hà Nội</li>
+                <li>Đào tạo Fellow Course về Tim mạch can thiệp của Hội tim mạch can thiệp Hoa Kì (SCAI) - Las Vegas, Hoa Kỳ</li>
+                <li>Đào tạo sau đại học về tim mạch người lớn - Bệnh viện Royal North Shore Hospital, Sydney, Australia</li>
+                <li>Bác sĩ Đa khoa, hệ Bác sĩ Nội trú chuyên ngành Tim mạch - Đại học Y Hà Nội</li>
+                </ul>
+                <p><strong>Sách và các công trình nghiên cứu, báo cáo khoa học</strong></p>
+                <ul>
+                <li>Tham gia biên soạn 2 cuốn sách chuyên ngành đã xuất bản</li>
+                <li>3 công trình khoa học</li>
+                <li>30 bài báo khoa học chuyên ngành</li>
+                </ul>
+                `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien2', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -342,30 +565,103 @@ Thời gian máu chảy phương pháp Duke (Theo chỉ định của bác sĩ) 
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem daiSuHuynh dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem daiSuHuynh dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+                descriptionMarkdown: `**Thạc sĩ, Bác sĩ A Lượng**
+                * Gần 15 năm kinh nghiệm lĩnh vực Tim mạch
+                * Hiện đang công tác tại Bệnh viện Tim Hà Nội
+                * Từng công tác tại Bệnh viện đa khoa Xanh Pôn
+                * Từng học tập và tu nghiệp ở nước ngoài: Pháp
+                
+                
+                #### **Khám và điều trị**
+                
+                
+                **Khám và tư vấn chuyên sâu các bệnh lý Tim mạch:**
+                
+                * Phát hiện và quản lý Tăng Huyết Áp đúng cách, tầm soát tư vấn kiển soát các yếu tố nguy cơ của Tăng Huyết Áp một cách hiệu quả, điều trị biến chứng Tăng Huyết Áp
+                * Sàng lọc bilan mỡ, tư vấn kiểm soát mỡ máu theo khuyến cáo
+                * Tầm soát và tư vấn điều trị bệnh lý van tim, cơ tim, bệnh mạch vành, nhồi máu cơ tim, đau ngực không ổn định, đau ngực ổn định, các bất thường nhịp tim, suy tim …
+                
+                **Khám, siêu âm và tư vấn chuyên sâu về bệnh lý mạch máu ngoại biên:**
+                
+                * Bệnh lý động mạch chi trên, động mạch chi dưới, động mạch cảnh, động mạch thận… và bệnh lý hệ Tĩnh mạch nông – sâu chi trên, chi dưới (Suy tĩnh mạch, Huyết khối tĩnh mạch nông, sâu,...)
+                
+                **Tầm soát, khám và tư vấn các bệnh lý Nội khoa Tổng quát:**
+                
+                * Bệnh lý thận  - tiết niệu (bệnh viêm cầu thận, suy thận cấp, suy thận mạn, sỏi thận… )
+                * Bệnh lý tiêu hoá, gan, mật (viêm gan, xơ gan, sỏi mật, bệnh lý dạ dày, ruột …)
+                * Bệnh lý thần kinh (đột quỵ nhồi máu não, xuất huyết não..)
+                * Bệnh chuyển hoá (tuyến giáp,đái tháo đường…)
+                * Bệnh lý hô hấp ( Viêm phổi, Viêm phế quản, COPD…)
+                
+                **Quá trình công tác**
+                * Bác sỹ Tim mạch, Bệnh viện Tim Hà Nội (2016 - Nay)
+                * Bác sỹ Tim mạch, Bệnh viện đa khoa Xanh Pôn (2006 - 2016)
+                
+                **Quá trình đào tạo**
+                * Chương trình đào tạo sau đại học Việt Pháp (2012)
+                * Thạc sỹ chuyên ngành Nội - Tim Mạch, Trường Đại học Y Hà Nội (2010)
+                * Bác sĩ đa khoa, Đại học Y Hà Nội (1990 - 1996)
+                
+                **Chứng chỉ trong nước hoặc nước ngoài**
+                * Siêu âm các bệnh lý mạch máu - MEVAH, Cộng hoà Pháp ( năm 2012)
+                * Siêu âm tổng quát, siêu âm tim mạch, siêu âm bệnh lý tim trẻ em, Bệnh viện Tim mạch Quốc Gia, Bệnh viện Bạch Mai, Bệnh viên Tim Hà Nội
+                
+                **Sách và các công trình nghiên cứu, báo cáo khoa học**
+                * Đánh giá kết quả sớm của phương pháp Nong van hai lá bằng bóng INOUE trong điều trị bệnh hẹp van hai lá khít tái phát sau nong (Luận văn tốt nghiệp Thạc sỹ - Đại học Y Hà Nội) (2010)
+                
+                **Thành viên các Hội khoa học, tổ chức chuyên môn**
+                * Hội viên hội tim mạch Việt Nam`,
+                descriptionHTML: `<p><strong>Thạc sĩ, Bác sĩ A Lượng</strong></p>
+                <ul>
+                <li>Gần 15 năm kinh nghiệm lĩnh vực Tim mạch</li>
+                <li>Hiện đang công tác tại Bệnh viện Tim Hà Nội</li>
+                <li>Từng công tác tại Bệnh viện đa khoa Xanh Pôn</li>
+                <li>Từng học tập và tu nghiệp ở nước ngoài: Pháp</li>
+                </ul>
+                <h4><strong>Khám và điều trị</strong></h4>
+                <p><strong>Khám và tư vấn chuyên sâu các bệnh lý Tim mạch:</strong></p>
+                <ul>
+                <li>Phát hiện và quản lý Tăng Huyết Áp đúng cách, tầm soát tư vấn kiển soát các yếu tố nguy cơ của Tăng Huyết Áp một cách hiệu quả, điều trị biến chứng Tăng Huyết Áp</li>
+                <li>Sàng lọc bilan mỡ, tư vấn kiểm soát mỡ máu theo khuyến cáo</li>
+                <li>Tầm soát và tư vấn điều trị bệnh lý van tim, cơ tim, bệnh mạch vành, nhồi máu cơ tim, đau ngực không ổn định, đau ngực ổn định, các bất thường nhịp tim, suy tim …</li>
+                </ul>
+                <p><strong>Khám, siêu âm và tư vấn chuyên sâu về bệnh lý mạch máu ngoại biên:</strong></p>
+                <ul>
+                <li>Bệnh lý động mạch chi trên, động mạch chi dưới, động mạch cảnh, động mạch thận… và bệnh lý hệ Tĩnh mạch nông – sâu chi trên, chi dưới (Suy tĩnh mạch, Huyết khối tĩnh mạch nông, sâu,...)</li>
+                </ul>
+                <p><strong>Tầm soát, khám và tư vấn các bệnh lý Nội khoa Tổng quát:</strong></p>
+                <ul>
+                <li>Bệnh lý thận  - tiết niệu (bệnh viêm cầu thận, suy thận cấp, suy thận mạn, sỏi thận… )</li>
+                <li>Bệnh lý tiêu hoá, gan, mật (viêm gan, xơ gan, sỏi mật, bệnh lý dạ dày, ruột …)</li>
+                <li>Bệnh lý thần kinh (đột quỵ nhồi máu não, xuất huyết não..)</li>
+                <li>Bệnh chuyển hoá (tuyến giáp,đái tháo đường…)</li>
+                <li>Bệnh lý hô hấp ( Viêm phổi, Viêm phế quản, COPD…)</li>
+                </ul>
+                <p><strong>Quá trình công tác</strong></p>
+                <ul>
+                <li>Bác sỹ Tim mạch, Bệnh viện Tim Hà Nội (2016 - Nay)</li>
+                <li>Bác sỹ Tim mạch, Bệnh viện đa khoa Xanh Pôn (2006 - 2016)</li>
+                </ul>
+                <p><strong>Quá trình đào tạo</strong></p>
+                <ul>
+                <li>Chương trình đào tạo sau đại học Việt Pháp (2012)</li>
+                <li>Thạc sỹ chuyên ngành Nội - Tim Mạch, Trường Đại học Y Hà Nội (2010)</li>
+                <li>Bác sĩ đa khoa, Đại học Y Hà Nội (1990 - 1996)</li>
+                </ul>
+                <p><strong>Chứng chỉ trong nước hoặc nước ngoài</strong></p>
+                <ul>
+                <li>Siêu âm các bệnh lý mạch máu - MEVAH, Cộng hoà Pháp ( năm 2012)</li>
+                <li>Siêu âm tổng quát, siêu âm tim mạch, siêu âm bệnh lý tim trẻ em, Bệnh viện Tim mạch Quốc Gia, Bệnh viện Bạch Mai, Bệnh viên Tim Hà Nội</li>
+                </ul>
+                <p><strong>Sách và các công trình nghiên cứu, báo cáo khoa học</strong></p>
+                <ul>
+                <li>Đánh giá kết quả sớm của phương pháp Nong van hai lá bằng bóng INOUE trong điều trị bệnh hẹp van hai lá khít tái phát sau nong (Luận văn tốt nghiệp Thạc sỹ - Đại học Y Hà Nội) (2010)</li>
+                </ul>
+                <p><strong>Thành viên các Hội khoa học, tổ chức chuyên môn</strong></p>
+                <ul>
+                <li>Hội viên hội tim mạch Việt Nam</li>
+                </ul>
+                `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien3', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -397,29 +693,87 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem tieuDe dolor 
+                descriptionMarkdown: `**Bác sĩ cao câp hạng 1 Tiểu Sư Đệ**
 
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem tieuDe dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+                * Hơn 20 năm kinh nghiệm lĩnh vực Sức khỏe tâm thần
+                * Hiện là Trưởng khoa Tâm thần trẻ em - Bệnh viện Tâm thần Ban ngày Mai Hương
+                * Khám và điều trị
+                
+                **Bác sĩ có thế mạnh khám và điều trị các vấn đề tâm thần học trẻ em như:**
+                
+                * Các vấn đề tâm lý ở trẻ
+                * Tâm thần học liên quan đến sự phát triển của trẻ
+                * Rối loạn tăng động giảm chú ý (ADHD) và các vấn đề liên quan
+                * Động kinh trẻ em và các vấn đề liên quan
+                
+                **Ngoài ra bác sĩ nhận khám và điều trị về:**
+                
+                * Rối loạn lo âu, hoa mắt chóng mặt: Mất ngủ, khó ngủ, khó duy trì giấc ngủ, dậy quá sớm, ngủ dậy vẫn thấy mệt, tỉnh dậy nhiều lần trong giấc ngủ
+                * Rối loạn tiền đình
+                * Rối loạn thần kinh thực vật
+                * Trầm cảm
+                * Rối loạn lưỡng cực cảm xúc
+                * Tâm thần phân liệt, có thể kích động, khả năng học tập lao động giảm dần, ngày càng thờ ơ, vô cảm
+                * Sa sút trí tuệ
+                * Rối loạn tăng động giảm chú ý (ADHD)
+                * Nghiện game
+                * Nghiện rượu, thuốc lá
+                * Nghiện ma túy tổng hợp
+                * Đau đầu, đau lưng, đau mỏi vai gáy, mệt mỏi mạn tính, mất ngủ, bồn chồn, dễ cáu kỉnh, tự đánh giá thấp bản thân
+                * Khó tập trung công việc
+                * Căng thẳng tâm lý, suy nghĩ tiêu cực, bi quan và tuyệt vọng kéo dài
+                
+                **Quá trình công tác**
+                * Trưởng khoa Tâm thần trẻ em và Tâm lý lâm sàng, Bệnh viện Tâm thần Ban ngày Mai Hương (2014 - nay)
+                * Phó Trưởng khoa Khám bệnh, Bệnh viện Tâm thần Ban ngày Mai Hương (2011 - 2014)
+                * Bác sĩ điều trị khoa Khám bệnh, Bệnh viện Tâm thần Ban ngày Mai Hương (2006 - 2008)
+                * Bác sĩ điều trị, Bí thư chi đoàn TNCS Hồ Chí Minh, Bệnh viện Tâm thần Ban ngày Mai Hương (2000 - 2006)
+                
+                **Quá trình đào tạo**
+                * Thạc sĩ chuyên ngành Tâm thần: chuyên sâu về tâm thần học trẻ em, Đại học Y Hà Nội (2008 - 2011)
+                * Tốt nghiệp Đại học Y Hà Nội (1998)`,
+                descriptionHTML: `<p><strong>Bác sĩ cao câp hạng 1 Tiểu Sư Đệ</strong></p>
+                <ul>
+                <li>Hơn 20 năm kinh nghiệm lĩnh vực Sức khỏe tâm thần</li>
+                <li>Hiện là Trưởng khoa Tâm thần trẻ em - Bệnh viện Tâm thần Ban ngày Mai Hương</li>
+                <li>Khám và điều trị</li>
+                </ul>
+                <p><strong>Bác sĩ có thế mạnh khám và điều trị các vấn đề tâm thần học trẻ em như:</strong></p>
+                <ul>
+                <li>Các vấn đề tâm lý ở trẻ</li>
+                <li>Tâm thần học liên quan đến sự phát triển của trẻ</li>
+                <li>Rối loạn tăng động giảm chú ý (ADHD) và các vấn đề liên quan</li>
+                <li>Động kinh trẻ em và các vấn đề liên quan</li>
+                </ul>
+                <p><strong>Ngoài ra bác sĩ nhận khám và điều trị về:</strong></p>
+                <ul>
+                <li>Rối loạn lo âu, hoa mắt chóng mặt: Mất ngủ, khó ngủ, khó duy trì giấc ngủ, dậy quá sớm, ngủ dậy vẫn thấy mệt, tỉnh dậy nhiều lần trong giấc ngủ</li>
+                <li>Rối loạn tiền đình</li>
+                <li>Rối loạn thần kinh thực vật</li>
+                <li>Trầm cảm</li>
+                <li>Rối loạn lưỡng cực cảm xúc</li>
+                <li>Tâm thần phân liệt, có thể kích động, khả năng học tập lao động giảm dần, ngày càng thờ ơ, vô cảm</li>
+                <li>Sa sút trí tuệ</li>
+                <li>Rối loạn tăng động giảm chú ý (ADHD)</li>
+                <li>Nghiện game</li>
+                <li>Nghiện rượu, thuốc lá</li>
+                <li>Nghiện ma túy tổng hợp</li>
+                <li>Đau đầu, đau lưng, đau mỏi vai gáy, mệt mỏi mạn tính, mất ngủ, bồn chồn, dễ cáu kỉnh, tự đánh giá thấp bản thân</li>
+                <li>Khó tập trung công việc</li>
+                <li>Căng thẳng tâm lý, suy nghĩ tiêu cực, bi quan và tuyệt vọng kéo dài</li>
+                </ul>
+                <p><strong>Quá trình công tác</strong></p>
+                <ul>
+                <li>Trưởng khoa Tâm thần trẻ em và Tâm lý lâm sàng, Bệnh viện Tâm thần Ban ngày Mai Hương (2014 - nay)</li>
+                <li>Phó Trưởng khoa Khám bệnh, Bệnh viện Tâm thần Ban ngày Mai Hương (2011 - 2014)</li>
+                <li>Bác sĩ điều trị khoa Khám bệnh, Bệnh viện Tâm thần Ban ngày Mai Hương (2006 - 2008)</li>
+                <li>Bác sĩ điều trị, Bí thư chi đoàn TNCS Hồ Chí Minh, Bệnh viện Tâm thần Ban ngày Mai Hương (2000 - 2006)</li>
+                </ul>
+                <p><strong>Quá trình đào tạo</strong></p>
+                <ul>
+                <li>Thạc sĩ chuyên ngành Tâm thần: chuyên sâu về tâm thần học trẻ em, Đại học Y Hà Nội (2008 - 2011)</li>
+                <li>Tốt nghiệp Đại học Y Hà Nội (1998)</li>
+                </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'olongvien4', // tài khoản
@@ -446,29 +800,63 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem thamTu dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem thamTu dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+                descriptionMarkdown: `**Bác sĩ Chuyên khoa I Sherlock Homles **
+                * Hơn 20 năm kinh nghiệm trong lĩnh vực Tim mạch
+                * Từng công tác tại Khoa Thông Tim Can Thiệp, Bệnh viện Nguyễn Tri Phương
+                * Hiện đang công tác tại Khoa Tim mạch, Bệnh viện FV
+                
+                **Khám và điều trị **
+                * Bệnh tim thiếu máu cục bộ
+                * Suy tim
+                * Siêu âm tim
+                * Tim mạch can thiệp
+                
+                **Quá trình công tác **
+                * Bác sĩ Điều trị Cấp cao, Khoa Tim mạch, Bệnh viện FV, TP.HCM (2017)
+                * Bác sĩ Điều trị Cấp cao, Khoa Thông Tim Can Thiệp, Bệnh viện Nguyễn Tri Phương (2011 - 2017)
+                * Bác sĩ Điều trị, Khoa Tim mạch, Bệnh viện Hoàn Mỹ Cửu Long, Cần Thơ (2007 - 2011)
+                * Bác sĩ Điều trị, Khoa Tim mạch, Bệnh viện Đa khoa Trung ương Cần Thơ (2006 - 2007)
+                
+                **Quá trình đào tạo**
+                
+                * Chuyên khoa cấp 1, Lão Khoa, Đại học Y Dược TP. HCM (2006) 
+                * Tốt nghiệp Đại học Y Dược, Cần Thơ (2001)
+                
+                **Chứng chỉ trong nước và ngoài nước**
+                * Bằng tim Mạch Can Thiệp, Viện Tim TP. HCM  (2011 - 2012)
+                * Bằng hồi sức cấp cứu, Bệnh viện Chợ Rẫy TP. HCM (2006)
+                * Bằng tim mạch và siêu âm tim, Trường y Phạm Ngọc Thạch TP. HCM (2005 - 2006)`,
+                descriptionHTML: `<p>**Bác sĩ Chuyên khoa I Sherlock Homles **</p>
+                <ul>
+                <li>Hơn 20 năm kinh nghiệm trong lĩnh vực Tim mạch</li>
+                <li>Từng công tác tại Khoa Thông Tim Can Thiệp, Bệnh viện Nguyễn Tri Phương</li>
+                <li>Hiện đang công tác tại Khoa Tim mạch, Bệnh viện FV</li>
+                </ul>
+                <p>**Khám và điều trị **</p>
+                <ul>
+                <li>Bệnh tim thiếu máu cục bộ</li>
+                <li>Suy tim</li>
+                <li>Siêu âm tim</li>
+                <li>Tim mạch can thiệp</li>
+                </ul>
+                <p>**Quá trình công tác **</p>
+                <ul>
+                <li>Bác sĩ Điều trị Cấp cao, Khoa Tim mạch, Bệnh viện FV, TP.HCM (2017)</li>
+                <li>Bác sĩ Điều trị Cấp cao, Khoa Thông Tim Can Thiệp, Bệnh viện Nguyễn Tri Phương (2011 - 2017)</li>
+                <li>Bác sĩ Điều trị, Khoa Tim mạch, Bệnh viện Hoàn Mỹ Cửu Long, Cần Thơ (2007 - 2011)</li>
+                <li>Bác sĩ Điều trị, Khoa Tim mạch, Bệnh viện Đa khoa Trung ương Cần Thơ (2006 - 2007)</li>
+                </ul>
+                <p><strong>Quá trình đào tạo</strong></p>
+                <ul>
+                <li>Chuyên khoa cấp 1, Lão Khoa, Đại học Y Dược TP. HCM (2006)</li>
+                <li>Tốt nghiệp Đại học Y Dược, Cần Thơ (2001)</li>
+                </ul>
+                <p><strong>Chứng chỉ trong nước và ngoài nước</strong></p>
+                <ul>
+                <li>Bằng tim Mạch Can Thiệp, Viện Tim TP. HCM  (2011 - 2012)</li>
+                <li>Bằng hồi sức cấp cứu, Bệnh viện Chợ Rẫy TP. HCM (2006)</li>
+                <li>Bằng tim mạch và siêu âm tim, Trường y Phạm Ngọc Thạch TP. HCM (2005 - 2006)</li>
+                </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'sherlock', // tài khoản
@@ -497,29 +885,61 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem troLy dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem troLy dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+                descriptionMarkdown: `Tiến sĩ, Bác sĩ John Watson
+                * Bác sĩ có 20 năm kinh nghiệm trong thăm khám và điều trị khoa Tai Mũi Họng
+                * Từng công tác tại khoa Tai Mũi Họng, Bệnh Viện Đại học Y Dược TP. HCM
+                * Hiện đang là trưởng Khoa Tai Mũi Họng, Bệnh Viện FV
+                
+                **Khám và điều trị**
+                
+                * Phẫu thuật nội soi xoang
+                * Phẫu thuật nội soi nền sọ
+                * Phẫu thuật Tai, Ngáy và Ngưng thở khi ngủ
+                
+                **Quá trình công tác** 
+                
+                * Trưởng Khoa Tai mũi họng, Bệnh Viện FV (2021 - nay)
+                * Bác sĩ điều trị cấp cao, Khoa Tai mũi họng, Bệnh Viện Đại học Y Dược TP. HCM (2007)
+                * Bác sĩ nội trú, Khoa Tai mũi họng, Đại học Y Dược TP. HCM (2002-2006)
+                
+                **Qúa trình đào tạo**
+                * Tiến sĩ Y học, Tai Mũi Họng, Đại học Y Dược TP. HCM (2021)
+                * Tai mũi họng – Phẫu thuật đầu và cổ, Bệnh Viện Đại học Texas, San Antonio, Hoa Kỳ (2015)
+                * Nội soi xoang và phẫu thuật sọ não, Bệnh Viện Khoa học Thần Kinh, Chapel Hill, Bắc Carolina, Hoa Kỳ, (2015)
+                * Phẫu thuật xoang nâng cao, Diễn đàn các Bác sĩ phẫu thuật xoang trẻ lần thứ 4 – Trung tâm Y khoa Saint Luke, Manila, Philippines (2014)
+                * Phẫu thuật xoang cơ bản, Diễn đàn các Bác sĩ phẫu thuật xoang trẻ lần thứ 3 – Trung tâm Y khoa Saint Luke, Manila, Philippines (2013)
+                * Thạc sĩ Y học, Đại học Y Dược TP. HCM (2010)
+                * Chuyên khoa Cấp I, Tai Mũi Họng, Đại học Y Dược TP. HCM (2007)
+                * Đại học Y Dược, Thành phố Hồ Chí Minh TP. HCM (2002)`,
+                descriptionHTML: `<p>Tiến sĩ, Bác sĩ John Watson</p>
+                <ul>
+                <li>Bác sĩ có 20 năm kinh nghiệm trong thăm khám và điều trị khoa Tai Mũi Họng</li>
+                <li>Từng công tác tại khoa Tai Mũi Họng, Bệnh Viện Đại học Y Dược TP. HCM</li>
+                <li>Hiện đang là trưởng Khoa Tai Mũi Họng, Bệnh Viện FV</li>
+                </ul>
+                <p><strong>Khám và điều trị</strong></p>
+                <ul>
+                <li>Phẫu thuật nội soi xoang</li>
+                <li>Phẫu thuật nội soi nền sọ</li>
+                <li>Phẫu thuật Tai, Ngáy và Ngưng thở khi ngủ</li>
+                </ul>
+                <p><strong>Quá trình công tác</strong></p>
+                <ul>
+                <li>Trưởng Khoa Tai mũi họng, Bệnh Viện FV (2021 - nay)</li>
+                <li>Bác sĩ điều trị cấp cao, Khoa Tai mũi họng, Bệnh Viện Đại học Y Dược TP. HCM (2007)</li>
+                <li>Bác sĩ nội trú, Khoa Tai mũi họng, Đại học Y Dược TP. HCM (2002-2006)</li>
+                </ul>
+                <p><strong>Qúa trình đào tạo</strong></p>
+                <ul>
+                <li>Tiến sĩ Y học, Tai Mũi Họng, Đại học Y Dược TP. HCM (2021)</li>
+                <li>Tai mũi họng – Phẫu thuật đầu và cổ, Bệnh Viện Đại học Texas, San Antonio, Hoa Kỳ (2015)</li>
+                <li>Nội soi xoang và phẫu thuật sọ não, Bệnh Viện Khoa học Thần Kinh, Chapel Hill, Bắc Carolina, Hoa Kỳ, (2015)</li>
+                <li>Phẫu thuật xoang nâng cao, Diễn đàn các Bác sĩ phẫu thuật xoang trẻ lần thứ 4 – Trung tâm Y khoa Saint Luke, Manila, Philippines (2014)</li>
+                <li>Phẫu thuật xoang cơ bản, Diễn đàn các Bác sĩ phẫu thuật xoang trẻ lần thứ 3 – Trung tâm Y khoa Saint Luke, Manila, Philippines (2013)</li>
+                <li>Thạc sĩ Y học, Đại học Y Dược TP. HCM (2010)</li>
+                <li>Chuyên khoa Cấp I, Tai Mũi Họng, Đại học Y Dược TP. HCM (2007)</li>
+                <li>Đại học Y Dược, Thành phố Hồ Chí Minh TP. HCM (2002)</li>
+                </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'anhtroly', // tài khoản
@@ -552,29 +972,69 @@ Antagonism or Absence)– [Máu] 1.751.000
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem Kieu dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem Kieu dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+                descriptionMarkdown: `**Bác sĩ Chuyên khoa I Thúy Kiều**
+                * Hơn 15 năm kinh nghiệm trong lĩnh vực Sản phụ khoa và Siêu âm thai
+                * Từng công tác tại Khoa Siêu âm Sản phụ khoa, Bệnh viện Hùng Vương
+                * Đang công tác tại Khoa Sản phụ khoa, Bệnh viện Đại học Y dược TP. HCM
+                
+                **Khám và điều trị**
+                
+                * Phẫu thuật nội soi phụ khoa
+                * Siêu âm bơm nước buồng tử cung
+                * Soi cổ tử cung
+                * Thai kỳ nguy cơ cao
+                * Y học bào thai
+                
+                 **Quá trình công tác**
+                
+                * Bác sĩ Điều trị Cấp cao, Khoa Sản phụ khoa, Bệnh viện FV  (2011 - nay)
+                * Bác sĩ Điều trị Cấp cao, Khoa Sản phụ khoa, Bệnh viện Đại học Y dược TP. HCM (2017 - nay) 
+                * Bác sĩ Điều trị Cấp cao, Khoa Siêu âm Sản phụ khoa, Bệnh viện Hùng Vương (2008 - 2017)
+                * Bác sĩ Điều trị Cấp cao, Khoa Sản phụ khoa, Bệnh viện Hùng Vương TP. HCM (2007 - 2017)
+                
+                **Quá trình đào tạo** 
+                
+                * Bằng chuyên khoa cấp 1, Chuyên ngành Sản & Phụ khoa, Đại học Y Dược TP. HCM (2016) 
+                * Tốt nghiệp Đại học Y Khoa, TP. HCM (2006)
+                
+                **Chứng chỉ trong nước và ngoài nước**
+                * Đánh giá cổ tử cung & Theo dõi tiền sản, Tổ chức Y học Thai Nhi, London, Anh (2010)
+                * Sàng lọc thai nhi từ tuần 11 - 13, Tổ chức Y học Thai Nhi, London, Anh (2009)
+                * Siêu âm chẩn đoán trong Sản phụ khoa, Phạm Ngọc Thạch TP. HCM  (2008)
+                * Thai kỳ nguy cơ cao, Bệnh viện Từ Dũ & Bệnh viện Nepean, Sydney, Úc (2008)`,
+                descriptionHTML: `<p><strong>Bác sĩ Chuyên khoa I Thúy Kiều</strong></p>
+                <ul>
+                <li>Hơn 15 năm kinh nghiệm trong lĩnh vực Sản phụ khoa và Siêu âm thai</li>
+                <li>Từng công tác tại Khoa Siêu âm Sản phụ khoa, Bệnh viện Hùng Vương</li>
+                <li>Đang công tác tại Khoa Sản phụ khoa, Bệnh viện Đại học Y dược TP. HCM</li>
+                </ul>
+                <p><strong>Khám và điều trị</strong></p>
+                <ul>
+                <li>Phẫu thuật nội soi phụ khoa</li>
+                <li>Siêu âm bơm nước buồng tử cung</li>
+                <li>Soi cổ tử cung</li>
+                <li>Thai kỳ nguy cơ cao</li>
+                <li>Y học bào thai</li>
+                </ul>
+                <p><strong>Quá trình công tác</strong></p>
+                <ul>
+                <li>Bác sĩ Điều trị Cấp cao, Khoa Sản phụ khoa, Bệnh viện FV  (2011 - nay)</li>
+                <li>Bác sĩ Điều trị Cấp cao, Khoa Sản phụ khoa, Bệnh viện Đại học Y dược TP. HCM (2017 - nay)</li>
+                <li>Bác sĩ Điều trị Cấp cao, Khoa Siêu âm Sản phụ khoa, Bệnh viện Hùng Vương (2008 - 2017)</li>
+                <li>Bác sĩ Điều trị Cấp cao, Khoa Sản phụ khoa, Bệnh viện Hùng Vương TP. HCM (2007 - 2017)</li>
+                </ul>
+                <p><strong>Quá trình đào tạo</strong></p>
+                <ul>
+                <li>Bằng chuyên khoa cấp 1, Chuyên ngành Sản &amp; Phụ khoa, Đại học Y Dược TP. HCM (2016)</li>
+                <li>Tốt nghiệp Đại học Y Khoa, TP. HCM (2006)</li>
+                </ul>
+                <p><strong>Chứng chỉ trong nước và ngoài nước</strong></p>
+                <ul>
+                <li>Đánh giá cổ tử cung &amp; Theo dõi tiền sản, Tổ chức Y học Thai Nhi, London, Anh (2010)</li>
+                <li>Sàng lọc thai nhi từ tuần 11 - 13, Tổ chức Y học Thai Nhi, London, Anh (2009)</li>
+                <li>Siêu âm chẩn đoán trong Sản phụ khoa, Phạm Ngọc Thạch TP. HCM  (2008)</li>
+                <li>Thai kỳ nguy cơ cao, Bệnh viện Từ Dũ &amp; Bệnh viện Nepean, Sydney, Úc (2008)</li>
+                </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'thuykieu', // tài khoản
@@ -604,29 +1064,68 @@ máu sinh học : 300.000đ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem ChetDung dolor 
+                descriptionMarkdown: `**Bác sĩ Nobi Nobita**
 
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem ChetDung dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+ * Bác sĩ Chuyên Khoa Trị Liệu Thần Kinh Cột Sống
+ * Cử nhân Khoa học về Vận động học, chuyên ngành Tiền vật lý trị liệu tại Đại học bang San Diego - Mỹ
+ * Tốt nghiệp Bác sĩ Thần kinh Cột sống tại Đại học Life Chiropractic College - Mỹ (2010)
+ * Bác sĩ đã từng hành nghề ở Mỹ, Singapore và Indonesia.
+ * Chữa bệnh Thần kinh Cột sống không dùng thuốc hay phẫu thuật.
+ 
+ Bác sĩ Eric đề ra sứ mệnh cho bản thân là “Hướng dẫn, điều trị, và truyền cảm hứng cho càng nhiều gia đình càng tốt trong việc giữ vững sức khỏe tối ưu thông qua phương pháp tự nhiên về trị liệu thần kinh cột sống”.
+ 
+ Bác sĩ Eric cho rằng việc dành thời gian để giải thích cho bệnh nhân về chẩn đoán bệnh là tối quan trọng, qua đó bệnh nhân có thể hiểu chính xác những nguyên nhân dẫn đến bệnh trạng của mình. Ông luôn đưa ra phác đồ điều trị cụ thể cho từng bệnh nhân và theo sát các bước trong tiến trình phục hồi cũng như trong giai đoạn phòng ngừa việc tái đau trở lại.
+ 
+ Bác sĩ Eric là người yêu công việc chăm sóc bệnh nhân của mình. Ngoài ra, những lúc rãnh rỗi ông thích đi du lịch, lặn biển, tập thể dục, chơi bóng chày, và dành thời gian với gia đình của mình. Mục tiêu của Bác sĩ Eric là giúp bệnh nhân có được một cuộc sống không còn đau đớn và giúp cơ thể họ vận động hết khả năng vốn có với sức khỏe tối ưu.
+ 
+ **Bác sĩ khám và điều trị**
+ 
+ * Thoát vị đĩa đệm
+ * Thoái hóa đốt sống cổ, lưng
+ * Đau dây thần kinh tọa
+ * Hội chứng rễ dây thần kinh
+ * Đau đầu
+ * Chứng đau vai
+ * Đau khuỷu tay
+ * Đau cổ tay
+ * Cong vẹo cột sống
+ * Đau thắt lưng
+ * Đau đầu gối
+ * Các chứng đau bàn chân
+ * Đau mắt cá
+ * Chấn thương thể thao
+ * Phục hồi chức năng
+ * Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt`,
+                descriptionHTML: `<p><strong>Bác sĩ Nobi Nobita</strong></p>
+ <ul>
+ <li>Bác sĩ Chuyên Khoa Trị Liệu Thần Kinh Cột Sống</li>
+ <li>Cử nhân Khoa học về Vận động học, chuyên ngành Tiền vật lý trị liệu tại Đại học bang San Diego - Mỹ</li>
+ <li>Tốt nghiệp Bác sĩ Thần kinh Cột sống tại Đại học Life Chiropractic College - Mỹ (2010)</li>
+ <li>Bác sĩ đã từng hành nghề ở Mỹ, Singapore và Indonesia.</li>
+ <li>Chữa bệnh Thần kinh Cột sống không dùng thuốc hay phẫu thuật.</li>
+ </ul>
+ <p>Bác sĩ Eric đề ra sứ mệnh cho bản thân là “Hướng dẫn, điều trị, và truyền cảm hứng cho càng nhiều gia đình càng tốt trong việc giữ vững sức khỏe tối ưu thông qua phương pháp tự nhiên về trị liệu thần kinh cột sống”.</p>
+ <p>Bác sĩ Eric cho rằng việc dành thời gian để giải thích cho bệnh nhân về chẩn đoán bệnh là tối quan trọng, qua đó bệnh nhân có thể hiểu chính xác những nguyên nhân dẫn đến bệnh trạng của mình. Ông luôn đưa ra phác đồ điều trị cụ thể cho từng bệnh nhân và theo sát các bước trong tiến trình phục hồi cũng như trong giai đoạn phòng ngừa việc tái đau trở lại.</p>
+ <p>Bác sĩ Eric là người yêu công việc chăm sóc bệnh nhân của mình. Ngoài ra, những lúc rãnh rỗi ông thích đi du lịch, lặn biển, tập thể dục, chơi bóng chày, và dành thời gian với gia đình của mình. Mục tiêu của Bác sĩ Eric là giúp bệnh nhân có được một cuộc sống không còn đau đớn và giúp cơ thể họ vận động hết khả năng vốn có với sức khỏe tối ưu.</p>
+ <p><strong>Bác sĩ khám và điều trị</strong></p>
+ <ul>
+ <li>Thoát vị đĩa đệm</li>
+ <li>Thoái hóa đốt sống cổ, lưng</li>
+ <li>Đau dây thần kinh tọa</li>
+ <li>Hội chứng rễ dây thần kinh</li>
+ <li>Đau đầu</li>
+ <li>Chứng đau vai</li>
+ <li>Đau khuỷu tay</li>
+ <li>Đau cổ tay</li>
+ <li>Cong vẹo cột sống</li>
+ <li>Đau thắt lưng</li>
+ <li>Đau đầu gối</li>
+ <li>Các chứng đau bàn chân</li>
+ <li>Đau mắt cá</li>
+ <li>Chấn thương thể thao</li>
+ <li>Phục hồi chức năng</li>
+ <li>Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt</li>
+ </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'tuhai', // tài khoản
@@ -667,29 +1166,72 @@ máy, dao siêu âm, Stent
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem kimtrong dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem kimtrong dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+                descriptionMarkdown: `**Bác sĩ Shizuka Minamoto**
+ * Bác sĩ có 20 năm kinh nghiệm Trị liệu thần kinh cột sống
+ * Bác sĩ có 5 năm làm giảng viên tại trường LACC
+ * Có chứng chỉ hành nghề tại Việt Nam, Philippines, bang California và bang Texas (Mỹ)
+ 
+ **Khám và điều trị**
+ * Thoát vị đĩa đệm
+ * Thoái hóa đốt sống cổ, lưng
+ * Đau dây thần kinh tọa
+ * Hội chứng rễ dây thần kinh
+ * Đau đầu
+ * Chứng đau vai
+ * Đau khuỷu tay
+ * Đau cổ tay
+ * Cong vẹo cột sống
+ * Đau thắt lưng
+ * Đau đầu gối
+ * Các chứng đau bàn chân
+ * Đau mắt cá
+ * Chấn thương thể thao
+ * Phục hồi chức năng
+ * Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt
+ 
+ **Qúa trình công tác**
+ * 5 năm làm giảng viên tại trường LACC
+ * Thành viên đội y tế của đội tuyển Olympic Trung Quốc trong 2 kì 2018 - 2020
+ * Năm 2019, Bác sĩ vinh dự là diễn giả của Đại học Thể dục Thể Thao Bắc Kinh
+ * Có chứng chỉ hành nghề tại Việt Nam, Philippines, bang California và bang Texas (Mỹ)
+ * Qúa trình đào tạo
+ * Tốt nghiệp Đại học Bang New York
+ * Tốt nghiệp trường Los Angeles College of Chiropractic (LACC) chuyên về Trị liệu thần kinh cột sống tại miền Nam bang California`,
+                descriptionHTML: `<p><strong>Bác sĩ Shizuka Minamoto</strong></p>
+ <ul>
+ <li>Bác sĩ có 20 năm kinh nghiệm Trị liệu thần kinh cột sống</li>
+ <li>Bác sĩ có 5 năm làm giảng viên tại trường LACC</li>
+ <li>Có chứng chỉ hành nghề tại Việt Nam, Philippines, bang California và bang Texas (Mỹ)</li>
+ </ul>
+ <p><strong>Khám và điều trị</strong></p>
+ <ul>
+ <li>Thoát vị đĩa đệm</li>
+ <li>Thoái hóa đốt sống cổ, lưng</li>
+ <li>Đau dây thần kinh tọa</li>
+ <li>Hội chứng rễ dây thần kinh</li>
+ <li>Đau đầu</li>
+ <li>Chứng đau vai</li>
+ <li>Đau khuỷu tay</li>
+ <li>Đau cổ tay</li>
+ <li>Cong vẹo cột sống</li>
+ <li>Đau thắt lưng</li>
+ <li>Đau đầu gối</li>
+ <li>Các chứng đau bàn chân</li>
+ <li>Đau mắt cá</li>
+ <li>Chấn thương thể thao</li>
+ <li>Phục hồi chức năng</li>
+ <li>Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt</li>
+ </ul>
+ <p><strong>Qúa trình công tác</strong></p>
+ <ul>
+ <li>5 năm làm giảng viên tại trường LACC</li>
+ <li>Thành viên đội y tế của đội tuyển Olympic Trung Quốc trong 2 kì 2018 - 2020</li>
+ <li>Năm 2019, Bác sĩ vinh dự là diễn giả của Đại học Thể dục Thể Thao Bắc Kinh</li>
+ <li>Có chứng chỉ hành nghề tại Việt Nam, Philippines, bang California và bang Texas (Mỹ)</li>
+ <li>Qúa trình đào tạo</li>
+ <li>Tốt nghiệp Đại học Bang New York</li>
+ <li>Tốt nghiệp trường Los Angeles College of Chiropractic (LACC) chuyên về Trị liệu thần kinh cột sống tại miền Nam bang California</li>
+ </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'kimtrong', // tài khoản
@@ -716,30 +1258,57 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem RON dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem RON dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+                descriptionMarkdown: `**Bác sĩ Takeshi Goda**
+ * Bác sĩ có kinh nghiệm trên 20 năm trong trị liệu thần kinh cột sống
+ * Tốt nghiệp Trường Đại học Trị liệu Thần kinh Cột sống New York (1996)
+ * Ông từng làm việc về Trị liệu thần kinh cột sống tại Peru trong 2 năm 
+ * Ông là bác sĩ đầu tiên ở khu vực Đông Nam Á đạt chứng nhận về phương pháp kéo dãn giảm áp cột sống Kennedy trong việc điều trị thoát vị đĩa đệm
+ 
+ Bác sĩ Timothy từng tham gia chương trình tình nguyện và áp dụng Phương pháp trị liệu thần kinh cột sống để khám chữa chữa bệnh cho nhiều bệnh nhân ở các nước kém phát triển như Haiti, Ecuador, Jamaica và Cộng Hòa Dominica. Ông cũng là người mang những phương thức trị liệu phục hồi chức năng mơi đến với Việt Nam.
+ 
+ **Khám và điều trị**
+ * Trị liệu thần kinh cột sống
+ * Thoát vị đĩa đệm
+ * Đau dây thần kinh tọa
+ * Đau đầu
+ * Chứng đau vai
+ * Đau khuỷu tay
+ * Đau cổ tay
+ * Cong vẹo cột sống
+ * Chấn thương cột sống
+ * Thoái hóa đốt sống cổ, lưng
+ * Đau thắt lưng
+ * Đau đầu gối
+ * Các chứng đau bàn chân
+ * Đau mắt cá
+ * Dị tật bàn chân bẹt ở trẻ em`,
+                descriptionHTML: `<p><strong>Bác sĩ Takeshi Goda</strong></p>
+ <ul>
+ <li>Bác sĩ có kinh nghiệm trên 20 năm trong trị liệu thần kinh cột sống</li>
+ <li>Tốt nghiệp Trường Đại học Trị liệu Thần kinh Cột sống New York (1996)</li>
+ <li>Ông từng làm việc về Trị liệu thần kinh cột sống tại Peru trong 2 năm</li>
+ <li>Ông là bác sĩ đầu tiên ở khu vực Đông Nam Á đạt chứng nhận về phương pháp kéo dãn giảm áp cột sống Kennedy trong việc điều trị thoát vị đĩa đệm</li>
+ </ul>
+ <p>Bác sĩ Timothy từng tham gia chương trình tình nguyện và áp dụng Phương pháp trị liệu thần kinh cột sống để khám chữa chữa bệnh cho nhiều bệnh nhân ở các nước kém phát triển như Haiti, Ecuador, Jamaica và Cộng Hòa Dominica. Ông cũng là người mang những phương thức trị liệu phục hồi chức năng mơi đến với Việt Nam.</p>
+ <p><strong>Khám và điều trị</strong></p>
+ <ul>
+ <li>Trị liệu thần kinh cột sống</li>
+ <li>Thoát vị đĩa đệm</li>
+ <li>Đau dây thần kinh tọa</li>
+ <li>Đau đầu</li>
+ <li>Chứng đau vai</li>
+ <li>Đau khuỷu tay</li>
+ <li>Đau cổ tay</li>
+ <li>Cong vẹo cột sống</li>
+ <li>Chấn thương cột sống</li>
+ <li>Thoái hóa đốt sống cổ, lưng</li>
+ <li>Đau thắt lưng</li>
+ <li>Đau đầu gối</li>
+ <li>Các chứng đau bàn chân</li>
+ <li>Đau mắt cá</li>
+ <li>Dị tật bàn chân bẹt ở trẻ em</li>
+ </ul>
+ `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'ron', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -767,30 +1336,58 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem HERMIONE dolor 
+                descriptionMarkdown: `**Bác sĩ Suneo Hokenawa**
 
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem HERMIONE dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+ * Bác sĩ Hoisang Gong sinh ra ở Hàn Quốc và lớn lên ở Mỹ
+ * Bác sĩ chuyên khoa Trị liệu Thần kinh Cột sống
+ * Tốt nghiệp trường Đại học Life ở Marietta, Georgia, Mỹ (2012)
+ * Bác sĩ từng làm việc nhiều năm về trị liệu chấn thương thể thao và mô mềm, đau cổ và đau lưng
+ * Tham gia các chuyên đề sức khỏe trên báo chí truyền hình
+ 
+ Trong quá trình học tập và nghiên cứu tại Đại học Life University, Bác sĩ Hoisang đã không ngừng trau dồi và nâng cao kỹ năng qua việc tham gia nhiều hội thảo, bao gồm hội thảo về chuyên môn chỉnh nắn đốt sống cổ Gonstead và Graston.
+ 
+ **Khám và điều trị**
+ * Thoát vị đĩa đệm
+ * Thoái hóa cột sống
+ * Đau thần kinh tọa
+ * Đau thắt lưng
+ * Chấn thương thể thao
+ * Phục hồi chức năng
+ * Vẹo cột sống
+ * Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt
+ * Đau đầu
+ * Đau vai
+ * Đau cổ tay, khuỷu tay
+ * Đau đầu gối
+ * Đau bàn chân
+ * Đau mắt cá chân`,
+                descriptionHTML: `<p><strong>Bác sĩ Suneo Hokenawa</strong></p>
+ <ul>
+ <li>Bác sĩ Hoisang Gong sinh ra ở Hàn Quốc và lớn lên ở Mỹ</li>
+ <li>Bác sĩ chuyên khoa Trị liệu Thần kinh Cột sống</li>
+ <li>Tốt nghiệp trường Đại học Life ở Marietta, Georgia, Mỹ (2012)</li>
+ <li>Bác sĩ từng làm việc nhiều năm về trị liệu chấn thương thể thao và mô mềm, đau cổ và đau lưng</li>
+ <li>Tham gia các chuyên đề sức khỏe trên báo chí truyền hình</li>
+ </ul>
+ <p>Trong quá trình học tập và nghiên cứu tại Đại học Life University, Bác sĩ Hoisang đã không ngừng trau dồi và nâng cao kỹ năng qua việc tham gia nhiều hội thảo, bao gồm hội thảo về chuyên môn chỉnh nắn đốt sống cổ Gonstead và Graston.</p>
+ <p><strong>Khám và điều trị</strong></p>
+ <ul>
+ <li>Thoát vị đĩa đệm</li>
+ <li>Thoái hóa cột sống</li>
+ <li>Đau thần kinh tọa</li>
+ <li>Đau thắt lưng</li>
+ <li>Chấn thương thể thao</li>
+ <li>Phục hồi chức năng</li>
+ <li>Vẹo cột sống</li>
+ <li>Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt</li>
+ <li>Đau đầu</li>
+ <li>Đau vai</li>
+ <li>Đau cổ tay, khuỷu tay</li>
+ <li>Đau đầu gối</li>
+ <li>Đau bàn chân</li>
+ <li>Đau mắt cá chân</li>
+ </ul>
+ `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'hermi1', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -819,30 +1416,61 @@ tầng sinh môn 3.383.000
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem TinhKK dolor 
+                descriptionMarkdown: `**Bác sĩ Lông mày dài**
 
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem TinhKK dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+ * Tốt nghiệp Trường Đào tạo Chuyên khoa Thần kinh Cột sống Palmer - Hoa Kỳ (2014)
+ * Bác sĩ Chuyên khoa Trị liệu Thần kinh Cột sống từng làm việc tại Hoa Kỳ, Ấn Độ, Campuchia
+ * Cử nhân Khoa học chuyên ngành Sinh học Con người, Trường Đại học bang Michigan (2012)
+ 
+ BS. Luke không ngừng nâng cao kiến thức và tham dự những khóa học chuyên sâu và hội thảo Chuyên ngành Thần kinh Cột sống trong điều trị Chấn thương Thể Thao, sử dụng Băng dán Cơ trong thể thao, kỹ thuật nắn chỉnh Flexion-Distraction và kỹ thuật Graston.
+ 
+ Bác sĩ Luke mang tới nhiều kĩ thuật để giúp những bệnh nhân đạt được sức khỏe tốt nhất. Bác sĩ tin rằng cột sống là bộ phận quan trọng nhất trong cơ thể và nếu cột sống có thể thực hiện tối đa chức năng thì cả cơ thể có thể hoạt động một cách tốt nhất. Bác sĩ sử dụng triết lý này khi nói chuyện và tư vấn cho bệnh nhân những lợi ích của Trị liệu Thần kinh Cột sống có thể mang lại cho tình trạng riêng biệt của họ.
+ 
+ **Khám và điều trị**
+ * Thoát vị đĩa đệm
+ * Thoái hóa đốt sống cổ, lưng
+ * Đau dây thần kinh tọa
+ * Hội chứng rễ dây thần kinh
+ * Đau đầu
+ * Chứng đau vai
+ * Đau khuỷu tay
+ * Đau cổ tay
+ * Cong vẹo cột sống
+ * Đau thắt lưng
+ * Đau đầu gối
+ * Các chứng đau bàn chân
+ * Đau mắt cá
+ * Chấn thương thể thao
+ * Phục hồi chức năng
+ * Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt`,
+                descriptionHTML: `<p><strong>Bác sĩ Lông mày dài</strong></p>
+ <ul>
+ <li>Tốt nghiệp Trường Đào tạo Chuyên khoa Thần kinh Cột sống Palmer - Hoa Kỳ (2014)</li>
+ <li>Bác sĩ Chuyên khoa Trị liệu Thần kinh Cột sống từng làm việc tại Hoa Kỳ, Ấn Độ, Campuchia</li>
+ <li>Cử nhân Khoa học chuyên ngành Sinh học Con người, Trường Đại học bang Michigan (2012)</li>
+ </ul>
+ <p>BS. Luke không ngừng nâng cao kiến thức và tham dự những khóa học chuyên sâu và hội thảo Chuyên ngành Thần kinh Cột sống trong điều trị Chấn thương Thể Thao, sử dụng Băng dán Cơ trong thể thao, kỹ thuật nắn chỉnh Flexion-Distraction và kỹ thuật Graston.</p>
+ <p>Bác sĩ Luke mang tới nhiều kĩ thuật để giúp những bệnh nhân đạt được sức khỏe tốt nhất. Bác sĩ tin rằng cột sống là bộ phận quan trọng nhất trong cơ thể và nếu cột sống có thể thực hiện tối đa chức năng thì cả cơ thể có thể hoạt động một cách tốt nhất. Bác sĩ sử dụng triết lý này khi nói chuyện và tư vấn cho bệnh nhân những lợi ích của Trị liệu Thần kinh Cột sống có thể mang lại cho tình trạng riêng biệt của họ.</p>
+ <p><strong>Khám và điều trị</strong></p>
+ <ul>
+ <li>Thoát vị đĩa đệm</li>
+ <li>Thoái hóa đốt sống cổ, lưng</li>
+ <li>Đau dây thần kinh tọa</li>
+ <li>Hội chứng rễ dây thần kinh</li>
+ <li>Đau đầu</li>
+ <li>Chứng đau vai</li>
+ <li>Đau khuỷu tay</li>
+ <li>Đau cổ tay</li>
+ <li>Cong vẹo cột sống</li>
+ <li>Đau thắt lưng</li>
+ <li>Đau đầu gối</li>
+ <li>Các chứng đau bàn chân</li>
+ <li>Đau mắt cá</li>
+ <li>Chấn thương thể thao</li>
+ <li>Phục hồi chức năng</li>
+ <li>Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt</li>
+ </ul>
+ `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'quachtinh', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -872,30 +1500,58 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem daoTruong dolor 
+                descriptionMarkdown: `**Bác sĩ Suneo Hokenawa**
 
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem daoTruong dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+ * Bác sĩ Hoisang Gong sinh ra ở Hàn Quốc và lớn lên ở Mỹ
+ * Bác sĩ chuyên khoa Trị liệu Thần kinh Cột sống
+ * Tốt nghiệp trường Đại học Life ở Marietta, Georgia, Mỹ (2012)
+ * Bác sĩ từng làm việc nhiều năm về trị liệu chấn thương thể thao và mô mềm, đau cổ và đau lưng
+ * Tham gia các chuyên đề sức khỏe trên báo chí truyền hình
+ 
+ Trong quá trình học tập và nghiên cứu tại Đại học Life University, Bác sĩ Hoisang đã không ngừng trau dồi và nâng cao kỹ năng qua việc tham gia nhiều hội thảo, bao gồm hội thảo về chuyên môn chỉnh nắn đốt sống cổ Gonstead và Graston.
+ 
+ **Khám và điều trị**
+ * Thoát vị đĩa đệm
+ * Thoái hóa cột sống
+ * Đau thần kinh tọa
+ * Đau thắt lưng
+ * Chấn thương thể thao
+ * Phục hồi chức năng
+ * Vẹo cột sống
+ * Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt
+ * Đau đầu
+ * Đau vai
+ * Đau cổ tay, khuỷu tay
+ * Đau đầu gối
+ * Đau bàn chân
+ * Đau mắt cá chân`,
+                descriptionHTML: `<p><strong>Bác sĩ Suneo Hokenawa</strong></p>
+ <ul>
+ <li>Bác sĩ Hoisang Gong sinh ra ở Hàn Quốc và lớn lên ở Mỹ</li>
+ <li>Bác sĩ chuyên khoa Trị liệu Thần kinh Cột sống</li>
+ <li>Tốt nghiệp trường Đại học Life ở Marietta, Georgia, Mỹ (2012)</li>
+ <li>Bác sĩ từng làm việc nhiều năm về trị liệu chấn thương thể thao và mô mềm, đau cổ và đau lưng</li>
+ <li>Tham gia các chuyên đề sức khỏe trên báo chí truyền hình</li>
+ </ul>
+ <p>Trong quá trình học tập và nghiên cứu tại Đại học Life University, Bác sĩ Hoisang đã không ngừng trau dồi và nâng cao kỹ năng qua việc tham gia nhiều hội thảo, bao gồm hội thảo về chuyên môn chỉnh nắn đốt sống cổ Gonstead và Graston.</p>
+ <p><strong>Khám và điều trị</strong></p>
+ <ul>
+ <li>Thoát vị đĩa đệm</li>
+ <li>Thoái hóa cột sống</li>
+ <li>Đau thần kinh tọa</li>
+ <li>Đau thắt lưng</li>
+ <li>Chấn thương thể thao</li>
+ <li>Phục hồi chức năng</li>
+ <li>Vẹo cột sống</li>
+ <li>Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt</li>
+ <li>Đau đầu</li>
+ <li>Đau vai</li>
+ <li>Đau cổ tay, khuỷu tay</li>
+ <li>Đau đầu gối</li>
+ <li>Đau bàn chân</li>
+ <li>Đau mắt cá chân</li>
+ </ul>
+ `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'khuuxuco', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -920,30 +1576,58 @@ Nội soi dạ dày làm Clotest 768.000
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem QuaNhi dolor 
+                descriptionMarkdown: `**Bác sĩ Suneo Hokenawa**
 
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem QuaNhi dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+ * Bác sĩ Hoisang Gong sinh ra ở Hàn Quốc và lớn lên ở Mỹ
+ * Bác sĩ chuyên khoa Trị liệu Thần kinh Cột sống
+ * Tốt nghiệp trường Đại học Life ở Marietta, Georgia, Mỹ (2012)
+ * Bác sĩ từng làm việc nhiều năm về trị liệu chấn thương thể thao và mô mềm, đau cổ và đau lưng
+ * Tham gia các chuyên đề sức khỏe trên báo chí truyền hình
+ 
+ Trong quá trình học tập và nghiên cứu tại Đại học Life University, Bác sĩ Hoisang đã không ngừng trau dồi và nâng cao kỹ năng qua việc tham gia nhiều hội thảo, bao gồm hội thảo về chuyên môn chỉnh nắn đốt sống cổ Gonstead và Graston.
+ 
+ **Khám và điều trị**
+ * Thoát vị đĩa đệm
+ * Thoái hóa cột sống
+ * Đau thần kinh tọa
+ * Đau thắt lưng
+ * Chấn thương thể thao
+ * Phục hồi chức năng
+ * Vẹo cột sống
+ * Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt
+ * Đau đầu
+ * Đau vai
+ * Đau cổ tay, khuỷu tay
+ * Đau đầu gối
+ * Đau bàn chân
+ * Đau mắt cá chân`,
+                descriptionHTML: `<p><strong>Bác sĩ Suneo Hokenawa</strong></p>
+ <ul>
+ <li>Bác sĩ Hoisang Gong sinh ra ở Hàn Quốc và lớn lên ở Mỹ</li>
+ <li>Bác sĩ chuyên khoa Trị liệu Thần kinh Cột sống</li>
+ <li>Tốt nghiệp trường Đại học Life ở Marietta, Georgia, Mỹ (2012)</li>
+ <li>Bác sĩ từng làm việc nhiều năm về trị liệu chấn thương thể thao và mô mềm, đau cổ và đau lưng</li>
+ <li>Tham gia các chuyên đề sức khỏe trên báo chí truyền hình</li>
+ </ul>
+ <p>Trong quá trình học tập và nghiên cứu tại Đại học Life University, Bác sĩ Hoisang đã không ngừng trau dồi và nâng cao kỹ năng qua việc tham gia nhiều hội thảo, bao gồm hội thảo về chuyên môn chỉnh nắn đốt sống cổ Gonstead và Graston.</p>
+ <p><strong>Khám và điều trị</strong></p>
+ <ul>
+ <li>Thoát vị đĩa đệm</li>
+ <li>Thoái hóa cột sống</li>
+ <li>Đau thần kinh tọa</li>
+ <li>Đau thắt lưng</li>
+ <li>Chấn thương thể thao</li>
+ <li>Phục hồi chức năng</li>
+ <li>Vẹo cột sống</li>
+ <li>Bệnh lý về phát triển ở trẻ em: vẹo cột sống, dị tật bàn chân bẹt</li>
+ <li>Đau đầu</li>
+ <li>Đau vai</li>
+ <li>Đau cổ tay, khuỷu tay</li>
+ <li>Đau đầu gối</li>
+ <li>Đau bàn chân</li>
+ <li>Đau mắt cá chân</li>
+ </ul>
+ `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'duongqua', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -969,29 +1653,63 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem Doan dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem Doan dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+                descriptionMarkdown: `**Bác sĩ Chuyên khoa I Sherlock Homles **
+ * Hơn 20 năm kinh nghiệm trong lĩnh vực Tim mạch
+ * Từng công tác tại Khoa Thông Tim Can Thiệp, Bệnh viện Nguyễn Tri Phương
+ * Hiện đang công tác tại Khoa Tim mạch, Bệnh viện FV
+ 
+ **Khám và điều trị **
+ * Bệnh tim thiếu máu cục bộ
+ * Suy tim
+ * Siêu âm tim
+ * Tim mạch can thiệp
+ 
+ **Quá trình công tác **
+ * Bác sĩ Điều trị Cấp cao, Khoa Tim mạch, Bệnh viện FV, TP.HCM (2017)
+ * Bác sĩ Điều trị Cấp cao, Khoa Thông Tim Can Thiệp, Bệnh viện Nguyễn Tri Phương (2011 - 2017)
+ * Bác sĩ Điều trị, Khoa Tim mạch, Bệnh viện Hoàn Mỹ Cửu Long, Cần Thơ (2007 - 2011)
+ * Bác sĩ Điều trị, Khoa Tim mạch, Bệnh viện Đa khoa Trung ương Cần Thơ (2006 - 2007)
+ 
+ **Quá trình đào tạo**
+ 
+ * Chuyên khoa cấp 1, Lão Khoa, Đại học Y Dược TP. HCM (2006) 
+ * Tốt nghiệp Đại học Y Dược, Cần Thơ (2001)
+ 
+ **Chứng chỉ trong nước và ngoài nước**
+ * Bằng tim Mạch Can Thiệp, Viện Tim TP. HCM  (2011 - 2012)
+ * Bằng hồi sức cấp cứu, Bệnh viện Chợ Rẫy TP. HCM (2006)
+ * Bằng tim mạch và siêu âm tim, Trường y Phạm Ngọc Thạch TP. HCM (2005 - 2006)`,
+                descriptionHTML: `<p>**Bác sĩ Chuyên khoa I Sherlock Homles **</p>
+ <ul>
+ <li>Hơn 20 năm kinh nghiệm trong lĩnh vực Tim mạch</li>
+ <li>Từng công tác tại Khoa Thông Tim Can Thiệp, Bệnh viện Nguyễn Tri Phương</li>
+ <li>Hiện đang công tác tại Khoa Tim mạch, Bệnh viện FV</li>
+ </ul>
+ <p>**Khám và điều trị **</p>
+ <ul>
+ <li>Bệnh tim thiếu máu cục bộ</li>
+ <li>Suy tim</li>
+ <li>Siêu âm tim</li>
+ <li>Tim mạch can thiệp</li>
+ </ul>
+ <p>**Quá trình công tác **</p>
+ <ul>
+ <li>Bác sĩ Điều trị Cấp cao, Khoa Tim mạch, Bệnh viện FV, TP.HCM (2017)</li>
+ <li>Bác sĩ Điều trị Cấp cao, Khoa Thông Tim Can Thiệp, Bệnh viện Nguyễn Tri Phương (2011 - 2017)</li>
+ <li>Bác sĩ Điều trị, Khoa Tim mạch, Bệnh viện Hoàn Mỹ Cửu Long, Cần Thơ (2007 - 2011)</li>
+ <li>Bác sĩ Điều trị, Khoa Tim mạch, Bệnh viện Đa khoa Trung ương Cần Thơ (2006 - 2007)</li>
+ </ul>
+ <p><strong>Quá trình đào tạo</strong></p>
+ <ul>
+ <li>Chuyên khoa cấp 1, Lão Khoa, Đại học Y Dược TP. HCM (2006)</li>
+ <li>Tốt nghiệp Đại học Y Dược, Cần Thơ (2001)</li>
+ </ul>
+ <p><strong>Chứng chỉ trong nước và ngoài nước</strong></p>
+ <ul>
+ <li>Bằng tim Mạch Can Thiệp, Viện Tim TP. HCM  (2011 - 2012)</li>
+ <li>Bằng hồi sức cấp cứu, Bệnh viện Chợ Rẫy TP. HCM (2006)</li>
+ <li>Bằng tim mạch và siêu âm tim, Trường y Phạm Ngọc Thạch TP. HCM (2005 - 2006)</li>
+ </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'doanchibinh', // tài khoản
@@ -1020,30 +1738,85 @@ polyp 3.000.000
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem BacHiep dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem BacHiep dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+                descriptionMarkdown: `**Tiến sĩ, Bác sĩ Sư Phụ Bự**
+ * 20 năm kinh nghiệm lĩnh vực Tim mạch
+ * Hiện là trưởng khoa Q2 - Viện Tim mạch - Bệnh viện Bạch Mai
+ * Từng đào tạo và tu nghiệp tại nước ngoài: Hoa Kỳ, Australia, Cộng hòa Liên bang Đức
+ 
+ **Khám và điều trị**
+ 
+ Các bệnh lý Nội Tim mạch:
+ 
+ * Đau ngực trái, bệnh mạch vành (sau đặt stent, sau mổ bắc cầu)
+ * Tăng huyết áp, hạ huyết áp
+ * Rối loạn mỡ máu, Dinh dưỡng cho bệnh nhân rối loạn mỡ máu
+ * Xơ vữa động mạch
+ * Điều trị bệnh mạch vành
+ * Bệnh van tim (Hẹp hở van tim)
+ * Bệnh cơ tim
+ * Chẩn đoán bệnh tim bẩm sinh ở người lớn, đặc biệt tầm soát và điều trị bệnh tim bẩm sinh ở trẻ em, sơ sinh
+ * Khám bệnh mạch máu ngoại biên
+ * Tư vấn, phát hiện sớm và phòng ngừa các bệnh lý tim mạch
+ * Tư vấn sử dụng thuốc chống đông máu
+ * Tư vấn bệnh tăng huyết áp
+ * Điều trị bệnh tăng huyết áp
+ * Tư vấn dinh dưỡng và chế độ sinh hoạt, tập luyện cho bệnh nhân tăng huyết áp...
+ 
+ **Quá trình công tác**
+ 
+ * Trưởng khoa Q2 - Viện Tim mạch - Bệnh viện Bạch Mai
+ **
+ Quá trình đào tạo**
+ * Tiến sĩ Y khoa - Đại học Y Hà Nội
+ * Đào tạo Fellow Course về Tim mạch can thiệp của Hội tim mạch can thiệp Hoa Kì (SCAI) - Las Vegas, Hoa Kỳ
+ * Đào tạo sau đại học về tim mạch người lớn - Bệnh viện Royal North Shore Hospital, Sydney, Australia
+ * Bác sĩ Đa khoa, hệ Bác sĩ Nội trú chuyên ngành Tim mạch - Đại học Y Hà Nội
+ 
+ **Sách và các công trình nghiên cứu, báo cáo khoa học**
+ * Tham gia biên soạn 2 cuốn sách chuyên ngành đã xuất bản
+ * 3 công trình khoa học
+ * 30 bài báo khoa học chuyên ngành`,
+                descriptionHTML: `<p><strong>Tiến sĩ, Bác sĩ Sư Phụ Bự</strong></p>
+ <ul>
+ <li>20 năm kinh nghiệm lĩnh vực Tim mạch</li>
+ <li>Hiện là trưởng khoa Q2 - Viện Tim mạch - Bệnh viện Bạch Mai</li>
+ <li>Từng đào tạo và tu nghiệp tại nước ngoài: Hoa Kỳ, Australia, Cộng hòa Liên bang Đức</li>
+ </ul>
+ <p><strong>Khám và điều trị</strong></p>
+ <p>Các bệnh lý Nội Tim mạch:</p>
+ <ul>
+ <li>Đau ngực trái, bệnh mạch vành (sau đặt stent, sau mổ bắc cầu)</li>
+ <li>Tăng huyết áp, hạ huyết áp</li>
+ <li>Rối loạn mỡ máu, Dinh dưỡng cho bệnh nhân rối loạn mỡ máu</li>
+ <li>Xơ vữa động mạch</li>
+ <li>Điều trị bệnh mạch vành</li>
+ <li>Bệnh van tim (Hẹp hở van tim)</li>
+ <li>Bệnh cơ tim</li>
+ <li>Chẩn đoán bệnh tim bẩm sinh ở người lớn, đặc biệt tầm soát và điều trị bệnh tim bẩm sinh ở trẻ em, sơ sinh</li>
+ <li>Khám bệnh mạch máu ngoại biên</li>
+ <li>Tư vấn, phát hiện sớm và phòng ngừa các bệnh lý tim mạch</li>
+ <li>Tư vấn sử dụng thuốc chống đông máu</li>
+ <li>Tư vấn bệnh tăng huyết áp</li>
+ <li>Điều trị bệnh tăng huyết áp</li>
+ <li>Tư vấn dinh dưỡng và chế độ sinh hoạt, tập luyện cho bệnh nhân tăng huyết áp...</li>
+ </ul>
+ <p><strong>Quá trình công tác</strong></p>
+ <ul>
+ <li>Trưởng khoa Q2 - Viện Tim mạch - Bệnh viện Bạch Mai
+ **
+ Quá trình đào tạo**</li>
+ <li>Tiến sĩ Y khoa - Đại học Y Hà Nội</li>
+ <li>Đào tạo Fellow Course về Tim mạch can thiệp của Hội tim mạch can thiệp Hoa Kì (SCAI) - Las Vegas, Hoa Kỳ</li>
+ <li>Đào tạo sau đại học về tim mạch người lớn - Bệnh viện Royal North Shore Hospital, Sydney, Australia</li>
+ <li>Bác sĩ Đa khoa, hệ Bác sĩ Nội trú chuyên ngành Tim mạch - Đại học Y Hà Nội</li>
+ </ul>
+ <p><strong>Sách và các công trình nghiên cứu, báo cáo khoa học</strong></p>
+ <ul>
+ <li>Tham gia biên soạn 2 cuốn sách chuyên ngành đã xuất bản</li>
+ <li>3 công trình khoa học</li>
+ <li>30 bài báo khoa học chuyên ngành</li>
+ </ul>
+ `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'quachdaihiep', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -1071,30 +1844,103 @@ Stent.
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem 5luan dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem 5luan dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+                descriptionMarkdown: `**Thạc sĩ, Bác sĩ A Lượng**
+ * Gần 15 năm kinh nghiệm lĩnh vực Tim mạch
+ * Hiện đang công tác tại Bệnh viện Tim Hà Nội
+ * Từng công tác tại Bệnh viện đa khoa Xanh Pôn
+ * Từng học tập và tu nghiệp ở nước ngoài: Pháp
+ 
+ 
+ #### **Khám và điều trị**
+ 
+ 
+ **Khám và tư vấn chuyên sâu các bệnh lý Tim mạch:**
+ 
+ * Phát hiện và quản lý Tăng Huyết Áp đúng cách, tầm soát tư vấn kiển soát các yếu tố nguy cơ của Tăng Huyết Áp một cách hiệu quả, điều trị biến chứng Tăng Huyết Áp
+ * Sàng lọc bilan mỡ, tư vấn kiểm soát mỡ máu theo khuyến cáo
+ * Tầm soát và tư vấn điều trị bệnh lý van tim, cơ tim, bệnh mạch vành, nhồi máu cơ tim, đau ngực không ổn định, đau ngực ổn định, các bất thường nhịp tim, suy tim …
+ 
+ **Khám, siêu âm và tư vấn chuyên sâu về bệnh lý mạch máu ngoại biên:**
+ 
+ * Bệnh lý động mạch chi trên, động mạch chi dưới, động mạch cảnh, động mạch thận… và bệnh lý hệ Tĩnh mạch nông – sâu chi trên, chi dưới (Suy tĩnh mạch, Huyết khối tĩnh mạch nông, sâu,...)
+ 
+ **Tầm soát, khám và tư vấn các bệnh lý Nội khoa Tổng quát:**
+ 
+ * Bệnh lý thận  - tiết niệu (bệnh viêm cầu thận, suy thận cấp, suy thận mạn, sỏi thận… )
+ * Bệnh lý tiêu hoá, gan, mật (viêm gan, xơ gan, sỏi mật, bệnh lý dạ dày, ruột …)
+ * Bệnh lý thần kinh (đột quỵ nhồi máu não, xuất huyết não..)
+ * Bệnh chuyển hoá (tuyến giáp,đái tháo đường…)
+ * Bệnh lý hô hấp ( Viêm phổi, Viêm phế quản, COPD…)
+ 
+ **Quá trình công tác**
+ * Bác sỹ Tim mạch, Bệnh viện Tim Hà Nội (2016 - Nay)
+ * Bác sỹ Tim mạch, Bệnh viện đa khoa Xanh Pôn (2006 - 2016)
+ 
+ **Quá trình đào tạo**
+ * Chương trình đào tạo sau đại học Việt Pháp (2012)
+ * Thạc sỹ chuyên ngành Nội - Tim Mạch, Trường Đại học Y Hà Nội (2010)
+ * Bác sĩ đa khoa, Đại học Y Hà Nội (1990 - 1996)
+ 
+ **Chứng chỉ trong nước hoặc nước ngoài**
+ * Siêu âm các bệnh lý mạch máu - MEVAH, Cộng hoà Pháp ( năm 2012)
+ * Siêu âm tổng quát, siêu âm tim mạch, siêu âm bệnh lý tim trẻ em, Bệnh viện Tim mạch Quốc Gia, Bệnh viện Bạch Mai, Bệnh viên Tim Hà Nội
+ 
+ **Sách và các công trình nghiên cứu, báo cáo khoa học**
+ * Đánh giá kết quả sớm của phương pháp Nong van hai lá bằng bóng INOUE trong điều trị bệnh hẹp van hai lá khít tái phát sau nong (Luận văn tốt nghiệp Thạc sỹ - Đại học Y Hà Nội) (2010)
+ 
+ **Thành viên các Hội khoa học, tổ chức chuyên môn**
+ * Hội viên hội tim mạch Việt Nam`,
+                descriptionHTML: `<p><strong>Thạc sĩ, Bác sĩ A Lượng</strong></p>
+ <ul>
+ <li>Gần 15 năm kinh nghiệm lĩnh vực Tim mạch</li>
+ <li>Hiện đang công tác tại Bệnh viện Tim Hà Nội</li>
+ <li>Từng công tác tại Bệnh viện đa khoa Xanh Pôn</li>
+ <li>Từng học tập và tu nghiệp ở nước ngoài: Pháp</li>
+ </ul>
+ <h4><strong>Khám và điều trị</strong></h4>
+ <p><strong>Khám và tư vấn chuyên sâu các bệnh lý Tim mạch:</strong></p>
+ <ul>
+ <li>Phát hiện và quản lý Tăng Huyết Áp đúng cách, tầm soát tư vấn kiển soát các yếu tố nguy cơ của Tăng Huyết Áp một cách hiệu quả, điều trị biến chứng Tăng Huyết Áp</li>
+ <li>Sàng lọc bilan mỡ, tư vấn kiểm soát mỡ máu theo khuyến cáo</li>
+ <li>Tầm soát và tư vấn điều trị bệnh lý van tim, cơ tim, bệnh mạch vành, nhồi máu cơ tim, đau ngực không ổn định, đau ngực ổn định, các bất thường nhịp tim, suy tim …</li>
+ </ul>
+ <p><strong>Khám, siêu âm và tư vấn chuyên sâu về bệnh lý mạch máu ngoại biên:</strong></p>
+ <ul>
+ <li>Bệnh lý động mạch chi trên, động mạch chi dưới, động mạch cảnh, động mạch thận… và bệnh lý hệ Tĩnh mạch nông – sâu chi trên, chi dưới (Suy tĩnh mạch, Huyết khối tĩnh mạch nông, sâu,...)</li>
+ </ul>
+ <p><strong>Tầm soát, khám và tư vấn các bệnh lý Nội khoa Tổng quát:</strong></p>
+ <ul>
+ <li>Bệnh lý thận  - tiết niệu (bệnh viêm cầu thận, suy thận cấp, suy thận mạn, sỏi thận… )</li>
+ <li>Bệnh lý tiêu hoá, gan, mật (viêm gan, xơ gan, sỏi mật, bệnh lý dạ dày, ruột …)</li>
+ <li>Bệnh lý thần kinh (đột quỵ nhồi máu não, xuất huyết não..)</li>
+ <li>Bệnh chuyển hoá (tuyến giáp,đái tháo đường…)</li>
+ <li>Bệnh lý hô hấp ( Viêm phổi, Viêm phế quản, COPD…)</li>
+ </ul>
+ <p><strong>Quá trình công tác</strong></p>
+ <ul>
+ <li>Bác sỹ Tim mạch, Bệnh viện Tim Hà Nội (2016 - Nay)</li>
+ <li>Bác sỹ Tim mạch, Bệnh viện đa khoa Xanh Pôn (2006 - 2016)</li>
+ </ul>
+ <p><strong>Quá trình đào tạo</strong></p>
+ <ul>
+ <li>Chương trình đào tạo sau đại học Việt Pháp (2012)</li>
+ <li>Thạc sỹ chuyên ngành Nội - Tim Mạch, Trường Đại học Y Hà Nội (2010)</li>
+ <li>Bác sĩ đa khoa, Đại học Y Hà Nội (1990 - 1996)</li>
+ </ul>
+ <p><strong>Chứng chỉ trong nước hoặc nước ngoài</strong></p>
+ <ul>
+ <li>Siêu âm các bệnh lý mạch máu - MEVAH, Cộng hoà Pháp ( năm 2012)</li>
+ <li>Siêu âm tổng quát, siêu âm tim mạch, siêu âm bệnh lý tim trẻ em, Bệnh viện Tim mạch Quốc Gia, Bệnh viện Bạch Mai, Bệnh viên Tim Hà Nội</li>
+ </ul>
+ <p><strong>Sách và các công trình nghiên cứu, báo cáo khoa học</strong></p>
+ <ul>
+ <li>Đánh giá kết quả sớm của phương pháp Nong van hai lá bằng bóng INOUE trong điều trị bệnh hẹp van hai lá khít tái phát sau nong (Luận văn tốt nghiệp Thạc sỹ - Đại học Y Hà Nội) (2010)</li>
+ </ul>
+ <p><strong>Thành viên các Hội khoa học, tổ chức chuyên môn</strong></p>
+ <ul>
+ <li>Hội viên hội tim mạch Việt Nam</li>
+ </ul>
+ `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'kimluanphapvuong', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -1117,29 +1963,87 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem giaochuMinhGiao dolor 
+                descriptionMarkdown: `**Bác sĩ cao câp hạng 1 Tiểu Sư Đệ**
 
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem giaochuMinhGiao dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+ * Hơn 20 năm kinh nghiệm lĩnh vực Sức khỏe tâm thần
+ * Hiện là Trưởng khoa Tâm thần trẻ em - Bệnh viện Tâm thần Ban ngày Mai Hương
+ * Khám và điều trị
+ 
+ **Bác sĩ có thế mạnh khám và điều trị các vấn đề tâm thần học trẻ em như:**
+ 
+ * Các vấn đề tâm lý ở trẻ
+ * Tâm thần học liên quan đến sự phát triển của trẻ
+ * Rối loạn tăng động giảm chú ý (ADHD) và các vấn đề liên quan
+ * Động kinh trẻ em và các vấn đề liên quan
+ 
+ **Ngoài ra bác sĩ nhận khám và điều trị về:**
+ 
+ * Rối loạn lo âu, hoa mắt chóng mặt: Mất ngủ, khó ngủ, khó duy trì giấc ngủ, dậy quá sớm, ngủ dậy vẫn thấy mệt, tỉnh dậy nhiều lần trong giấc ngủ
+ * Rối loạn tiền đình
+ * Rối loạn thần kinh thực vật
+ * Trầm cảm
+ * Rối loạn lưỡng cực cảm xúc
+ * Tâm thần phân liệt, có thể kích động, khả năng học tập lao động giảm dần, ngày càng thờ ơ, vô cảm
+ * Sa sút trí tuệ
+ * Rối loạn tăng động giảm chú ý (ADHD)
+ * Nghiện game
+ * Nghiện rượu, thuốc lá
+ * Nghiện ma túy tổng hợp
+ * Đau đầu, đau lưng, đau mỏi vai gáy, mệt mỏi mạn tính, mất ngủ, bồn chồn, dễ cáu kỉnh, tự đánh giá thấp bản thân
+ * Khó tập trung công việc
+ * Căng thẳng tâm lý, suy nghĩ tiêu cực, bi quan và tuyệt vọng kéo dài
+ 
+ **Quá trình công tác**
+ * Trưởng khoa Tâm thần trẻ em và Tâm lý lâm sàng, Bệnh viện Tâm thần Ban ngày Mai Hương (2014 - nay)
+ * Phó Trưởng khoa Khám bệnh, Bệnh viện Tâm thần Ban ngày Mai Hương (2011 - 2014)
+ * Bác sĩ điều trị khoa Khám bệnh, Bệnh viện Tâm thần Ban ngày Mai Hương (2006 - 2008)
+ * Bác sĩ điều trị, Bí thư chi đoàn TNCS Hồ Chí Minh, Bệnh viện Tâm thần Ban ngày Mai Hương (2000 - 2006)
+ 
+ **Quá trình đào tạo**
+ * Thạc sĩ chuyên ngành Tâm thần: chuyên sâu về tâm thần học trẻ em, Đại học Y Hà Nội (2008 - 2011)
+ * Tốt nghiệp Đại học Y Hà Nội (1998)`,
+                descriptionHTML: `<p><strong>Bác sĩ cao câp hạng 1 Tiểu Sư Đệ</strong></p>
+ <ul>
+ <li>Hơn 20 năm kinh nghiệm lĩnh vực Sức khỏe tâm thần</li>
+ <li>Hiện là Trưởng khoa Tâm thần trẻ em - Bệnh viện Tâm thần Ban ngày Mai Hương</li>
+ <li>Khám và điều trị</li>
+ </ul>
+ <p><strong>Bác sĩ có thế mạnh khám và điều trị các vấn đề tâm thần học trẻ em như:</strong></p>
+ <ul>
+ <li>Các vấn đề tâm lý ở trẻ</li>
+ <li>Tâm thần học liên quan đến sự phát triển của trẻ</li>
+ <li>Rối loạn tăng động giảm chú ý (ADHD) và các vấn đề liên quan</li>
+ <li>Động kinh trẻ em và các vấn đề liên quan</li>
+ </ul>
+ <p><strong>Ngoài ra bác sĩ nhận khám và điều trị về:</strong></p>
+ <ul>
+ <li>Rối loạn lo âu, hoa mắt chóng mặt: Mất ngủ, khó ngủ, khó duy trì giấc ngủ, dậy quá sớm, ngủ dậy vẫn thấy mệt, tỉnh dậy nhiều lần trong giấc ngủ</li>
+ <li>Rối loạn tiền đình</li>
+ <li>Rối loạn thần kinh thực vật</li>
+ <li>Trầm cảm</li>
+ <li>Rối loạn lưỡng cực cảm xúc</li>
+ <li>Tâm thần phân liệt, có thể kích động, khả năng học tập lao động giảm dần, ngày càng thờ ơ, vô cảm</li>
+ <li>Sa sút trí tuệ</li>
+ <li>Rối loạn tăng động giảm chú ý (ADHD)</li>
+ <li>Nghiện game</li>
+ <li>Nghiện rượu, thuốc lá</li>
+ <li>Nghiện ma túy tổng hợp</li>
+ <li>Đau đầu, đau lưng, đau mỏi vai gáy, mệt mỏi mạn tính, mất ngủ, bồn chồn, dễ cáu kỉnh, tự đánh giá thấp bản thân</li>
+ <li>Khó tập trung công việc</li>
+ <li>Căng thẳng tâm lý, suy nghĩ tiêu cực, bi quan và tuyệt vọng kéo dài</li>
+ </ul>
+ <p><strong>Quá trình công tác</strong></p>
+ <ul>
+ <li>Trưởng khoa Tâm thần trẻ em và Tâm lý lâm sàng, Bệnh viện Tâm thần Ban ngày Mai Hương (2014 - nay)</li>
+ <li>Phó Trưởng khoa Khám bệnh, Bệnh viện Tâm thần Ban ngày Mai Hương (2011 - 2014)</li>
+ <li>Bác sĩ điều trị khoa Khám bệnh, Bệnh viện Tâm thần Ban ngày Mai Hương (2006 - 2008)</li>
+ <li>Bác sĩ điều trị, Bí thư chi đoàn TNCS Hồ Chí Minh, Bệnh viện Tâm thần Ban ngày Mai Hương (2000 - 2006)</li>
+ </ul>
+ <p><strong>Quá trình đào tạo</strong></p>
+ <ul>
+ <li>Thạc sĩ chuyên ngành Tâm thần: chuyên sâu về tâm thần học trẻ em, Đại học Y Hà Nội (2008 - 2011)</li>
+ <li>Tốt nghiệp Đại học Y Hà Nội (1998)</li>
+ </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'truongvoky', // tài khoản
@@ -1165,29 +2069,61 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem nghiaPhu dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem nghiaPhu dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+                descriptionMarkdown: `Tiến sĩ, Bác sĩ John Watson
+ * Bác sĩ có 20 năm kinh nghiệm trong thăm khám và điều trị khoa Tai Mũi Họng
+ * Từng công tác tại khoa Tai Mũi Họng, Bệnh Viện Đại học Y Dược TP. HCM
+ * Hiện đang là trưởng Khoa Tai Mũi Họng, Bệnh Viện FV
+ 
+ **Khám và điều trị**
+ 
+ * Phẫu thuật nội soi xoang
+ * Phẫu thuật nội soi nền sọ
+ * Phẫu thuật Tai, Ngáy và Ngưng thở khi ngủ
+ 
+ **Quá trình công tác** 
+ 
+ * Trưởng Khoa Tai mũi họng, Bệnh Viện FV (2021 - nay)
+ * Bác sĩ điều trị cấp cao, Khoa Tai mũi họng, Bệnh Viện Đại học Y Dược TP. HCM (2007)
+ * Bác sĩ nội trú, Khoa Tai mũi họng, Đại học Y Dược TP. HCM (2002-2006)
+ 
+ **Qúa trình đào tạo**
+ * Tiến sĩ Y học, Tai Mũi Họng, Đại học Y Dược TP. HCM (2021)
+ * Tai mũi họng – Phẫu thuật đầu và cổ, Bệnh Viện Đại học Texas, San Antonio, Hoa Kỳ (2015)
+ * Nội soi xoang và phẫu thuật sọ não, Bệnh Viện Khoa học Thần Kinh, Chapel Hill, Bắc Carolina, Hoa Kỳ, (2015)
+ * Phẫu thuật xoang nâng cao, Diễn đàn các Bác sĩ phẫu thuật xoang trẻ lần thứ 4 – Trung tâm Y khoa Saint Luke, Manila, Philippines (2014)
+ * Phẫu thuật xoang cơ bản, Diễn đàn các Bác sĩ phẫu thuật xoang trẻ lần thứ 3 – Trung tâm Y khoa Saint Luke, Manila, Philippines (2013)
+ * Thạc sĩ Y học, Đại học Y Dược TP. HCM (2010)
+ * Chuyên khoa Cấp I, Tai Mũi Họng, Đại học Y Dược TP. HCM (2007)
+ * Đại học Y Dược, Thành phố Hồ Chí Minh TP. HCM (2002)`,
+                descriptionHTML: `<p>Tiến sĩ, Bác sĩ John Watson</p>
+ <ul>
+ <li>Bác sĩ có 20 năm kinh nghiệm trong thăm khám và điều trị khoa Tai Mũi Họng</li>
+ <li>Từng công tác tại khoa Tai Mũi Họng, Bệnh Viện Đại học Y Dược TP. HCM</li>
+ <li>Hiện đang là trưởng Khoa Tai Mũi Họng, Bệnh Viện FV</li>
+ </ul>
+ <p><strong>Khám và điều trị</strong></p>
+ <ul>
+ <li>Phẫu thuật nội soi xoang</li>
+ <li>Phẫu thuật nội soi nền sọ</li>
+ <li>Phẫu thuật Tai, Ngáy và Ngưng thở khi ngủ</li>
+ </ul>
+ <p><strong>Quá trình công tác</strong></p>
+ <ul>
+ <li>Trưởng Khoa Tai mũi họng, Bệnh Viện FV (2021 - nay)</li>
+ <li>Bác sĩ điều trị cấp cao, Khoa Tai mũi họng, Bệnh Viện Đại học Y Dược TP. HCM (2007)</li>
+ <li>Bác sĩ nội trú, Khoa Tai mũi họng, Đại học Y Dược TP. HCM (2002-2006)</li>
+ </ul>
+ <p><strong>Qúa trình đào tạo</strong></p>
+ <ul>
+ <li>Tiến sĩ Y học, Tai Mũi Họng, Đại học Y Dược TP. HCM (2021)</li>
+ <li>Tai mũi họng – Phẫu thuật đầu và cổ, Bệnh Viện Đại học Texas, San Antonio, Hoa Kỳ (2015)</li>
+ <li>Nội soi xoang và phẫu thuật sọ não, Bệnh Viện Khoa học Thần Kinh, Chapel Hill, Bắc Carolina, Hoa Kỳ, (2015)</li>
+ <li>Phẫu thuật xoang nâng cao, Diễn đàn các Bác sĩ phẫu thuật xoang trẻ lần thứ 4 – Trung tâm Y khoa Saint Luke, Manila, Philippines (2014)</li>
+ <li>Phẫu thuật xoang cơ bản, Diễn đàn các Bác sĩ phẫu thuật xoang trẻ lần thứ 3 – Trung tâm Y khoa Saint Luke, Manila, Philippines (2013)</li>
+ <li>Thạc sĩ Y học, Đại học Y Dược TP. HCM (2010)</li>
+ <li>Chuyên khoa Cấp I, Tai Mũi Họng, Đại học Y Dược TP. HCM (2007)</li>
+ <li>Đại học Y Dược, Thành phố Hồ Chí Minh TP. HCM (2002)</li>
+ </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'taton', // tài khoản
@@ -1213,29 +2149,69 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem daiYTy dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem daiYTy dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+                descriptionMarkdown: `**Bác sĩ Chuyên khoa I Thúy Kiều**
+ * Hơn 15 năm kinh nghiệm trong lĩnh vực Sản phụ khoa và Siêu âm thai
+ * Từng công tác tại Khoa Siêu âm Sản phụ khoa, Bệnh viện Hùng Vương
+ * Đang công tác tại Khoa Sản phụ khoa, Bệnh viện Đại học Y dược TP. HCM
+ 
+ **Khám và điều trị**
+ 
+ * Phẫu thuật nội soi phụ khoa
+ * Siêu âm bơm nước buồng tử cung
+ * Soi cổ tử cung
+ * Thai kỳ nguy cơ cao
+ * Y học bào thai
+ 
+  **Quá trình công tác**
+ 
+ * Bác sĩ Điều trị Cấp cao, Khoa Sản phụ khoa, Bệnh viện FV  (2011 - nay)
+ * Bác sĩ Điều trị Cấp cao, Khoa Sản phụ khoa, Bệnh viện Đại học Y dược TP. HCM (2017 - nay) 
+ * Bác sĩ Điều trị Cấp cao, Khoa Siêu âm Sản phụ khoa, Bệnh viện Hùng Vương (2008 - 2017)
+ * Bác sĩ Điều trị Cấp cao, Khoa Sản phụ khoa, Bệnh viện Hùng Vương TP. HCM (2007 - 2017)
+ 
+ **Quá trình đào tạo** 
+ 
+ * Bằng chuyên khoa cấp 1, Chuyên ngành Sản & Phụ khoa, Đại học Y Dược TP. HCM (2016) 
+ * Tốt nghiệp Đại học Y Khoa, TP. HCM (2006)
+ 
+ **Chứng chỉ trong nước và ngoài nước**
+ * Đánh giá cổ tử cung & Theo dõi tiền sản, Tổ chức Y học Thai Nhi, London, Anh (2010)
+ * Sàng lọc thai nhi từ tuần 11 - 13, Tổ chức Y học Thai Nhi, London, Anh (2009)
+ * Siêu âm chẩn đoán trong Sản phụ khoa, Phạm Ngọc Thạch TP. HCM  (2008)
+ * Thai kỳ nguy cơ cao, Bệnh viện Từ Dũ & Bệnh viện Nepean, Sydney, Úc (2008)`,
+                descriptionHTML: `<p><strong>Bác sĩ Chuyên khoa I Thúy Kiều</strong></p>
+ <ul>
+ <li>Hơn 15 năm kinh nghiệm trong lĩnh vực Sản phụ khoa và Siêu âm thai</li>
+ <li>Từng công tác tại Khoa Siêu âm Sản phụ khoa, Bệnh viện Hùng Vương</li>
+ <li>Đang công tác tại Khoa Sản phụ khoa, Bệnh viện Đại học Y dược TP. HCM</li>
+ </ul>
+ <p><strong>Khám và điều trị</strong></p>
+ <ul>
+ <li>Phẫu thuật nội soi phụ khoa</li>
+ <li>Siêu âm bơm nước buồng tử cung</li>
+ <li>Soi cổ tử cung</li>
+ <li>Thai kỳ nguy cơ cao</li>
+ <li>Y học bào thai</li>
+ </ul>
+ <p><strong>Quá trình công tác</strong></p>
+ <ul>
+ <li>Bác sĩ Điều trị Cấp cao, Khoa Sản phụ khoa, Bệnh viện FV  (2011 - nay)</li>
+ <li>Bác sĩ Điều trị Cấp cao, Khoa Sản phụ khoa, Bệnh viện Đại học Y dược TP. HCM (2017 - nay)</li>
+ <li>Bác sĩ Điều trị Cấp cao, Khoa Siêu âm Sản phụ khoa, Bệnh viện Hùng Vương (2008 - 2017)</li>
+ <li>Bác sĩ Điều trị Cấp cao, Khoa Sản phụ khoa, Bệnh viện Hùng Vương TP. HCM (2007 - 2017)</li>
+ </ul>
+ <p><strong>Quá trình đào tạo</strong></p>
+ <ul>
+ <li>Bằng chuyên khoa cấp 1, Chuyên ngành Sản &amp; Phụ khoa, Đại học Y Dược TP. HCM (2016)</li>
+ <li>Tốt nghiệp Đại học Y Khoa, TP. HCM (2006)</li>
+ </ul>
+ <p><strong>Chứng chỉ trong nước và ngoài nước</strong></p>
+ <ul>
+ <li>Đánh giá cổ tử cung &amp; Theo dõi tiền sản, Tổ chức Y học Thai Nhi, London, Anh (2010)</li>
+ <li>Sàng lọc thai nhi từ tuần 11 - 13, Tổ chức Y học Thai Nhi, London, Anh (2009)</li>
+ <li>Siêu âm chẩn đoán trong Sản phụ khoa, Phạm Ngọc Thạch TP. HCM  (2008)</li>
+ <li>Thai kỳ nguy cơ cao, Bệnh viện Từ Dũ &amp; Bệnh viện Nepean, Sydney, Úc (2008)</li>
+ </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'tusamlongvuong', // tài khoản
@@ -1260,29 +2236,61 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem Man2DacMucNhi dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem Man2DacMucNhi dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+                descriptionMarkdown: `Tiến sĩ, Bác sĩ John Watson
+ * Bác sĩ có 20 năm kinh nghiệm trong thăm khám và điều trị khoa Tai Mũi Họng
+ * Từng công tác tại khoa Tai Mũi Họng, Bệnh Viện Đại học Y Dược TP. HCM
+ * Hiện đang là trưởng Khoa Tai Mũi Họng, Bệnh Viện FV
+ 
+ **Khám và điều trị**
+ 
+ * Phẫu thuật nội soi xoang
+ * Phẫu thuật nội soi nền sọ
+ * Phẫu thuật Tai, Ngáy và Ngưng thở khi ngủ
+ 
+ **Quá trình công tác** 
+ 
+ * Trưởng Khoa Tai mũi họng, Bệnh Viện FV (2021 - nay)
+ * Bác sĩ điều trị cấp cao, Khoa Tai mũi họng, Bệnh Viện Đại học Y Dược TP. HCM (2007)
+ * Bác sĩ nội trú, Khoa Tai mũi họng, Đại học Y Dược TP. HCM (2002-2006)
+ 
+ **Qúa trình đào tạo**
+ * Tiến sĩ Y học, Tai Mũi Họng, Đại học Y Dược TP. HCM (2021)
+ * Tai mũi họng – Phẫu thuật đầu và cổ, Bệnh Viện Đại học Texas, San Antonio, Hoa Kỳ (2015)
+ * Nội soi xoang và phẫu thuật sọ não, Bệnh Viện Khoa học Thần Kinh, Chapel Hill, Bắc Carolina, Hoa Kỳ, (2015)
+ * Phẫu thuật xoang nâng cao, Diễn đàn các Bác sĩ phẫu thuật xoang trẻ lần thứ 4 – Trung tâm Y khoa Saint Luke, Manila, Philippines (2014)
+ * Phẫu thuật xoang cơ bản, Diễn đàn các Bác sĩ phẫu thuật xoang trẻ lần thứ 3 – Trung tâm Y khoa Saint Luke, Manila, Philippines (2013)
+ * Thạc sĩ Y học, Đại học Y Dược TP. HCM (2010)
+ * Chuyên khoa Cấp I, Tai Mũi Họng, Đại học Y Dược TP. HCM (2007)
+ * Đại học Y Dược, Thành phố Hồ Chí Minh TP. HCM (2002)`,
+                descriptionHTML: `<p>Tiến sĩ, Bác sĩ John Watson</p>
+ <ul>
+ <li>Bác sĩ có 20 năm kinh nghiệm trong thăm khám và điều trị khoa Tai Mũi Họng</li>
+ <li>Từng công tác tại khoa Tai Mũi Họng, Bệnh Viện Đại học Y Dược TP. HCM</li>
+ <li>Hiện đang là trưởng Khoa Tai Mũi Họng, Bệnh Viện FV</li>
+ </ul>
+ <p><strong>Khám và điều trị</strong></p>
+ <ul>
+ <li>Phẫu thuật nội soi xoang</li>
+ <li>Phẫu thuật nội soi nền sọ</li>
+ <li>Phẫu thuật Tai, Ngáy và Ngưng thở khi ngủ</li>
+ </ul>
+ <p><strong>Quá trình công tác</strong></p>
+ <ul>
+ <li>Trưởng Khoa Tai mũi họng, Bệnh Viện FV (2021 - nay)</li>
+ <li>Bác sĩ điều trị cấp cao, Khoa Tai mũi họng, Bệnh Viện Đại học Y Dược TP. HCM (2007)</li>
+ <li>Bác sĩ nội trú, Khoa Tai mũi họng, Đại học Y Dược TP. HCM (2002-2006)</li>
+ </ul>
+ <p><strong>Qúa trình đào tạo</strong></p>
+ <ul>
+ <li>Tiến sĩ Y học, Tai Mũi Họng, Đại học Y Dược TP. HCM (2021)</li>
+ <li>Tai mũi họng – Phẫu thuật đầu và cổ, Bệnh Viện Đại học Texas, San Antonio, Hoa Kỳ (2015)</li>
+ <li>Nội soi xoang và phẫu thuật sọ não, Bệnh Viện Khoa học Thần Kinh, Chapel Hill, Bắc Carolina, Hoa Kỳ, (2015)</li>
+ <li>Phẫu thuật xoang nâng cao, Diễn đàn các Bác sĩ phẫu thuật xoang trẻ lần thứ 4 – Trung tâm Y khoa Saint Luke, Manila, Philippines (2014)</li>
+ <li>Phẫu thuật xoang cơ bản, Diễn đàn các Bác sĩ phẫu thuật xoang trẻ lần thứ 3 – Trung tâm Y khoa Saint Luke, Manila, Philippines (2013)</li>
+ <li>Thạc sĩ Y học, Đại học Y Dược TP. HCM (2010)</li>
+ <li>Chuyên khoa Cấp I, Tai Mũi Họng, Đại học Y Dược TP. HCM (2007)</li>
+ <li>Đại học Y Dược, Thành phố Hồ Chí Minh TP. HCM (2002)</li>
+ </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'trieuman', // tài khoản
@@ -1309,29 +2317,87 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem QuanBao dolor 
+                descriptionMarkdown: `**Bác sĩ cao câp hạng 1 Tiểu Sư Đệ**
 
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem QuanBao dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+ * Hơn 20 năm kinh nghiệm lĩnh vực Sức khỏe tâm thần
+ * Hiện là Trưởng khoa Tâm thần trẻ em - Bệnh viện Tâm thần Ban ngày Mai Hương
+ * Khám và điều trị
+ 
+ **Bác sĩ có thế mạnh khám và điều trị các vấn đề tâm thần học trẻ em như:**
+ 
+ * Các vấn đề tâm lý ở trẻ
+ * Tâm thần học liên quan đến sự phát triển của trẻ
+ * Rối loạn tăng động giảm chú ý (ADHD) và các vấn đề liên quan
+ * Động kinh trẻ em và các vấn đề liên quan
+ 
+ **Ngoài ra bác sĩ nhận khám và điều trị về:**
+ 
+ * Rối loạn lo âu, hoa mắt chóng mặt: Mất ngủ, khó ngủ, khó duy trì giấc ngủ, dậy quá sớm, ngủ dậy vẫn thấy mệt, tỉnh dậy nhiều lần trong giấc ngủ
+ * Rối loạn tiền đình
+ * Rối loạn thần kinh thực vật
+ * Trầm cảm
+ * Rối loạn lưỡng cực cảm xúc
+ * Tâm thần phân liệt, có thể kích động, khả năng học tập lao động giảm dần, ngày càng thờ ơ, vô cảm
+ * Sa sút trí tuệ
+ * Rối loạn tăng động giảm chú ý (ADHD)
+ * Nghiện game
+ * Nghiện rượu, thuốc lá
+ * Nghiện ma túy tổng hợp
+ * Đau đầu, đau lưng, đau mỏi vai gáy, mệt mỏi mạn tính, mất ngủ, bồn chồn, dễ cáu kỉnh, tự đánh giá thấp bản thân
+ * Khó tập trung công việc
+ * Căng thẳng tâm lý, suy nghĩ tiêu cực, bi quan và tuyệt vọng kéo dài
+ 
+ **Quá trình công tác**
+ * Trưởng khoa Tâm thần trẻ em và Tâm lý lâm sàng, Bệnh viện Tâm thần Ban ngày Mai Hương (2014 - nay)
+ * Phó Trưởng khoa Khám bệnh, Bệnh viện Tâm thần Ban ngày Mai Hương (2011 - 2014)
+ * Bác sĩ điều trị khoa Khám bệnh, Bệnh viện Tâm thần Ban ngày Mai Hương (2006 - 2008)
+ * Bác sĩ điều trị, Bí thư chi đoàn TNCS Hồ Chí Minh, Bệnh viện Tâm thần Ban ngày Mai Hương (2000 - 2006)
+ 
+ **Quá trình đào tạo**
+ * Thạc sĩ chuyên ngành Tâm thần: chuyên sâu về tâm thần học trẻ em, Đại học Y Hà Nội (2008 - 2011)
+ * Tốt nghiệp Đại học Y Hà Nội (1998)`,
+                descriptionHTML: `<p><strong>Bác sĩ cao câp hạng 1 Tiểu Sư Đệ</strong></p>
+ <ul>
+ <li>Hơn 20 năm kinh nghiệm lĩnh vực Sức khỏe tâm thần</li>
+ <li>Hiện là Trưởng khoa Tâm thần trẻ em - Bệnh viện Tâm thần Ban ngày Mai Hương</li>
+ <li>Khám và điều trị</li>
+ </ul>
+ <p><strong>Bác sĩ có thế mạnh khám và điều trị các vấn đề tâm thần học trẻ em như:</strong></p>
+ <ul>
+ <li>Các vấn đề tâm lý ở trẻ</li>
+ <li>Tâm thần học liên quan đến sự phát triển của trẻ</li>
+ <li>Rối loạn tăng động giảm chú ý (ADHD) và các vấn đề liên quan</li>
+ <li>Động kinh trẻ em và các vấn đề liên quan</li>
+ </ul>
+ <p><strong>Ngoài ra bác sĩ nhận khám và điều trị về:</strong></p>
+ <ul>
+ <li>Rối loạn lo âu, hoa mắt chóng mặt: Mất ngủ, khó ngủ, khó duy trì giấc ngủ, dậy quá sớm, ngủ dậy vẫn thấy mệt, tỉnh dậy nhiều lần trong giấc ngủ</li>
+ <li>Rối loạn tiền đình</li>
+ <li>Rối loạn thần kinh thực vật</li>
+ <li>Trầm cảm</li>
+ <li>Rối loạn lưỡng cực cảm xúc</li>
+ <li>Tâm thần phân liệt, có thể kích động, khả năng học tập lao động giảm dần, ngày càng thờ ơ, vô cảm</li>
+ <li>Sa sút trí tuệ</li>
+ <li>Rối loạn tăng động giảm chú ý (ADHD)</li>
+ <li>Nghiện game</li>
+ <li>Nghiện rượu, thuốc lá</li>
+ <li>Nghiện ma túy tổng hợp</li>
+ <li>Đau đầu, đau lưng, đau mỏi vai gáy, mệt mỏi mạn tính, mất ngủ, bồn chồn, dễ cáu kỉnh, tự đánh giá thấp bản thân</li>
+ <li>Khó tập trung công việc</li>
+ <li>Căng thẳng tâm lý, suy nghĩ tiêu cực, bi quan và tuyệt vọng kéo dài</li>
+ </ul>
+ <p><strong>Quá trình công tác</strong></p>
+ <ul>
+ <li>Trưởng khoa Tâm thần trẻ em và Tâm lý lâm sàng, Bệnh viện Tâm thần Ban ngày Mai Hương (2014 - nay)</li>
+ <li>Phó Trưởng khoa Khám bệnh, Bệnh viện Tâm thần Ban ngày Mai Hương (2011 - 2014)</li>
+ <li>Bác sĩ điều trị khoa Khám bệnh, Bệnh viện Tâm thần Ban ngày Mai Hương (2006 - 2008)</li>
+ <li>Bác sĩ điều trị, Bí thư chi đoàn TNCS Hồ Chí Minh, Bệnh viện Tâm thần Ban ngày Mai Hương (2000 - 2006)</li>
+ </ul>
+ <p><strong>Quá trình đào tạo</strong></p>
+ <ul>
+ <li>Thạc sĩ chuyên ngành Tâm thần: chuyên sâu về tâm thần học trẻ em, Đại học Y Hà Nội (2008 - 2011)</li>
+ <li>Tốt nghiệp Đại học Y Hà Nội (1998)</li>
+ </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'truong3phong', // tài khoản
@@ -1357,30 +2423,103 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem ThanhDucBucVuong dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem ThanhDucBucVuong dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+                descriptionMarkdown: `**Thạc sĩ, Bác sĩ A Lượng**
+ * Gần 15 năm kinh nghiệm lĩnh vực Tim mạch
+ * Hiện đang công tác tại Bệnh viện Tim Hà Nội
+ * Từng công tác tại Bệnh viện đa khoa Xanh Pôn
+ * Từng học tập và tu nghiệp ở nước ngoài: Pháp
+ 
+ 
+ #### **Khám và điều trị**
+ 
+ 
+ **Khám và tư vấn chuyên sâu các bệnh lý Tim mạch:**
+ 
+ * Phát hiện và quản lý Tăng Huyết Áp đúng cách, tầm soát tư vấn kiển soát các yếu tố nguy cơ của Tăng Huyết Áp một cách hiệu quả, điều trị biến chứng Tăng Huyết Áp
+ * Sàng lọc bilan mỡ, tư vấn kiểm soát mỡ máu theo khuyến cáo
+ * Tầm soát và tư vấn điều trị bệnh lý van tim, cơ tim, bệnh mạch vành, nhồi máu cơ tim, đau ngực không ổn định, đau ngực ổn định, các bất thường nhịp tim, suy tim …
+ 
+ **Khám, siêu âm và tư vấn chuyên sâu về bệnh lý mạch máu ngoại biên:**
+ 
+ * Bệnh lý động mạch chi trên, động mạch chi dưới, động mạch cảnh, động mạch thận… và bệnh lý hệ Tĩnh mạch nông – sâu chi trên, chi dưới (Suy tĩnh mạch, Huyết khối tĩnh mạch nông, sâu,...)
+ 
+ **Tầm soát, khám và tư vấn các bệnh lý Nội khoa Tổng quát:**
+ 
+ * Bệnh lý thận  - tiết niệu (bệnh viêm cầu thận, suy thận cấp, suy thận mạn, sỏi thận… )
+ * Bệnh lý tiêu hoá, gan, mật (viêm gan, xơ gan, sỏi mật, bệnh lý dạ dày, ruột …)
+ * Bệnh lý thần kinh (đột quỵ nhồi máu não, xuất huyết não..)
+ * Bệnh chuyển hoá (tuyến giáp,đái tháo đường…)
+ * Bệnh lý hô hấp ( Viêm phổi, Viêm phế quản, COPD…)
+ 
+ **Quá trình công tác**
+ * Bác sỹ Tim mạch, Bệnh viện Tim Hà Nội (2016 - Nay)
+ * Bác sỹ Tim mạch, Bệnh viện đa khoa Xanh Pôn (2006 - 2016)
+ 
+ **Quá trình đào tạo**
+ * Chương trình đào tạo sau đại học Việt Pháp (2012)
+ * Thạc sỹ chuyên ngành Nội - Tim Mạch, Trường Đại học Y Hà Nội (2010)
+ * Bác sĩ đa khoa, Đại học Y Hà Nội (1990 - 1996)
+ 
+ **Chứng chỉ trong nước hoặc nước ngoài**
+ * Siêu âm các bệnh lý mạch máu - MEVAH, Cộng hoà Pháp ( năm 2012)
+ * Siêu âm tổng quát, siêu âm tim mạch, siêu âm bệnh lý tim trẻ em, Bệnh viện Tim mạch Quốc Gia, Bệnh viện Bạch Mai, Bệnh viên Tim Hà Nội
+ 
+ **Sách và các công trình nghiên cứu, báo cáo khoa học**
+ * Đánh giá kết quả sớm của phương pháp Nong van hai lá bằng bóng INOUE trong điều trị bệnh hẹp van hai lá khít tái phát sau nong (Luận văn tốt nghiệp Thạc sỹ - Đại học Y Hà Nội) (2010)
+ 
+ **Thành viên các Hội khoa học, tổ chức chuyên môn**
+ * Hội viên hội tim mạch Việt Nam`,
+                descriptionHTML: `<p><strong>Thạc sĩ, Bác sĩ A Lượng</strong></p>
+ <ul>
+ <li>Gần 15 năm kinh nghiệm lĩnh vực Tim mạch</li>
+ <li>Hiện đang công tác tại Bệnh viện Tim Hà Nội</li>
+ <li>Từng công tác tại Bệnh viện đa khoa Xanh Pôn</li>
+ <li>Từng học tập và tu nghiệp ở nước ngoài: Pháp</li>
+ </ul>
+ <h4><strong>Khám và điều trị</strong></h4>
+ <p><strong>Khám và tư vấn chuyên sâu các bệnh lý Tim mạch:</strong></p>
+ <ul>
+ <li>Phát hiện và quản lý Tăng Huyết Áp đúng cách, tầm soát tư vấn kiển soát các yếu tố nguy cơ của Tăng Huyết Áp một cách hiệu quả, điều trị biến chứng Tăng Huyết Áp</li>
+ <li>Sàng lọc bilan mỡ, tư vấn kiểm soát mỡ máu theo khuyến cáo</li>
+ <li>Tầm soát và tư vấn điều trị bệnh lý van tim, cơ tim, bệnh mạch vành, nhồi máu cơ tim, đau ngực không ổn định, đau ngực ổn định, các bất thường nhịp tim, suy tim …</li>
+ </ul>
+ <p><strong>Khám, siêu âm và tư vấn chuyên sâu về bệnh lý mạch máu ngoại biên:</strong></p>
+ <ul>
+ <li>Bệnh lý động mạch chi trên, động mạch chi dưới, động mạch cảnh, động mạch thận… và bệnh lý hệ Tĩnh mạch nông – sâu chi trên, chi dưới (Suy tĩnh mạch, Huyết khối tĩnh mạch nông, sâu,...)</li>
+ </ul>
+ <p><strong>Tầm soát, khám và tư vấn các bệnh lý Nội khoa Tổng quát:</strong></p>
+ <ul>
+ <li>Bệnh lý thận  - tiết niệu (bệnh viêm cầu thận, suy thận cấp, suy thận mạn, sỏi thận… )</li>
+ <li>Bệnh lý tiêu hoá, gan, mật (viêm gan, xơ gan, sỏi mật, bệnh lý dạ dày, ruột …)</li>
+ <li>Bệnh lý thần kinh (đột quỵ nhồi máu não, xuất huyết não..)</li>
+ <li>Bệnh chuyển hoá (tuyến giáp,đái tháo đường…)</li>
+ <li>Bệnh lý hô hấp ( Viêm phổi, Viêm phế quản, COPD…)</li>
+ </ul>
+ <p><strong>Quá trình công tác</strong></p>
+ <ul>
+ <li>Bác sỹ Tim mạch, Bệnh viện Tim Hà Nội (2016 - Nay)</li>
+ <li>Bác sỹ Tim mạch, Bệnh viện đa khoa Xanh Pôn (2006 - 2016)</li>
+ </ul>
+ <p><strong>Quá trình đào tạo</strong></p>
+ <ul>
+ <li>Chương trình đào tạo sau đại học Việt Pháp (2012)</li>
+ <li>Thạc sỹ chuyên ngành Nội - Tim Mạch, Trường Đại học Y Hà Nội (2010)</li>
+ <li>Bác sĩ đa khoa, Đại học Y Hà Nội (1990 - 1996)</li>
+ </ul>
+ <p><strong>Chứng chỉ trong nước hoặc nước ngoài</strong></p>
+ <ul>
+ <li>Siêu âm các bệnh lý mạch máu - MEVAH, Cộng hoà Pháp ( năm 2012)</li>
+ <li>Siêu âm tổng quát, siêu âm tim mạch, siêu âm bệnh lý tim trẻ em, Bệnh viện Tim mạch Quốc Gia, Bệnh viện Bạch Mai, Bệnh viên Tim Hà Nội</li>
+ </ul>
+ <p><strong>Sách và các công trình nghiên cứu, báo cáo khoa học</strong></p>
+ <ul>
+ <li>Đánh giá kết quả sớm của phương pháp Nong van hai lá bằng bóng INOUE trong điều trị bệnh hẹp van hai lá khít tái phát sau nong (Luận văn tốt nghiệp Thạc sỹ - Đại học Y Hà Nội) (2010)</li>
+ </ul>
+ <p><strong>Thành viên các Hội khoa học, tổ chức chuyên môn</strong></p>
+ <ul>
+ <li>Hội viên hội tim mạch Việt Nam</li>
+ </ul>
+ `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'vinhattieu', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -1405,30 +2544,85 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem TaSu dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem TaSu dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
-`,
+                descriptionMarkdown: `**Tiến sĩ, Bác sĩ Sư Phụ Bự**
+ * 20 năm kinh nghiệm lĩnh vực Tim mạch
+ * Hiện là trưởng khoa Q2 - Viện Tim mạch - Bệnh viện Bạch Mai
+ * Từng đào tạo và tu nghiệp tại nước ngoài: Hoa Kỳ, Australia, Cộng hòa Liên bang Đức
+ 
+ **Khám và điều trị**
+ 
+ Các bệnh lý Nội Tim mạch:
+ 
+ * Đau ngực trái, bệnh mạch vành (sau đặt stent, sau mổ bắc cầu)
+ * Tăng huyết áp, hạ huyết áp
+ * Rối loạn mỡ máu, Dinh dưỡng cho bệnh nhân rối loạn mỡ máu
+ * Xơ vữa động mạch
+ * Điều trị bệnh mạch vành
+ * Bệnh van tim (Hẹp hở van tim)
+ * Bệnh cơ tim
+ * Chẩn đoán bệnh tim bẩm sinh ở người lớn, đặc biệt tầm soát và điều trị bệnh tim bẩm sinh ở trẻ em, sơ sinh
+ * Khám bệnh mạch máu ngoại biên
+ * Tư vấn, phát hiện sớm và phòng ngừa các bệnh lý tim mạch
+ * Tư vấn sử dụng thuốc chống đông máu
+ * Tư vấn bệnh tăng huyết áp
+ * Điều trị bệnh tăng huyết áp
+ * Tư vấn dinh dưỡng và chế độ sinh hoạt, tập luyện cho bệnh nhân tăng huyết áp...
+ 
+ **Quá trình công tác**
+ 
+ * Trưởng khoa Q2 - Viện Tim mạch - Bệnh viện Bạch Mai
+ **
+ Quá trình đào tạo**
+ * Tiến sĩ Y khoa - Đại học Y Hà Nội
+ * Đào tạo Fellow Course về Tim mạch can thiệp của Hội tim mạch can thiệp Hoa Kì (SCAI) - Las Vegas, Hoa Kỳ
+ * Đào tạo sau đại học về tim mạch người lớn - Bệnh viện Royal North Shore Hospital, Sydney, Australia
+ * Bác sĩ Đa khoa, hệ Bác sĩ Nội trú chuyên ngành Tim mạch - Đại học Y Hà Nội
+ 
+ **Sách và các công trình nghiên cứu, báo cáo khoa học**
+ * Tham gia biên soạn 2 cuốn sách chuyên ngành đã xuất bản
+ * 3 công trình khoa học
+ * 30 bài báo khoa học chuyên ngành`,
+                descriptionHTML: `<p><strong>Tiến sĩ, Bác sĩ Sư Phụ Bự</strong></p>
+ <ul>
+ <li>20 năm kinh nghiệm lĩnh vực Tim mạch</li>
+ <li>Hiện là trưởng khoa Q2 - Viện Tim mạch - Bệnh viện Bạch Mai</li>
+ <li>Từng đào tạo và tu nghiệp tại nước ngoài: Hoa Kỳ, Australia, Cộng hòa Liên bang Đức</li>
+ </ul>
+ <p><strong>Khám và điều trị</strong></p>
+ <p>Các bệnh lý Nội Tim mạch:</p>
+ <ul>
+ <li>Đau ngực trái, bệnh mạch vành (sau đặt stent, sau mổ bắc cầu)</li>
+ <li>Tăng huyết áp, hạ huyết áp</li>
+ <li>Rối loạn mỡ máu, Dinh dưỡng cho bệnh nhân rối loạn mỡ máu</li>
+ <li>Xơ vữa động mạch</li>
+ <li>Điều trị bệnh mạch vành</li>
+ <li>Bệnh van tim (Hẹp hở van tim)</li>
+ <li>Bệnh cơ tim</li>
+ <li>Chẩn đoán bệnh tim bẩm sinh ở người lớn, đặc biệt tầm soát và điều trị bệnh tim bẩm sinh ở trẻ em, sơ sinh</li>
+ <li>Khám bệnh mạch máu ngoại biên</li>
+ <li>Tư vấn, phát hiện sớm và phòng ngừa các bệnh lý tim mạch</li>
+ <li>Tư vấn sử dụng thuốc chống đông máu</li>
+ <li>Tư vấn bệnh tăng huyết áp</li>
+ <li>Điều trị bệnh tăng huyết áp</li>
+ <li>Tư vấn dinh dưỡng và chế độ sinh hoạt, tập luyện cho bệnh nhân tăng huyết áp...</li>
+ </ul>
+ <p><strong>Quá trình công tác</strong></p>
+ <ul>
+ <li>Trưởng khoa Q2 - Viện Tim mạch - Bệnh viện Bạch Mai
+ **
+ Quá trình đào tạo**</li>
+ <li>Tiến sĩ Y khoa - Đại học Y Hà Nội</li>
+ <li>Đào tạo Fellow Course về Tim mạch can thiệp của Hội tim mạch can thiệp Hoa Kì (SCAI) - Las Vegas, Hoa Kỳ</li>
+ <li>Đào tạo sau đại học về tim mạch người lớn - Bệnh viện Royal North Shore Hospital, Sydney, Australia</li>
+ <li>Bác sĩ Đa khoa, hệ Bác sĩ Nội trú chuyên ngành Tim mạch - Đại học Y Hà Nội</li>
+ </ul>
+ <p><strong>Sách và các công trình nghiên cứu, báo cáo khoa học</strong></p>
+ <ul>
+ <li>Tham gia biên soạn 2 cuốn sách chuyên ngành đã xuất bản</li>
+ <li>3 công trình khoa học</li>
+ <li>30 bài báo khoa học chuyên ngành</li>
+ </ul>
+ `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'duongtieu', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
@@ -1453,29 +2647,63 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
  LOẠI BẢO HIỂM ÁP DỤNG
  + Bảo hiểm Y tế nhà nước: Áp dụng cho bệnh nhân đăng ký khám chữa bệnh ban đầu tại bệnh viện hoặc có giấy chuyển viện từ đơn vị khác
  + Bảo hiểm bảo lãnh trực tiếp: Đối với các bảo hiểm không bảo lãnh trực tiếp, bệnh viện hỗ trợ xuất hóa đơn tài chính (hoá đơn đỏ) và hỗ trợ bệnh nhân hoàn thiện hồ sơ`,
-                descriptionMarkdown: `#### Lorem ThuNhi dolor 
-
-1. sit amet, consectetur adipiscing elit
-2. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-3.  Ut enim ad minim veniam
-4.  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-
-* Duis aute irure dolor in reprehenderit 
-* in voluptate velit esse cillum dolore eu f
-
-****giat nulla pariaturu****. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim* id est laborum.*`,
-                descriptionHTML: `<h4>Lorem ThuNhi dolor</h4>
-<ol>
-<li>sit amet, consectetur adipiscing elit</li>
-<li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam</li>
-<li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-</ol>
-<ul>
-<li>Duis aute irure dolor in reprehenderit</li>
-<li>in voluptate velit esse cillum dolore eu f</li>
-</ul>
-<p><strong><strong>giat nulla pariaturu</strong></strong>. <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</em> id est laborum.*</p>
+                descriptionMarkdown: `**Bác sĩ Chuyên khoa I Sherlock Homles **
+ * Hơn 20 năm kinh nghiệm trong lĩnh vực Tim mạch
+ * Từng công tác tại Khoa Thông Tim Can Thiệp, Bệnh viện Nguyễn Tri Phương
+ * Hiện đang công tác tại Khoa Tim mạch, Bệnh viện FV
+ 
+ **Khám và điều trị **
+ * Bệnh tim thiếu máu cục bộ
+ * Suy tim
+ * Siêu âm tim
+ * Tim mạch can thiệp
+ 
+ **Quá trình công tác **
+ * Bác sĩ Điều trị Cấp cao, Khoa Tim mạch, Bệnh viện FV, TP.HCM (2017)
+ * Bác sĩ Điều trị Cấp cao, Khoa Thông Tim Can Thiệp, Bệnh viện Nguyễn Tri Phương (2011 - 2017)
+ * Bác sĩ Điều trị, Khoa Tim mạch, Bệnh viện Hoàn Mỹ Cửu Long, Cần Thơ (2007 - 2011)
+ * Bác sĩ Điều trị, Khoa Tim mạch, Bệnh viện Đa khoa Trung ương Cần Thơ (2006 - 2007)
+ 
+ **Quá trình đào tạo**
+ 
+ * Chuyên khoa cấp 1, Lão Khoa, Đại học Y Dược TP. HCM (2006) 
+ * Tốt nghiệp Đại học Y Dược, Cần Thơ (2001)
+ 
+ **Chứng chỉ trong nước và ngoài nước**
+ * Bằng tim Mạch Can Thiệp, Viện Tim TP. HCM  (2011 - 2012)
+ * Bằng hồi sức cấp cứu, Bệnh viện Chợ Rẫy TP. HCM (2006)
+ * Bằng tim mạch và siêu âm tim, Trường y Phạm Ngọc Thạch TP. HCM (2005 - 2006)`,
+                descriptionHTML: `<p>**Bác sĩ Chuyên khoa I Sherlock Homles **</p>
+ <ul>
+ <li>Hơn 20 năm kinh nghiệm trong lĩnh vực Tim mạch</li>
+ <li>Từng công tác tại Khoa Thông Tim Can Thiệp, Bệnh viện Nguyễn Tri Phương</li>
+ <li>Hiện đang công tác tại Khoa Tim mạch, Bệnh viện FV</li>
+ </ul>
+ <p>**Khám và điều trị **</p>
+ <ul>
+ <li>Bệnh tim thiếu máu cục bộ</li>
+ <li>Suy tim</li>
+ <li>Siêu âm tim</li>
+ <li>Tim mạch can thiệp</li>
+ </ul>
+ <p>**Quá trình công tác **</p>
+ <ul>
+ <li>Bác sĩ Điều trị Cấp cao, Khoa Tim mạch, Bệnh viện FV, TP.HCM (2017)</li>
+ <li>Bác sĩ Điều trị Cấp cao, Khoa Thông Tim Can Thiệp, Bệnh viện Nguyễn Tri Phương (2011 - 2017)</li>
+ <li>Bác sĩ Điều trị, Khoa Tim mạch, Bệnh viện Hoàn Mỹ Cửu Long, Cần Thơ (2007 - 2011)</li>
+ <li>Bác sĩ Điều trị, Khoa Tim mạch, Bệnh viện Đa khoa Trung ương Cần Thơ (2006 - 2007)</li>
+ </ul>
+ <p><strong>Quá trình đào tạo</strong></p>
+ <ul>
+ <li>Chuyên khoa cấp 1, Lão Khoa, Đại học Y Dược TP. HCM (2006)</li>
+ <li>Tốt nghiệp Đại học Y Dược, Cần Thơ (2001)</li>
+ </ul>
+ <p><strong>Chứng chỉ trong nước và ngoài nước</strong></p>
+ <ul>
+ <li>Bằng tim Mạch Can Thiệp, Viện Tim TP. HCM  (2011 - 2012)</li>
+ <li>Bằng hồi sức cấp cứu, Bệnh viện Chợ Rẫy TP. HCM (2006)</li>
+ <li>Bằng tim mạch và siêu âm tim, Trường y Phạm Ngọc Thạch TP. HCM (2005 - 2006)</li>
+ </ul>                
 `,
                 priceDefault: 250, // giá mặc định
                 nickName: 'anly', // tài khoản

@@ -95,7 +95,7 @@ let getDetailClinicById = (inputId) => { //ok
             } else {
                 let data = await db.Clinic.findOne({
                     where: { id: inputId },
-                    attributes: ['name', 'address', 'province', 'descriptionHTML', 'descriptionMarkdown', 'nickname', 'image', 'status']
+                    // attributes: ['id', 'name', 'address', 'province', 'descriptionHTML', 'descriptionMarkdown', 'nickname', 'image', 'status']
                 })
 
                 // if (data) { // Muốn gọi được cái này thì phải thêm ràng buộc quan hệ giữa các bảng, thôi để sau

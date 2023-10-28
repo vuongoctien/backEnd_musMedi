@@ -9,17 +9,19 @@ module.exports = {
                 primaryKey: true,
                 type: Sequelize.INTEGER
             },
-            scheduleID: { type: Sequelize.INTEGER },
-            patientID: { type: Sequelize.INTEGER },
-            forWho: { type: Sequelize.STRING },
-            yourName: { type: Sequelize.STRING },
-            yourPhoneNumber: { type: Sequelize.STRING },
-            yourGmail: { type: Sequelize.STRING },
-            patientName: { type: Sequelize.STRING },
-            patientBirthday: { type: Sequelize.STRING },
-            patientGender: { type: Sequelize.STRING },
-            patientCCCD: { type: Sequelize.STRING },
-            reason: { type: Sequelize.STRING },
+            date: { type: Sequelize.DATEONLY }, // ngày khám
+            clockTime: { type: Sequelize.STRING }, // giờ khám
+            clinicID: { type: Sequelize.INTEGER }, // id CSYT
+            dr_or_pk: { type: Sequelize.BOOLEAN }, // bsi hay goi dvu?
+            dr_or_pk_ID: { type: Sequelize.INTEGER }, // ID bs or goi dvu
+            //////////////////////////////////////////////////////////////
+            forWho: { type: Sequelize.BOOLEAN }, // đặt cho ai?
+            phoneNumber: { type: Sequelize.STRING }, // sđt ng đặt
+            gmail: { type: Sequelize.STRING }, // gmail người đặt
+            patientName: { type: Sequelize.STRING }, // tên bệnh nhân
+            patientBirthday: { type: Sequelize.STRING }, // ngày sinh bệnh nhân
+            patientGender: { type: Sequelize.STRING }, // giới tính bệnh nhân
+            reason: { type: Sequelize.TEXT }, // Lý do khám
 
             createdAt: {
                 allowNull: false,

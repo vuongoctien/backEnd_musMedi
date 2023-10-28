@@ -14,17 +14,19 @@ module.exports = (sequelize, DataTypes) => {
         }
     }
     Booking.init({
-        scheduleID: DataTypes.INTEGER,
-        patientID: DataTypes.INTEGER,
-        forWho: DataTypes.STRING,
-        yourName: DataTypes.STRING,
-        yourPhoneNumber: DataTypes.STRING,
-        yourGmail: DataTypes.STRING,
-        patientName: DataTypes.STRING,
-        patientBirthday: DataTypes.STRING,
-        patientGender: DataTypes.STRING,
-        patientCCCD: DataTypes.STRING,
-        reason: DataTypes.STRING,
+        date: DataTypes.DATEONLY, // ngày khám
+        clockTime: DataTypes.STRING, // giờ khám
+        clinicID: DataTypes.INTEGER, // id CSYT
+        dr_or_pk: DataTypes.BOOLEAN, // bsi hay goi dvu?
+        dr_or_pk_ID: DataTypes.INTEGER, // ID bs or goi dvu
+        //////////////////////////////////////////////////////////////
+        forWho: DataTypes.BOOLEAN, // đặt cho ai?
+        phoneNumber: DataTypes.STRING, // sđt ng đặt
+        gmail: DataTypes.STRING, // gmail người đặt
+        patientName: DataTypes.STRING, // tên bệnh nhân
+        patientBirthday: DataTypes.STRING, // ngày sinh bệnh nhân
+        patientGender: DataTypes.STRING, // giới tính bệnh nhân
+        reason: DataTypes.TEXT, // Lý do khám
     }, {
         sequelize,
         modelName: 'Booking',

@@ -205,6 +205,57 @@ let getMediPkByIdClinicAndIdDoctor = (query) => { // ok
     })
 }
 
+let createOrder = (data) => { //ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (
+                !data.date ||
+                !data.clockTime ||
+                !data.clinicID ||
+                !data.dr_or_pk ||
+                !data.dr_or_pk_ID ||
+                //////////////////////////////////////////////////////////////
+                !data.forWho ||
+                !data.phoneNumber ||
+                !data.email ||
+                !data.patientName ||
+                !data.patientBirthday ||
+                !data.patientGender ||
+                !data.reason
+                // 0 > 1
+            ) { //thông tin bệnh nhân điền vào modal
+                resolve({
+                    errCode: 1,
+                    errMes: 'Vui lòng điền đầy đủ thông tin'
+                })
+            } else {
+                await db.Booking.create({
+                    date: data.date, // ngày khám
+                    clockTime: data.clockTime, // giờ khám
+                    clinicID: data.clinicID, // id CSYT
+                    dr_or_pk: data.dr_or_pk, // bsi hay goi dvu?
+                    dr_or_pk_ID: data.dr_or_pk_ID, // ID bs or goi dvu
+                    //////////////////////////////////////////////////////////////
+                    forWho: data.forWho, // đặt cho ai?
+                    phoneNumber: data.phoneNumber, // sđt ng đặt
+                    email: data.email, // email người đặt
+                    patientName: data.patientName, // tên bệnh nhân
+                    patientBirthday: data.patientBirthday, // ngày sinh bệnh nhân
+                    patientGender: data.patientGender, // giới tính bệnh nhân
+                    reason: data.reason, // Lý do khám
+                })
+            }
+
+            resolve({
+                errCode: 0,
+                errMes: 'Đã đặt lịch'
+            })
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
 module.exports = {
     createSchedule: createSchedule,
     deleteSchedule: deleteSchedule,
@@ -212,5 +263,6 @@ module.exports = {
     getDoctorByIdClinicAndIdDoctor: getDoctorByIdClinicAndIdDoctor,
     getMediPkByIdClinicAndIdDoctor: getMediPkByIdClinicAndIdDoctor,
     getScheduleForUser: getScheduleForUser,
+    createOrder: createOrder
 
 }

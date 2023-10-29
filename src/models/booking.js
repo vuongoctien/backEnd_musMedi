@@ -24,8 +24,8 @@ module.exports = (sequelize, DataTypes) => {
         phoneNumber: DataTypes.STRING, // sđt ng đặt
         email: DataTypes.STRING, // email người đặt
         patientName: DataTypes.STRING, // tên bệnh nhân
-        patientBirthday: DataTypes.STRING, // ngày sinh bệnh nhân
-        patientGender: DataTypes.STRING, // giới tính bệnh nhân
+        patientBirthday: DataTypes.DATE, // ngày sinh bệnh nhân
+        patientGender: DataTypes.BOOLEAN, // giới tính bệnh nhân
         reason: DataTypes.TEXT, // Lý do khám
     }, {
         sequelize,

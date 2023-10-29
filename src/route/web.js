@@ -72,6 +72,8 @@ let initWebRoutes = (app) => {
     router.get('/api/get-doctor-by-idclinic-and-iddoctor', scheduleController.getDoctorByIdClinicAndIdDoctor) // ok
     router.get('/api/get-medipk-by-idclinic-and-iddoctor', scheduleController.getMediPkByIdClinicAndIdDoctor) // ok
     router.get('/api/get-schedule-for-user', scheduleController.getScheduleForUser) // ok
+    // viết gộp booking vào luôn
+    router.post('/api/create-order', scheduleController.createOrder) //ok
 
     return app.use("/", router);
 }

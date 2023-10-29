@@ -19,8 +19,8 @@ module.exports = {
             phoneNumber: { type: Sequelize.STRING }, // sđt ng đặt
             email: { type: Sequelize.STRING }, // email người đặt
             patientName: { type: Sequelize.STRING }, // tên bệnh nhân
-            patientBirthday: { type: Sequelize.STRING }, // ngày sinh bệnh nhân
-            patientGender: { type: Sequelize.STRING }, // giới tính bệnh nhân
+            patientBirthday: { type: Sequelize.DATE }, // ngày sinh bệnh nhân
+            patientGender: { type: Sequelize.BOOLEAN }, // giới tính bệnh nhân
             reason: { type: Sequelize.TEXT }, // Lý do khám
 
             createdAt: {

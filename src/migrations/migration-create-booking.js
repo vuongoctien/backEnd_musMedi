@@ -17,7 +17,7 @@ module.exports = {
             //////////////////////////////////////////////////////////////
             forWho: { type: Sequelize.BOOLEAN }, // đặt cho ai?
             phoneNumber: { type: Sequelize.STRING }, // sđt ng đặt
-            gmail: { type: Sequelize.STRING }, // gmail người đặt
+            email: { type: Sequelize.STRING }, // email người đặt
             patientName: { type: Sequelize.STRING }, // tên bệnh nhân
             patientBirthday: { type: Sequelize.STRING }, // ngày sinh bệnh nhân
             patientGender: { type: Sequelize.STRING }, // giới tính bệnh nhân

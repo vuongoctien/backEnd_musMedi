@@ -22,7 +22,7 @@ module.exports = (sequelize, DataTypes) => {
         //////////////////////////////////////////////////////////////
         forWho: DataTypes.BOOLEAN, // đặt cho ai?
         phoneNumber: DataTypes.STRING, // sđt ng đặt
-        gmail: DataTypes.STRING, // gmail người đặt
+        email: DataTypes.STRING, // email người đặt
         patientName: DataTypes.STRING, // tên bệnh nhân
         patientBirthday: DataTypes.STRING, // ngày sinh bệnh nhân
         patientGender: DataTypes.STRING, // giới tính bệnh nhân

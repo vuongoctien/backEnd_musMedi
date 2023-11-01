@@ -22,7 +22,7 @@ module.exports = {
             patientBirthday: { type: Sequelize.DATE }, // ngày sinh bệnh nhân
             patientGender: { type: Sequelize.BOOLEAN }, // giới tính bệnh nhân
             reason: { type: Sequelize.TEXT }, // Lý do khám
-
+            status: { type: Sequelize.STRING },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE

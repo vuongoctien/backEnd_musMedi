@@ -220,8 +220,7 @@ let createOrder = (data) => { //ok
                 !data.email ||
                 !data.patientName ||
                 !data.patientBirthday ||
-                !data.patientGender ||
-                !data.reason
+                !data.patientGender
                 // 0 > 1
             ) { //thông tin bệnh nhân điền vào modal
                 resolve({
@@ -243,6 +242,7 @@ let createOrder = (data) => { //ok
                     patientBirthday: data.patientBirthday, // ngày sinh bệnh nhân
                     patientGender: data.patientGender, // giới tính bệnh nhân
                     reason: data.reason, // Lý do khám
+                    status: 'Chờ duyệt'
                 })
             }
 

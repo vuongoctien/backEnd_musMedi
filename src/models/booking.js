@@ -27,6 +27,7 @@ module.exports = (sequelize, DataTypes) => {
         patientBirthday: DataTypes.DATE, // ngày sinh bệnh nhân
         patientGender: DataTypes.BOOLEAN, // giới tính bệnh nhân
         reason: DataTypes.TEXT, // Lý do khám
+        status: DataTypes.STRING,
     }, {
         sequelize,
         modelName: 'Booking',

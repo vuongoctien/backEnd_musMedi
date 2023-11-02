@@ -17,8 +17,8 @@ let sendSimpleEmail = async (dataSend) => {
     });
 
     let info = await transporter.sendMail({
-        from: '"VNT 👻" <quangloanfamily@gmail.com>', // sender address
-        to: dataSend.receiverEmail, // list of receivers
+        from: '"musMedi 👻" <quangloanfamily@gmail.com>', // sender address
+        to: dataSend.email, // list of receivers
         // to: "quangloanfamily@gmail.com@gmail.com", // list of receivers
         subject: "Thông tin đặt lịch khám bệnh ✔", // Subject line
         html: getBodyHTMLEmail(dataSend) // html body
@@ -27,33 +27,39 @@ let sendSimpleEmail = async (dataSend) => {
 }
 
 let getBodyHTMLEmail = (dataSend) => {
-    let result = ''
-    if (dataSend.language === 'vi') {
-        result = `<h3>Xin chào ống cháu ${dataSend.patientName}</h3>
-        <p>Bạn nhận được mail này vì bạn đã đặt lịch khám bệnh online trên musMedi</p>
-        <p>Thông tin đặt lịch khám bệnh:</p>
-        <div><b>Thời gian: ${dataSend.time}</b></div>
-        <div><b>Bác sĩ: ${dataSend.doctorName}</b></div>
-        <p>Nếu các thông tin trên là đúng sự thật, vui lòng click vào Lorem ipsum dolor, sit amet consectetur adipisicing
-            elit. Officia facere, ipsam ullam libero ratione vero expedita distinctio voluptatum, eius modi sequi provident
-            corrupti at nisi facilis, iusto quas illum minima!</p>
-        <a href=${dataSend.rediectLink} target="_blank">Click hể ưe go</a>
-        <div>Xin chân thành cảm ơn</div>`
-    }
-    if (dataSend.language === 'en') {
-        result = `<h3>Hế nhô ống cháu ${dataSend.patientName}</h3>
-        <p>Bạn nhận được mail này vì bạn đã đặt lịch khám bệnh online trên musMedi</p>
-        <p>info booking:</p>
-        <div><b>Time: ${dataSend.time}</b></div>
-        <div><b>doctor: ${dataSend.doctorName}</b></div>
-        <p>If the above information is true, please click Lorem ipsum dolor, sit amet consectetur adipisicing
-            elit. Officia facere, ipsam ullam libero ratione vero expedita distinctio voluptatum, eius modi sequi provident
-            corrupti at nisi facilis, iusto quas illum minima!</p>
-        <a href=${dataSend.rediectLink} target="_blank">Click dầu gội đầu Romano</a>
-        <div>Xin chân thành thank you</div>`
-    }
-    return result
+    return `<h3>Cảm ơn quý khách đã sử dụng dịch vụ của musMedi</h3>
+        <span>Đơn đặt khám của quý khách đã được <b>${dataSend.clinicName_forEmail}</b> tiếp nhận và đang trong trạng thái <b>"Chờ duyệt"</b>. </span>
+        <p>Cơ sở y tế sẽ gọi điện thoại cho bạn nếu cần xác nhận</p>
+        <p>Trạng thái lịch hẹn, hướng dẫn khám chi tiết sẽ được gửi qua tin nhắn điện thoại và email</p>
+        <br/>
+        &emsp;<u>Thời gian, địa điểm: </u>
+        <p>Thời gian: <b>${dataSend.clockTime} ${dataSend.date_forEmail}</b></p>
+        <p>Cơ sở y tế: <b>${dataSend.clinicName_forEmail}</b></p>
+        <p>Tên bác sĩ/dịch vụ: <b>${dataSend.itemName_forEmail}</b></p>
+        &emsp;<u>Thông tin người đặt: </u>
+        <p>Số điện thoại: <b>${dataSend.phoneNumber}</b></p>
+        <p>Email: <b>${dataSend.email}</b></p>
+        <p>Đặt cho ai: <b>${dataSend.forWho === 1 ? 'Đặt cho mình' : 'Đặt cho người thân'}</b></p>   
+        &emsp;<u>Thông tin bệnh nhân: </u>
+        <p>Họ và tên: <b>${dataSend.patientName}</b></p>
+        <p>Ngày/tháng/năm sinh: <b>${dataSend.patientBirthday_forEmail}</b></p>
+        <p>Giới tính: <b>${dataSend.patientGender === 1 ? 'Nam' : 'Nữ'}</b></p>
+        <br/>
+        <p>Trường hợp quý khách có những băn khoăn, có thể xem thêm mục <a href='https://www.google.com/'>các câu hỏi thường gặp</a></p>
+        <p>Mọi thắc mắc và góp ý, quý khách vui lòng liên hệ với musMedi Care qua https://www.google.com/. Đội ngũ musMedi Care luôn sẵn sàng hỗ trợ bạn.</p>
+        <p>Một lần nữa musMedi cảm ơn quý khách</p>
+        <h2 style={{color:'blue'}}>musMedi</h2>`
 }
+
+
+// //////////////////////////////////////////////////////////////
+// forWho: this.state.forwho,
+// phoneNumber: this.state.sdt,
+// email: this.state.email,
+// patientName: this.state.name,
+// patientBirthday: this.state.birthday,
+// patientGender: this.state.gender,
+// reason: this.state.reason,
 
 
 

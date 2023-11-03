@@ -216,12 +216,12 @@ let createOrder = (data) => { //ok
                 !data.dr_or_pk ||
                 !data.dr_or_pk_ID ||
                 //////////////////////////////////////////////////////////////
-                !data.forWho ||
+                // !data.forWho ||
                 !data.phoneNumber ||
-                !data.email ||
+                // !data.email ||
                 !data.patientName ||
-                !data.patientBirthday ||
-                !data.patientGender
+                !data.patientBirthday
+                // || !data.patientGender
                 // 0 > 1
             ) { //thông tin bệnh nhân điền vào modal
                 resolve({
@@ -244,29 +244,6 @@ let createOrder = (data) => { //ok
                     patientGender: data.patientGender, // giới tính bệnh nhân
                     reason: data.reason, // Lý do khám
                     status: 'Chờ duyệt'
-                })
-
-                await emailService.sendSimpleEmail({ //truyền vào sendSimpleEmail cục data như này
-                    date: data.date, // ngày khám
-                    clockTime: data.clockTime, // giờ khám
-                    clinicID: data.clinicID, // id CSYT
-                    dr_or_pk: data.dr_or_pk, // bsi hay goi dvu?
-                    dr_or_pk_ID: data.dr_or_pk_ID, // ID bs or goi dvu
-                    //////////////////////////////////////////////////////////////
-                    forWho: data.forWho, // đặt cho ai?
-                    phoneNumber: data.phoneNumber, // sđt ng đặt
-                    email: data.email, // email người đặt
-                    patientName: data.patientName, // tên bệnh nhân
-                    patientBirthday: data.patientBirthday, // ngày sinh bệnh nhân
-                    patientGender: data.patientGender, // giới tính bệnh nhân
-                    reason: data.reason, // Lý do khám
-                    status: 'Chờ duyệt',
-
-                    // Còn phải gửi thêm cho email nữa, client có sẵn thì xài luôn, khỏi gọi lại
-                    clinicName_forEmail: data.clinicName_forEmail,
-                    itemName_forEmail: data.itemName_forEmail,
-                    date_forEmail: data.date_forEmail,
-                    patientBirthday_forEmail: data.patientBirthday_forEmail
                 })
             }
 

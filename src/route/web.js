@@ -6,6 +6,7 @@ import patientController from "../controllers/patientController"
 import specialtyController from "../controllers/specialtyController"
 import clinicController from "../controllers/clinicController"
 import scheduleController from "../controllers/scheduleController"
+import emailController from "../controllers/emailController"
 
 let router = express.Router();
 
@@ -74,6 +75,9 @@ let initWebRoutes = (app) => {
     router.get('/api/get-schedule-for-user', scheduleController.getScheduleForUser) // ok
     // viết gộp booking vào luôn
     router.post('/api/create-order', scheduleController.createOrder) //ok
+
+
+    router.post('/api/send-mail', emailController.sendSimpleEmail)
 
     return app.use("/", router);
 }

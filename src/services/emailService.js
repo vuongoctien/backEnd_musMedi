@@ -2,28 +2,68 @@ require('dotenv').config()
 
 import nodemailer from "nodemailer"
 
-let sendSimpleEmail = async (dataSend) => {
-    let transporter = nodemailer.createTransport({
-        host: "smtp.gmail.com",
-        port: 465,
-        secure: true, //nếu đặt true thì port phải đúng số 465, nếu đặt false thì port phải khác 465
-        auth: {
-            // TODO: replace `user` and `pass` values from <https://forwardemail.net>
-            user: process.env.EMAIL_APP,
-            pass: process.env.EMAIL_APP_PASSWORD
-            // user: 'quangloanfamily@gmail.com',
-            // pass: 'bgndkbrloonseqja'
-        }
-    });
+let sendSimpleEmail = (dataSend) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (
+                !dataSend.date ||
+                !dataSend.clockTime ||
+                !dataSend.clinicID ||
+                !dataSend.dr_or_pk ||
+                !dataSend.dr_or_pk_ID ||
+                //////////////////////////////////////////////////////////////
+                // !dataSend.forWho ||
+                !dataSend.phoneNumber ||
+                // !dataSend.email ||
+                !dataSend.patientName ||
+                !dataSend.patientBirthday
+                // || !dataSend.patientGender
+            ) { // Nếu không điền đủ các trường kia
+                resolve({
+                    errCode: 2,
+                    errMes: 'Vui lòng điền đầy đủ mấy trường thông tin kia'
+                })
+            } else {
+                // giờ mới check xem vụ mail thế nào 
+                if (!dataSend.email) { // Nếu không điền mail
+                    resolve({
+                        errCode: 1,
+                        errMes: 'Không có email'
+                    })
+                } else {
+                    let transporter = nodemailer.createTransport({
+                        host: "smtp.gmail.com",
+                        port: 465,
+                        secure: true, //nếu đặt true thì port phải đúng số 465, nếu đặt false thì port phải khác 465
+                        auth: {
+                            // TODO: replace `user` and `pass` values from <https://forwardemail.net>
+                            user: process.env.EMAIL_APP,
+                            pass: process.env.EMAIL_APP_PASSWORD
+                            // user: 'quangloanfamily@gmail.com',
+                            // pass: 'bgndkbrloonseqja'
+                        }
+                    });
 
-    let info = await transporter.sendMail({
-        from: '"musMedi 👻" <quangloanfamily@gmail.com>', // sender address
-        to: dataSend.email, // list of receivers
-        // to: "quangloanfamily@gmail.com@gmail.com", // list of receivers
-        subject: "Thông tin đặt lịch khám bệnh ✔", // Subject line
-        html: getBodyHTMLEmail(dataSend) // html body
-    });
-    // console.log(dataSend)
+                    let info = await transporter.sendMail({
+                        from: '"musMedi 👻" <quangloanfamily@gmail.com>', // sender address
+                        to: dataSend.email, // list of receivers
+                        // to: "quangloanfamily@gmail.com@gmail.com", // list of receivers
+                        subject: "Thông tin đặt lịch khám bệnh ✔", // Subject line
+                        html: getBodyHTMLEmail(dataSend) // html body
+                    });
+                    // console.log(dataSend)
+                    resolve({
+                        errCode: 0,
+                        errMes: 'Ok đã gửi mail!',
+                    })
+                }
+            }
+
+        } catch (e) {
+            reject(e)
+        }
+    })
+
 }
 
 let getBodyHTMLEmail = (dataSend) => {

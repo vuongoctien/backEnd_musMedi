@@ -243,7 +243,7 @@ let createOrder = (data) => { //ok
                     patientBirthday: data.patientBirthday, // ngày sinh bệnh nhân
                     patientGender: data.patientGender, // giới tính bệnh nhân
                     reason: data.reason, // Lý do khám
-                    status: 'Chờ duyệt'
+                    status: 'Chưa xem'
                 })
             }
 

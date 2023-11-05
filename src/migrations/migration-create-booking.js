@@ -9,7 +9,7 @@ module.exports = {
                 primaryKey: true,
                 type: Sequelize.INTEGER
             },
-            date: { type: Sequelize.DATEONLY }, // ngày khám
+            date: { type: Sequelize.DATE }, // ngày khám
             clockTime: { type: Sequelize.STRING }, // giờ khám
             clinicID: { type: Sequelize.INTEGER }, // id CSYT
             dr_or_pk: { type: Sequelize.BOOLEAN }, // bsi hay goi dvu?

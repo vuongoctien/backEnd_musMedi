@@ -257,6 +257,33 @@ let createOrder = (data) => { //ok
     })
 }
 
+let getOrderByDate = (query) => { // ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!query.date || !query.clinicID) { //thông tin bệnh nhân điền vào modal
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter'
+                })
+            } else {
+                let booking_by_date = await db.Booking.findAll({
+                    where: {
+                        date: query.date,
+                        clinicID: query.clinicID
+                    }
+                })
+                resolve({
+                    errCode: 0,
+                    errMes: 'Đã tìm lịch theo từng ngày',
+                    booking_by_date
+                })
+            }
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
 module.exports = {
     createSchedule: createSchedule,
     deleteSchedule: deleteSchedule,
@@ -264,6 +291,7 @@ module.exports = {
     getDoctorByIdClinicAndIdDoctor: getDoctorByIdClinicAndIdDoctor,
     getMediPkByIdClinicAndIdDoctor: getMediPkByIdClinicAndIdDoctor,
     getScheduleForUser: getScheduleForUser,
-    createOrder: createOrder
+    createOrder: createOrder,
+    getOrderByDate: getOrderByDate
 
 }

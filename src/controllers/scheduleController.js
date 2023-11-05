@@ -90,6 +90,19 @@ let createOrder = async (req, res) => { //ok
     }
 }
 
+let getOrderByDate = async (req, res) => { //ok
+    try {
+        let info = await scheduleServices.getOrderByDate(req.query)
+        return res.status(200).json(info)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            errMes: "Error from server"
+        })
+    }
+}
+
 module.exports = {
     createSchedule: createSchedule,
     deleteSchedule: deleteSchedule,
@@ -97,6 +110,7 @@ module.exports = {
     getDoctorByIdClinicAndIdDoctor: getDoctorByIdClinicAndIdDoctor,
     getMediPkByIdClinicAndIdDoctor: getMediPkByIdClinicAndIdDoctor,
     getScheduleForUser: getScheduleForUser,
-    createOrder, createOrder
+    createOrder, createOrder,
+    getOrderByDate: getOrderByDate
 
 }

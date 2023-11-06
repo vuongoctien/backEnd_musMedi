@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
         }
     }
     Booking.init({
-        date: DataTypes.DATE, // ngày khám
+        date: DataTypes.DATEONLY, // ngày khám
         clockTime: DataTypes.STRING, // giờ khám
         clinicID: DataTypes.INTEGER, // id CSYT
         dr_or_pk: DataTypes.BOOLEAN, // bsi hay goi dvu?

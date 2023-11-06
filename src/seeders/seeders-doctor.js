@@ -90,6 +90,7 @@ Bác sĩ khám cho người bệnh từ 16 tuổi trở lên`,
                 nickName: 'nobita', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -184,6 +185,7 @@ Bác sĩ khám cho người bệnh từ 18 tuổi trở lên`,
                 nickName: 'shizuka', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -266,6 +268,7 @@ Tham gia giảng dạy về bệnh lý gan mật tại Bệnh viện Quân Y 103
                 nickName: 'jaian', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -355,6 +358,7 @@ Bác sĩ chỉ khám và tư vấn thai, không siêu âm thai, không khám ph�
                 nickName: 'suneo', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -433,6 +437,7 @@ Bác sĩ nhận khám từ 15 tuổi trở lên `,
                 nickName: 'olongvien1', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -534,6 +539,7 @@ Từng công tác tại Bệnh viện Trưng Vương
                 nickName: 'olongvien2', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -666,6 +672,7 @@ Thời gian máu chảy phương pháp Duke (Theo chỉ định của bác sĩ) 
                 nickName: 'olongvien3', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -779,6 +786,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'olongvien4', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -862,6 +870,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'sherlock', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -945,6 +954,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'anhtroly', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1040,6 +1050,7 @@ Antagonism or Absence)– [Máu] 1.751.000
                 nickName: 'thuykieu', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1131,6 +1142,7 @@ máu sinh học : 300.000đ
                 nickName: 'tuhai', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1237,6 +1249,7 @@ máy, dao siêu âm, Stent
                 nickName: 'kimtrong', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1313,6 +1326,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'ron', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1392,6 +1406,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'hermi1', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1475,6 +1490,7 @@ tầng sinh môn 3.383.000
                 nickName: 'quachtinh', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1556,6 +1572,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'khuuxuco', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1632,6 +1649,7 @@ Nội soi dạ dày làm Clotest 768.000
                 nickName: 'duongqua', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1715,6 +1733,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'doanchibinh', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1821,6 +1840,7 @@ polyp 3.000.000
                 nickName: 'quachdaihiep', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1945,6 +1965,7 @@ Stent.
                 nickName: 'kimluanphapvuong', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -2049,6 +2070,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'truongvoky', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -2129,6 +2151,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'taton', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -2217,6 +2240,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'tusamlongvuong', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -2296,6 +2320,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'trieuman', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -2403,6 +2428,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'truong3phong', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -2524,6 +2550,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'vinhattieu', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -2627,6 +2654,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'duongtieu', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -2709,6 +2737,7 @@ Bệnh viện có thanh toán bằng hình thức tiền mặt và quẹt thẻ
                 nickName: 'anly', // tài khoản
                 password: "$2a$10$3mbpyNnDTHW/cKZ8d/Himu3bm7mFkm0AZZza.uU1LxVFlU9dppx5K", //keckeckec
                 status: 1,
+                dr_or_pk: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },

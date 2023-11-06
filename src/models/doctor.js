@@ -15,8 +15,7 @@ module.exports = (sequelize, DataTypes) => {
     }
     Doctor.init({ //bác sĩ
         name: DataTypes.STRING, // tên bác sĩ 
-        position: DataTypes.STRING, // chức danh
-        // specialtyID: DataTypes.INTEGER, // của chuyên khoa nào
+        position: DataTypes.STRING, // chức danh (or packageType)
         clinicID: DataTypes.INTEGER, // của cơ sở y tế nào?
         image: DataTypes.BLOB('long'),
         intro: DataTypes.TEXT,
@@ -27,6 +26,7 @@ module.exports = (sequelize, DataTypes) => {
         nickName: DataTypes.STRING, // tài khoản
         password: DataTypes.STRING,
         status: DataTypes.BOOLEAN,
+        dr_or_pk: DataTypes.BOOLEAN,
     }, {
         sequelize,
         modelName: 'Doctor',

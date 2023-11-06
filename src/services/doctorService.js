@@ -47,12 +47,13 @@ let createDoctor = (data) => { //ok
                 || !data.thongtinkham
                 || !data.descriptionHTML
                 || !data.descriptionMarkdown
-                || !data.nickName
-                || !data.password
+                // || !data.nickName
+                // || !data.password
                 ///////////////////////
                 || !data.clinicID
-                || !data.status
+                // || !data.status // nếu để = 0 nó sẽ đéo nhận
                 || !data.priceDefault
+                // Nếu ! cả dr_or_pk thì khi = 0 nó đéo nhận, lạ ghê
             ) { //thông tin bệnh nhân điền vào modal
                 resolve({
                     errCode: 1,
@@ -60,28 +61,29 @@ let createDoctor = (data) => { //ok
                 })
             } else {
                 let isExist = await checkUserEmail(data.nickName) // check xem tồn tại nickName chưa
-                if (isExist) { // nếu true (đã tồn tại)
-                    resolve({
-                        errCode: 2,
-                        errMes: 'nickName đã tồn tại'
-                    })
-                } else {
-                    await db.Doctor.create({
-                        name: data.name,
-                        position: data.position,
-                        image: data.imageBase64,
-                        intro: data.intro,
-                        thongtinkham: data.thongtinkham,
-                        descriptionHTML: data.descriptionHTML,
-                        descriptionMarkdown: data.descriptionMarkdown,
-                        nickName: data.nickName,
-                        password: await hashUserPassword(data.password), // phải hash nó đi
-                        ////////////////
-                        status: data.status,
-                        clinicID: data.clinicID,
-                        priceDefault: data.priceDefault,
-                    })
-                }
+                // if (isExist) { // nếu true (đã tồn tại)
+                //     resolve({
+                //         errCode: 2,
+                //         errMes: 'nickName đã tồn tại'
+                //     })
+                // } else {
+                await db.Doctor.create({
+                    name: data.name,
+                    position: data.position,
+                    image: data.imageBase64,
+                    intro: data.intro,
+                    thongtinkham: data.thongtinkham,
+                    descriptionHTML: data.descriptionHTML,
+                    descriptionMarkdown: data.descriptionMarkdown,
+                    nickName: data.nickName,
+                    password: await hashUserPassword(data.password), // phải hash nó đi
+                    ////////////////
+                    status: data.status,
+                    clinicID: data.clinicID,
+                    priceDefault: data.priceDefault,
+                    dr_or_pk: data.dr_or_pk
+                })
+                // }
             }
 
             resolve({

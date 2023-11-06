@@ -12,19 +12,19 @@ module.exports = {
                 primaryKey: true,
                 type: Sequelize.INTEGER
             },
-            name: { type: Sequelize.STRING },
-            position: { type: Sequelize.STRING },
-            // specialtyID: { type: Sequelize.INTEGER },
-            clinicID: { type: Sequelize.INTEGER },
+            name: { type: Sequelize.STRING }, // tên bác sĩ 
+            position: { type: Sequelize.STRING }, // chức danh (or packageType)
+            clinicID: { type: Sequelize.INTEGER }, // của cơ sở y tế nào?
             image: { type: Sequelize.BLOB('long') },
             intro: { type: Sequelize.TEXT },
             thongtinkham: { type: Sequelize.TEXT },
             descriptionMarkdown: { type: Sequelize.TEXT },
             descriptionHTML: { type: Sequelize.TEXT },
-            priceDefault: { type: Sequelize.INTEGER },
-            nickName: { type: Sequelize.STRING },
+            priceDefault: { type: Sequelize.INTEGER }, // giá mặc định
+            nickName: { type: Sequelize.STRING }, // tài khoản
             password: { type: Sequelize.STRING },
             status: { type: Sequelize.BOOLEAN },
+            dr_or_pk: { type: Sequelize.BOOLEAN },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE

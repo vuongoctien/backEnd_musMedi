@@ -313,6 +313,7 @@ let getTopDoctorHome = (limit) => {
             let users = await db.Doctor.findAll(
                 {
                     limit: limit,
+                    where: { dr_or_pk: 1 },
                     // where: { roleId: 'R2' },
                     // order: [['createdAt', "DESC"]],
                     attributes: { exclude: ['password'] },
@@ -338,9 +339,10 @@ let getTopDoctorHome = (limit) => {
 let getTopMediPackageHome = (limit) => {
     return new Promise(async (resolve, reject) => {
         try {
-            let users = await db.Medi_Package.findAll(
+            let users = await db.Doctor.findAll(
                 {
                     limit: limit,
+                    where: { dr_or_pk: 0 },
                     // where: { roleId: 'R2' },
                     // order: [['createdAt', "DESC"]],
                     // include: [

@@ -160,7 +160,8 @@ let getDoctorByIdClinicAndIdDoctor = (query) => { // ok
                 let doctorData = await db.Doctor.findOne({
                     where: {
                         id: query.doctorID,
-                        clinicID: query.clinicID
+                        clinicID: query.clinicID,
+                        dr_or_pk: 1
                     },
                 })
                 doctorData.image = new Buffer(doctorData.image, 'base64').toString('binary')
@@ -186,10 +187,11 @@ let getMediPkByIdClinicAndIdDoctor = (query) => { // ok
                     errMes: 'Missing parameter!'
                 })
             } else {
-                let medi_packageData = await db.Medi_Package.findOne({
+                let medi_packageData = await db.Doctor.findOne({
                     where: {
                         id: query.medi_packageID,
-                        clinicID: query.clinicID
+                        clinicID: query.clinicID,
+                        dr_or_pk: 0
                     },
                 })
                 medi_packageData.image = new Buffer(medi_packageData.image, 'base64').toString('binary')

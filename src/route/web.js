@@ -28,11 +28,11 @@ let initWebRoutes = (app) => {
     router.get('/api/allcode', userController.getAllCode)
 
 
-    router.post('/api/create-new-doctor', doctorConTroller.createDoctor)//ok
-    router.get('/api/get-all-doctor-by-clinicId', doctorConTroller.getAllDoctorByClinicId)//ok
-    router.put('/api/edit-doctor-of-clinic', doctorConTroller.editDoctorOfClinic); //ok
-    router.get('/api/top-doctor-home', doctorConTroller.getTopDoctorHome) //ok
-    router.get('/api/top-medipackage-home', doctorConTroller.getTopMediPackageHome) //ok 
+    router.post('/api/create-new-doctor', doctorConTroller.createDoctor)//ok KillMediPk
+    router.get('/api/get-all-doctor-by-clinicId', doctorConTroller.getAllDoctorByClinicId)//ok KillMediPk
+    router.put('/api/edit-doctor-of-clinic', doctorConTroller.editDoctorOfClinic); //ok KillMediPk
+    router.get('/api/top-doctor-home', doctorConTroller.getTopDoctorHome) //ok KillMediPk
+    router.get('/api/top-medipackage-home', doctorConTroller.getTopMediPackageHome) //ok  KillMediPk
     router.get('/api/get-all-doctors', doctorConTroller.getAllDoctors)
     router.post('/api/save-info-doctors', doctorConTroller.postInfoDoctors)
     router.get('/api/get-detail-doctor-by-id', doctorConTroller.getDetailDoctorById) //ok
@@ -43,9 +43,9 @@ let initWebRoutes = (app) => {
     router.get('/api/get-profile-doctor-by-id', doctorConTroller.getProfileDocTorById)
     router.get('/api/get-list-patient-for-doctor', doctorConTroller.getListPatientForDoctor)
     // viết chung medi_package vào luôn
-    router.post('/api/create-new-medipackage', doctorConTroller.createMediPackage)//ok
-    router.get('/api/get-all-medipackage-by-clinicId', doctorConTroller.getAllMediPackageByClinicId)//ok
-    router.put('/api/edit-medipackage-of-clinic', doctorConTroller.editMediPackageOfClinic); //ok
+    router.post('/api/create-new-medipackage', doctorConTroller.createMediPackage)//ok KillMediPk
+    router.get('/api/get-all-medipackage-by-clinicId', doctorConTroller.getAllMediPackageByClinicId)//ok KillMediPk
+    router.put('/api/edit-medipackage-of-clinic', doctorConTroller.editMediPackageOfClinic); //ok KillMediPk
 
 
     router.post('/api/patient-book-appointment', patientController.postBookAppointment)

@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
     async up(queryInterface, Sequelize) {
-        return queryInterface.bulkInsert('medi_packages', [
+        return queryInterface.bulkInsert('doctor', [
             {//1
                 name: 'Xét nghiệm ADN tại Trung tâm Novagen', // tên gói dịch vụ
                 clinicID: 1, // của cơ sở y tế nào?
@@ -88,9 +88,12 @@ module.exports = {
                 </table>
                 
 `,
-                packageType: 'Xét nghiệm', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Xét nghiệm', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -270,9 +273,12 @@ module.exports = {
                 </tbody>
                 </table>
                 `,
-                packageType: 'Xét nghiệm', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Xét nghiệm', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -443,9 +449,12 @@ module.exports = {
                 <p>13	Siêu âm ổ bụng tổng quát
                 Phát hiện các bệnh lý về gan, mật, tụy, thận, lách, …(Nữ: phần phụ, tử cung - buồng trứng, Nam: Tiền liệt tuyến)</p>
                 `,
-                packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -614,9 +623,12 @@ module.exports = {
                 <p>13	Siêu âm ổ bụng tổng quát
                 Phát hiện các bệnh lý về gan, mật, tụy, thận, lách, …(Nữ: phần phụ, tử cung - buồng trứng, Nam: Tiền liệt tuyến)</p>
                 `,
-                packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -785,9 +797,12 @@ module.exports = {
                 <p>13	Siêu âm ổ bụng tổng quát
                 Phát hiện các bệnh lý về gan, mật, tụy, thận, lách, …(Nữ: phần phụ, tử cung - buồng trứng, Nam: Tiền liệt tuyến)</p>
                 `,
-                packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -956,9 +971,12 @@ module.exports = {
                 <p>13	Siêu âm ổ bụng tổng quát
                 Phát hiện các bệnh lý về gan, mật, tụy, thận, lách, …(Nữ: phần phụ, tử cung - buồng trứng, Nam: Tiền liệt tuyến)</p>
                 `,
-                packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1127,9 +1145,12 @@ module.exports = {
                 <p>13	Siêu âm ổ bụng tổng quát
                 Phát hiện các bệnh lý về gan, mật, tụy, thận, lách, …(Nữ: phần phụ, tử cung - buồng trứng, Nam: Tiền liệt tuyến)</p>
                 `,
-                packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1298,9 +1319,12 @@ module.exports = {
                 <p>13	Siêu âm ổ bụng tổng quát
                 Phát hiện các bệnh lý về gan, mật, tụy, thận, lách, …(Nữ: phần phụ, tử cung - buồng trứng, Nam: Tiền liệt tuyến)</p>
                 `,
-                packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1469,9 +1493,12 @@ module.exports = {
                 <p>13	Siêu âm ổ bụng tổng quát
                 Phát hiện các bệnh lý về gan, mật, tụy, thận, lách, …(Nữ: phần phụ, tử cung - buồng trứng, Nam: Tiền liệt tuyến)</p>
                 `,
-                packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1640,9 +1667,12 @@ module.exports = {
                 <p>13	Siêu âm ổ bụng tổng quát
                 Phát hiện các bệnh lý về gan, mật, tụy, thận, lách, …(Nữ: phần phụ, tử cung - buồng trứng, Nam: Tiền liệt tuyến)</p>
                 `,
-                packageType: 'Khác', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Khác', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1811,9 +1841,12 @@ module.exports = {
                 <p>13	Siêu âm ổ bụng tổng quát
                 Phát hiện các bệnh lý về gan, mật, tụy, thận, lách, …(Nữ: phần phụ, tử cung - buồng trứng, Nam: Tiền liệt tuyến)</p>
                 `,
-                packageType: 'Khác', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Khác', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -1901,9 +1934,12 @@ module.exports = {
                 </table>
                 
 `,
-                packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -2083,9 +2119,12 @@ module.exports = {
                 </tbody>
                 </table>
                 `,
-                packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -2255,9 +2294,12 @@ module.exports = {
                 <p>13	Siêu âm ổ bụng tổng quát
                 Phát hiện các bệnh lý về gan, mật, tụy, thận, lách, …(Nữ: phần phụ, tử cung - buồng trứng, Nam: Tiền liệt tuyến)</p>
                 `,
-                packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -2345,9 +2387,12 @@ module.exports = {
                 </table>
                 
 `,
-                packageType: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Gói khám', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -2516,9 +2561,12 @@ module.exports = {
                 <p>13	Siêu âm ổ bụng tổng quát
                 Phát hiện các bệnh lý về gan, mật, tụy, thận, lách, …(Nữ: phần phụ, tử cung - buồng trứng, Nam: Tiền liệt tuyến)</p>
                 `,
-                packageType: 'Khác', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Khác', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },
@@ -2686,9 +2734,12 @@ module.exports = {
                 <p>13	Siêu âm ổ bụng tổng quát
                 Phát hiện các bệnh lý về gan, mật, tụy, thận, lách, …(Nữ: phần phụ, tử cung - buồng trứng, Nam: Tiền liệt tuyến)</p>
                 `,
-                packageType: 'Khác', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
+                position: 'Khác', // loại gói:khám tổng quát, xét nghiệm, phẫu thuật, nội soi, v.v.
                 priceDefault: 750, // giá mặc định
                 status: 1,
+                nickName: 'Đồ án còn rất nhiều thiếu sót',
+                password: 'Đồ án còn rất nhiều thiếu sót',
+                dr_or_pk: 0,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },

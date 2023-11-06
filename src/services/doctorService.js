@@ -106,7 +106,7 @@ let getAllDoctorByClinicId = (idClinic) => {
                 })
             } else {
                 let all_doctor_of_clinic = await db.Doctor.findAll({
-                    where: { clinicID: idClinic },
+                    where: { clinicID: idClinic, dr_or_pk: 1 },
                     attributes: { exclude: ['password'] },
                 })
                 all_doctor_of_clinic && all_doctor_of_clinic.map((item, index) => {
@@ -227,8 +227,8 @@ let getAllMediPackageByClinicId = (idClinic) => {
                     errMes: 'Missing parameter'
                 })
             } else {
-                let all_mediPackage_of_clinic = await db.Medi_Package.findAll({
-                    where: { clinicID: idClinic },
+                let all_mediPackage_of_clinic = await db.Doctor.findAll({
+                    where: { clinicID: idClinic, dr_or_pk: 0 },
                 })
                 all_mediPackage_of_clinic && all_mediPackage_of_clinic.map((item, index) => {
                     if (item.image) {

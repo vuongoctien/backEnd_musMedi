@@ -10,7 +10,10 @@ module.exports = (sequelize, DataTypes) => {
          * The `models/index` file will call this method automatically.
          */
         static associate(models) {
-
+            Booking.belongsTo(models.Doctor,
+                { foreignKey: 'dr_or_pk_ID', targetKey: 'id', as: 'doctorData' })
+            /** mỗi lịch book chỉ thuộc về 1 Doctor 
+             * tham chiếu từ dr_or_pk_ID bảng này sang id bảng Doctor, gọi đống tham chiếu là doctorData?*/
         }
     }
     Booking.init({

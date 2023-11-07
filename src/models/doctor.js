@@ -10,7 +10,9 @@ module.exports = (sequelize, DataTypes) => {
          * The `models/index` file will call this method automatically.
          */
         static associate(models) {
-
+            Doctor.hasMany(models.Booking, { foreignKey: 'dr_or_pk_ID', as: 'doctorData' })
+            /** 1 dortor có thể có nhiều lịch book
+             * tham chiếu đến dr_or_pk_ID bảng kia, gọi đống data là doctorData?*/
         }
     }
     Doctor.init({ //bác sĩ

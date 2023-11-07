@@ -272,7 +272,12 @@ let getOrderByDate = (query) => { // ok
                     where: {
                         date: query.date,
                         clinicID: query.clinicID
-                    }
+                    },
+                    include: [
+                        { model: db.Doctor, as: 'doctorData', attributes: ['name', 'position', 'image'], }
+                    ],
+                    raw: true,
+                    nest: true
                 })
                 resolve({
                     errCode: 0,

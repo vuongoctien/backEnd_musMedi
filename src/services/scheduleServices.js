@@ -291,6 +291,36 @@ let getOrderByDate = (query) => { // ok
     })
 }
 
+let getOrderChuaxemOfClinic = (query) => { // ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!query.clinicID) { //thông tin bệnh nhân điền vào modal
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter'
+                })
+            } else {
+                let chuaxem = await db.Booking.findAll({
+                    where: {
+                        clinicID: query.clinicID,
+                        status: 'Chưa xem'
+                    },
+                    attributes: ['date']
+                })
+                resolve({
+                    errCode: 0,
+                    errMes: 'Đã get lịch chưa xem của clinic',
+                    chuaxem
+                })
+            }
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
+
+
 module.exports = {
     createSchedule: createSchedule,
     deleteSchedule: deleteSchedule,
@@ -299,6 +329,7 @@ module.exports = {
     getMediPkByIdClinicAndIdDoctor: getMediPkByIdClinicAndIdDoctor,
     getScheduleForUser: getScheduleForUser,
     createOrder: createOrder,
-    getOrderByDate: getOrderByDate
+    getOrderByDate: getOrderByDate,
+    getOrderChuaxemOfClinic: getOrderChuaxemOfClinic,
 
 }

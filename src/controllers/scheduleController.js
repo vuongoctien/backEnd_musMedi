@@ -116,6 +116,20 @@ let getOrderChuaxemOfClinic = async (req, res) => { //ok
     }
 }
 
+let danhDauDaXem = async (req, res) => { //ok
+    try {
+        let info = await scheduleServices.danhDauDaXem(req.body)
+        return res.status(200).json(info)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            errMes: "Error from server"
+        })
+    }
+
+}
+
 
 module.exports = {
     createSchedule: createSchedule,
@@ -127,5 +141,6 @@ module.exports = {
     createOrder, createOrder,
     getOrderByDate: getOrderByDate,
     getOrderChuaxemOfClinic: getOrderChuaxemOfClinic,
+    danhDauDaXem: danhDauDaXem,
 
 }

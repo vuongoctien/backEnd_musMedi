@@ -319,6 +319,49 @@ let getOrderChuaxemOfClinic = (query) => { // ok
     })
 }
 
+let danhDauDaXem = (queryObject) => { // truyền vào cục queryObject chứa thông tin truy vấn: clinic, date, status
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!queryObject.clinicID || !queryObject.date) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter!'
+                })
+            } else {
+                let oldBooking = await db.Booking.findAll({
+                    where: {
+                        clinicID: queryObject.clinicID,
+                        date: queryObject.date,
+                        status: 'Chưa xem'
+                    }, // truy vấn  
+                    raw: false // nếu không có dòng này sẽ dính lỗi oldBooking.save is not a function
+                })
+                // lúc này old Booking là 1 mảng các Object, phải duyệt mảng này
+                if (oldBooking && oldBooking.length > 0) {
+                    oldBooking.map(async order => {
+                        order.status = 'Chờ duyệt'
+                        await order.save()
+                    })
+                    resolve({
+                        errCode: 0,
+                        errMes: 'Đã sửa thành công, check DB mà xem!',
+                    })
+                } else {
+                    resolve({
+                        errCode: 2,
+                        errMes: 'tao đéo thấy đơn nào như thế cả!'
+                    })
+                }
+            }
+
+
+        } catch (e) {
+            reject(e)
+        }
+    })
+
+}
+
 
 
 module.exports = {
@@ -331,5 +374,6 @@ module.exports = {
     createOrder: createOrder,
     getOrderByDate: getOrderByDate,
     getOrderChuaxemOfClinic: getOrderChuaxemOfClinic,
+    danhDauDaXem: danhDauDaXem,
 
 }

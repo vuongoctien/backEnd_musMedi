@@ -171,7 +171,6 @@ let getDoctorByIdClinicAndIdDoctor = (query) => { // ok
                     doctorData
                 })
             }
-
         } catch (e) {
             reject(e)
         }
@@ -201,7 +200,6 @@ let getMediPkByIdClinicAndIdDoctor = (query) => { // ok
                     medi_packageData
                 })
             }
-
         } catch (e) {
             reject(e)
         }
@@ -359,7 +357,53 @@ let danhDauDaXem = (queryObject) => { // truyền vào cục queryObject chứa 
             reject(e)
         }
     })
+}
 
+let changeStatus = (queryObject) => { // truyền vào cục queryObject chứa thông tin truy vấn: clinic, date, status
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!queryObject.idOrder || !queryObject.newStatus) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter changeStatus!'
+                })
+            } else {
+                let oldBooking = await db.Booking.findOne({
+                    where: { id: queryObject.idOrder }, // truy vấn  
+                    raw: false // nếu không có dòng này sẽ dính lỗi oldBooking.save is not a function
+                })
+                if (oldBooking) {
+                    if (queryObject.newStatus === 'Chấp nhận' || queryObject.newStatus === 'Từ chối') {
+                        if (oldBooking.status === 'Chưa xem' || oldBooking.status === 'Mới xem' || oldBooking.status === 'Chờ duyệt') {
+                            oldBooking.status = queryObject.newStatus
+                            await oldBooking.save()
+                            resolve({
+                                errCode: 0,
+                                errMes: 'Đã sửa thành công, check DB mà xem!',
+                            })
+                        }
+                    }
+                    if (queryObject.newStatus === 'Đã khám' || queryObject.newStatus === 'Không đến') {
+                        if (oldBooking.status === 'Chấp nhận') {
+                            oldBooking.status = queryObject.newStatus
+                            await oldBooking.save()
+                            resolve({
+                                errCode: 0,
+                                errMes: 'Đã sửa thành công, check DB mà xem!',
+                            })
+                        }
+                    }
+                } else {
+                    resolve({
+                        errCode: 2,
+                        errMes: 'tao đéo thấy đơn nào như thế cả!'
+                    })
+                }
+            }
+        } catch (e) {
+            reject(e)
+        }
+    })
 }
 
 
@@ -375,5 +419,6 @@ module.exports = {
     getOrderByDate: getOrderByDate,
     getOrderChuaxemOfClinic: getOrderChuaxemOfClinic,
     danhDauDaXem: danhDauDaXem,
+    changeStatus: changeStatus,
 
 }

@@ -78,7 +78,7 @@ let initWebRoutes = (app) => {
     router.get('/api/get-order-by-date', scheduleController.getOrderByDate) // ok
     router.get('/api/get-order-chuaxem-of-clinic', scheduleController.getOrderChuaxemOfClinic) // ok
     router.put('/api/danh-dau-da-xem', scheduleController.danhDauDaXem); //ok
-
+    router.put('/api/change-status', scheduleController.changeStatus); //ok
 
 
 

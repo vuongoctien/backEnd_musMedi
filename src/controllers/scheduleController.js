@@ -103,9 +103,9 @@ let getOrderByDate = async (req, res) => { //ok
     }
 }
 
-let getOrderChuaxemOfClinic = async (req, res) => { //ok
+let getOrderByStatusOfClinic = async (req, res) => { //ok
     try {
-        let info = await scheduleServices.getOrderChuaxemOfClinic(req.query)
+        let info = await scheduleServices.getOrderByStatusOfClinic(req.query)
         return res.status(200).json(info)
     } catch (e) {
         console.log(e)
@@ -152,7 +152,7 @@ module.exports = {
     getScheduleForUser: getScheduleForUser,
     createOrder, createOrder,
     getOrderByDate: getOrderByDate,
-    getOrderChuaxemOfClinic: getOrderChuaxemOfClinic,
+    getOrderByStatusOfClinic: getOrderByStatusOfClinic,
     danhDauDaXem: danhDauDaXem,
     changeStatus: changeStatus,
 

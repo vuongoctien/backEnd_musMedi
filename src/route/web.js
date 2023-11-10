@@ -76,7 +76,7 @@ let initWebRoutes = (app) => {
     // viết gộp booking vào luôn
     router.post('/api/create-order', scheduleController.createOrder) //ok
     router.get('/api/get-order-by-date', scheduleController.getOrderByDate) // ok
-    router.get('/api/get-order-chuaxem-of-clinic', scheduleController.getOrderChuaxemOfClinic) // ok
+    router.get('/api/get-order-chuaxem-of-clinic', scheduleController.getOrderByStatusOfClinic) // ok
     router.put('/api/danh-dau-da-xem', scheduleController.danhDauDaXem); //ok
     router.put('/api/change-status', scheduleController.changeStatus); //ok
 

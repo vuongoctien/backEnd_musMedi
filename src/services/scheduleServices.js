@@ -289,26 +289,26 @@ let getOrderByDate = (query) => { // ok
     })
 }
 
-let getOrderChuaxemOfClinic = (query) => { // ok
+let getOrderByStatusOfClinic = (query) => { // ok
     return new Promise(async (resolve, reject) => {
         try {
-            if (!query.clinicID) { //thông tin bệnh nhân điền vào modal
+            if (!query.clinicID || !query.status) { //thông tin bệnh nhân điền vào modal
                 resolve({
                     errCode: 1,
                     errMes: 'Missing parameter'
                 })
             } else {
-                let chuaxem = await db.Booking.findAll({
+                let lichdaget = await db.Booking.findAll({
                     where: {
                         clinicID: query.clinicID,
-                        status: 'Chưa xem'
+                        status: query.status
                     },
                     attributes: ['date']
                 })
                 resolve({
                     errCode: 0,
-                    errMes: 'Đã get lịch chưa xem của clinic',
-                    chuaxem
+                    errMes: 'Đã get lịch theo trạng thái của clinic',
+                    lichdaget
                 })
             }
         } catch (e) {
@@ -417,7 +417,7 @@ module.exports = {
     getScheduleForUser: getScheduleForUser,
     createOrder: createOrder,
     getOrderByDate: getOrderByDate,
-    getOrderChuaxemOfClinic: getOrderChuaxemOfClinic,
+    getOrderByStatusOfClinic: getOrderByStatusOfClinic,
     danhDauDaXem: danhDauDaXem,
     changeStatus: changeStatus,
 

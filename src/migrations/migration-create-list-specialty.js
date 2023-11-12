@@ -9,8 +9,7 @@ module.exports = {
                 primaryKey: true,
                 type: Sequelize.INTEGER
             },
-            specialtyID: { type: Sequelize.STRING },
-            dr_or_pk: { type: Sequelize.STRING },
+            specialtyID: { type: Sequelize.INTEGER },
             dr_or_pk_ID: { type: Sequelize.INTEGER },
             createdAt: {
                 allowNull: false,

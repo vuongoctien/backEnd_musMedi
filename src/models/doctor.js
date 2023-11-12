@@ -13,6 +13,10 @@ module.exports = (sequelize, DataTypes) => {
             Doctor.hasMany(models.Booking, { foreignKey: 'dr_or_pk_ID', as: 'doctorData' })
             /** 1 dortor có thể có nhiều lịch book
              * tham chiếu đến dr_or_pk_ID bảng kia, gọi đống data là doctorData?*/
+
+            Doctor.hasMany(models.List_Specialty, { foreignKey: 'dr_or_pk_ID', as: 'doctorData2' })
+            Doctor.belongsTo(models.Clinic,
+                { foreignKey: 'clinicID', targetKey: 'id', as: 'clinicData' })
         }
     }
     Doctor.init({ //bác sĩ

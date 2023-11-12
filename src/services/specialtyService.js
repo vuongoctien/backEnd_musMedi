@@ -191,11 +191,17 @@ let getSpecDr = (query) => { // ok
             } else {
                 let data = []
                 if (query.specialtyID && query.dr_or_pk_ID) {
-                    data = await db.List_Specialty.findAll({
+                    data = await db.List_Specialty.findOne({
                         where: {
                             specialtyID: query.specialtyID,
                             dr_or_pk_ID: query.dr_or_pk_ID
                         },
+                        include: [
+                            { model: db.Doctor, as: 'doctorData2' },
+                            { model: db.Specialty, as: 'specialtyData' }
+                        ],
+                        raw: true,
+                        nest: true
                     })
                 } else {
                     if (query.specialtyID) {
@@ -203,6 +209,16 @@ let getSpecDr = (query) => { // ok
                             where: {
                                 specialtyID: query.specialtyID
                             },
+                            include: [
+                                {
+                                    model: db.Doctor, as: 'doctorData2', include: [{
+                                        model: db.Clinic, as: 'clinicData'
+                                    }]
+                                },
+                                // { model: db.Specialty, as: 'specialtyData' }
+                            ],
+                            raw: true,
+                            nest: true
                         })
                     }
                     if (query.dr_or_pk_ID) {
@@ -210,6 +226,12 @@ let getSpecDr = (query) => { // ok
                             where: {
                                 dr_or_pk_ID: query.dr_or_pk_ID
                             },
+                            include: [
+                                // { model: db.Doctor, as: 'doctorData2' },
+                                { model: db.Specialty, as: 'specialtyData' }
+                            ],
+                            raw: true,
+                            nest: true
                         })
                     }
                 }

@@ -155,10 +155,89 @@ let deleteSpecialty = (id_specialty_delete) => { //ok
     })
 }
 
+let createDoctorToSpec = (data) => {
+    return new Promise(async (resolve, reject) => { //ok
+        try {
+            if (!data.specialtyID || !data.dr_or_pk_ID) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter!'
+                })
+            } else {
+                await db.List_Specialty.create({
+                    specialtyID: data.specialtyID,
+                    dr_or_pk_ID: data.dr_or_pk_ID
+                })
+
+                resolve({
+                    errCode: 0,
+                    errMes: 'Ok!'
+                })
+            }
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
+let getSpecDr = (query) => { // ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!query.specialtyID && !query.dr_or_pk_ID) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter getSpecDr!'
+                })
+            } else {
+                let data = []
+                if (query.specialtyID && query.dr_or_pk_ID) {
+                    data = await db.List_Specialty.findAll({
+                        where: {
+                            specialtyID: query.specialtyID,
+                            dr_or_pk_ID: query.dr_or_pk_ID
+                        },
+                    })
+                } else {
+                    if (query.specialtyID) {
+                        data = await db.List_Specialty.findAll({
+                            where: {
+                                specialtyID: query.specialtyID
+                            },
+                        })
+                    }
+                    if (query.dr_or_pk_ID) {
+                        data = await db.List_Specialty.findAll({
+                            where: {
+                                dr_or_pk_ID: query.dr_or_pk_ID
+                            },
+                        })
+                    }
+                }
+
+
+
+
+
+                resolve({
+                    errCode: 0,
+                    errMes: 'Ok!',
+                    data
+                })
+            }
+
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
 module.exports = {
     createSpeciatly: createSpeciatly,
     getAllSpeciatly: getAllSpeciatly,
     getDetailSpecialtyById: getDetailSpecialtyById,
     editSpecialty: editSpecialty,
-    deleteSpecialty: deleteSpecialty
+    deleteSpecialty: deleteSpecialty,
+    createDoctorToSpec: createDoctorToSpec,
+    getSpecDr: getSpecDr
+
 }

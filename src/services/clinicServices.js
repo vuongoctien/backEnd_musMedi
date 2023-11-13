@@ -133,13 +133,15 @@ let editClinic = (newData) => { // truyền vào cục newData mình muốn sử
                     raw: false // nếu không có dòng này sẽ dính lỗi oldClinic.save is not a function
                 })
                 if (oldClinic) {
-                    oldClinic.name = newData.name
-                    oldClinic.image = newData.image
-                    oldClinic.descriptionMarkdown = newData.descriptionMarkdown
-                    oldClinic.descriptionHTML = newData.descriptionHTML
-                    oldClinic.province = newData.province
-                    oldClinic.address = newData.address
-                    oldClinic.status = newData.status
+                    if (newData.name) oldClinic.name = newData.name
+                    if (newData.image) oldClinic.image = newData.image
+                    if (newData.descriptionMarkdown) oldClinic.descriptionMarkdown = newData.descriptionMarkdown
+                    if (newData.descriptionHTML) oldClinic.descriptionHTML = newData.descriptionHTML
+                    if (newData.province) oldClinic.province = newData.province
+                    if (newData.address) oldClinic.address = newData.address
+                    if (newData.status) oldClinic.status = newData.status
+                    if (newData.quantity_date) oldClinic.quantity_date = newData.quantity_date
+                    if (newData.show_order) oldClinic.show_order = newData.show_order
                     await oldClinic.save()
                     resolve({
                         errCode: 0,

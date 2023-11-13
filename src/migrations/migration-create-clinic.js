@@ -18,6 +18,8 @@ module.exports = {
             nickName: { type: Sequelize.STRING },
             password: { type: Sequelize.STRING },
             status: { type: Sequelize.BOOLEAN },
+            quantity_date: { type: Sequelize.INTEGER },
+            show_order: { type: Sequelize.BOOLEAN },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE

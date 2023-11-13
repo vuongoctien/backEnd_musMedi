@@ -23,12 +23,8 @@ module.exports = (sequelize, DataTypes) => {
         nickName: DataTypes.STRING, // tài khoản
         password: DataTypes.STRING,
         status: DataTypes.BOOLEAN,
-
-        /** ừ nhỉ trường hợp 1 hệ thống bệnh viện có nhiều cơ sở, minh không xử lý được
-         * thôi không sao
-         * trang bookingCare cũng có trường hợp Phòng Khám ACC - Chiropractic 2 chi nhánh
-         * chỉ là nó cũng làm được như Hệ thống bệnh viện Hồng Ngọc, còn mình thì chịu
-         */
+        quantity_date: DataTypes.INTEGER,
+        show_order: DataTypes.BOOLEAN,
     }, {
         sequelize,
         modelName: 'Clinic',

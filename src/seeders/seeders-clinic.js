@@ -164,6 +164,8 @@ module.exports = {
         nickName: 'doraemon',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 1,
+        quantity_date: 7,
+        show_order: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -333,6 +335,8 @@ module.exports = {
         nickName: 'o_long_vien',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 1,
+        quantity_date: 7,
+        show_order: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -497,6 +501,8 @@ module.exports = {
         nickName: 'homles',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 1,
+        quantity_date: 7,
+        show_order: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -742,6 +748,8 @@ Chờ đến lượt, vào phòng khám đã đăng ký gặp bác sĩ khám
         nickName: 'nguyendu',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 1,
+        quantity_date: 7,
+        show_order: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -829,6 +837,8 @@ Chờ đến lượt, vào phòng khám đã đăng ký gặp bác sĩ khám
         nickName: 'harrypotter',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 1,
+        quantity_date: 7,
+        show_order: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -923,6 +933,8 @@ Chờ đến lượt, vào phòng khám đã đăng ký gặp bác sĩ khám
         nickName: 'conan',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 1,
+        quantity_date: 7,
+        show_order: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -1083,6 +1095,8 @@ Chờ đến lượt, vào phòng khám đã đăng ký gặp bác sĩ khám
         nickName: 'ahxd',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 1,
+        quantity_date: 7,
+        show_order: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -1238,6 +1252,8 @@ Chờ đến lượt, vào phòng khám đã đăng ký gặp bác sĩ khám
         nickName: 'tddh',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 1,
+        quantity_date: 7,
+        show_order: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -1368,6 +1384,8 @@ Chờ đến lượt, vào phòng khám đã đăng ký gặp bác sĩ khám
         nickName: 'ytdlk',
         password: '$2a$10$K3G4GabflQ0dTKV7tOVZjOraU/oG/csMCcwckHnOLkMyd6uu/Vram', //benhvien
         status: 1,
+        quantity_date: 7,
+        show_order: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },

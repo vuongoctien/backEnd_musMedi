@@ -41,7 +41,7 @@ let createDoctor = (data) => { //ok
     return new Promise(async (resolve, reject) => {
         try {
             if (!data.name
-                || !data.position
+                // || !data.position
                 || !data.imageBase64
                 || !data.intro
                 || !data.thongtinkham

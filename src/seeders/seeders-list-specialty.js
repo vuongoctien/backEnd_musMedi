@@ -75,13 +75,6 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                specialtyID: 9,
-                //dr_or_pk: '',
-                dr_or_pk_ID: 11,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
-            {
                 specialtyID: 7,
                 //dr_or_pk: '',
                 dr_or_pk_ID: 12,
@@ -99,13 +92,6 @@ module.exports = {
                 specialtyID: 2,
                 //dr_or_pk: '',
                 dr_or_pk_ID: 14,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
-            {
-                specialtyID: 14,
-                //dr_or_pk: '',
-                dr_or_pk_ID: 15,
                 createdAt: new Date(),
                 updatedAt: new Date()
             },

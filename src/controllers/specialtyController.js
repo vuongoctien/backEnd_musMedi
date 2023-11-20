@@ -93,6 +93,33 @@ let getSpecDr = async (req, res) => { //0k
     }
 }
 
+let createSpecDr = async (req, res) => { //ok
+    try {
+        let info = await specialtyService.createSpecDr(req.body)
+        return res.status(200).json(info)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            errMes: "Error from server"
+        })
+    }
+}
+
+let deleteSpecDr = async (req, res) => { //ok
+    try {
+        let info = await specialtyService.deleteSpecDr(req.body.dr_or_pk_ID)
+        return res.status(200).json(info)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            errMes: "Error from server"
+        })
+    }
+
+}
+
 module.exports = {
     createSpeciatly: createSpeciatly,
     getAllSpeciatly: getAllSpeciatly,
@@ -101,5 +128,7 @@ module.exports = {
     deleteSpecialty: deleteSpecialty,
     createDoctorToSpec: createDoctorToSpec,
     getSpecDr: getSpecDr,
+    createSpecDr: createSpecDr,
+    deleteSpecDr: deleteSpecDr
 
 }

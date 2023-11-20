@@ -253,6 +253,55 @@ let getSpecDr = (query) => { // ok
     })
 }
 
+let createSpecDr = (data) => {
+    return new Promise(async (resolve, reject) => { //ok
+        try {
+            if (!data.specialtyID || !data.dr_or_pk_ID) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter!'
+                })
+            } else {
+                await db.List_Specialty.create({
+                    specialtyID: data.specialtyID,
+                    dr_or_pk_ID: data.dr_or_pk_ID
+                })
+
+                resolve({
+                    errCode: 0,
+                    errMes: 'ok rùi đó!'
+                })
+            }
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
+let deleteSpecDr = (dr_or_pk_ID) => { //ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!dr_or_pk_ID) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Missing parameter deleteSchedule!'
+                })
+            } else {
+                await db.List_Specialty.destroy({
+                    where: { dr_or_pk_ID: dr_or_pk_ID }
+                })
+                resolve({
+                    errCode: 0,
+                    message: 'đã xóa rui đó'
+                })
+            }
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
+
 module.exports = {
     createSpeciatly: createSpeciatly,
     getAllSpeciatly: getAllSpeciatly,
@@ -260,6 +309,8 @@ module.exports = {
     editSpecialty: editSpecialty,
     deleteSpecialty: deleteSpecialty,
     createDoctorToSpec: createDoctorToSpec,
-    getSpecDr: getSpecDr
+    getSpecDr: getSpecDr,
+    createSpecDr: createSpecDr,
+    deleteSpecDr: deleteSpecDr
 
 }

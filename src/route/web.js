@@ -59,7 +59,8 @@ let initWebRoutes = (app) => {
     router.delete('/api/delete-specialty', specialtyController.deleteSpecialty) //ok
     router.post('/api/create-doctor-to-spec', specialtyController.createDoctorToSpec) //ok
     router.get('/api/get-specdr', specialtyController.getSpecDr) //ok
-
+    router.post('/api/create-specdr', specialtyController.createSpecDr) //ok
+    router.delete('/api/delete-specdr', specialtyController.deleteSpecDr) //ok
 
     router.post('/api/create-new-clinic', clinicController.createClinic) //ok
     router.get('/api/get-clinic', clinicController.getAllClinic) // ok

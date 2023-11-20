@@ -7,7 +7,6 @@ module.exports = {
             {
                 specialtyID: 2,
                 //dr_or_pk: '',
-                //dr_or_pk: '',
                 dr_or_pk_ID: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
@@ -154,13 +153,6 @@ module.exports = {
             },
             {
                 specialtyID: 5,
-                //dr_or_pk: '',
-                dr_or_pk_ID: 22,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
-            {
-                specialtyID: 7,
                 //dr_or_pk: '',
                 dr_or_pk_ID: 22,
                 createdAt: new Date(),
@@ -345,13 +337,6 @@ module.exports = {
                 specialtyID: 7,
                 //dr_or_pk: '',
                 dr_or_pk_ID: 22,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            }
-            , {
-                specialtyID: 8,
-                //dr_or_pk: '',
-                dr_or_pk_ID: 23,
                 createdAt: new Date(),
                 updatedAt: new Date()
             }

@@ -69,13 +69,13 @@ let sendSimpleEmail = (dataSend) => {
 
 let getBodyHTMLEmail = (dataSend) => {
     return `<h3>Cảm ơn quý khách đã sử dụng dịch vụ của musMedi</h3>
-        <span>Đơn đặt khám của quý khách đã được <b>${dataSend.clinicData1.name}</b> tiếp nhận và đang trong trạng thái <b>"Chờ duyệt"</b>. </span>
+        <span>Đơn đặt khám của quý khách đã được <b>${dataSend.clinicName_forEmail}</b> tiếp nhận và đang trong trạng thái <b>"Chờ duyệt"</b>. </span>
         <p>Cơ sở y tế sẽ gọi điện thoại cho bạn nếu cần xác nhận</p>
         <p>Trạng thái lịch hẹn, hướng dẫn khám chi tiết sẽ được gửi qua tin nhắn điện thoại và email</p>
         <br/>
         &emsp;<u>Thời gian, địa điểm: </u>
         <p>Thời gian: <b>${dataSend.clockTime} ${dataSend.date_forEmail}</b></p>
-        <p>Cơ sở y tế: <b>${dataSend.clinicData1.name}</b></p>
+        <p>Cơ sở y tế: <b>${dataSend.clinicName_forEmail}</b></p>
         <p>Tên bác sĩ/dịch vụ: <b>${dataSend.itemName_forEmail}</b></p>
         &emsp;<u>Thông tin người đặt: </u>
         <p>Số điện thoại: <b>${dataSend.phoneNumber}</b></p>

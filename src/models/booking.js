@@ -14,6 +14,8 @@ module.exports = (sequelize, DataTypes) => {
                 { foreignKey: 'dr_or_pk_ID', targetKey: 'id', as: 'doctorData' })
             /** mỗi lịch book chỉ thuộc về 1 Doctor 
              * tham chiếu từ dr_or_pk_ID bảng này sang id bảng Doctor, gọi đống tham chiếu là doctorData?*/
+            Booking.belongsTo(models.Clinic,
+                { foreignKey: 'clinicID', targetKey: 'id', as: 'clinicData1' })
         }
     }
     Booking.init({

@@ -88,6 +88,7 @@ let initWebRoutes = (app) => {
 
 
     router.post('/api/send-mail', emailController.sendSimpleEmail)
+    router.post('/api/gui-mail', emailController.guiMail)
 
     return app.use("/", router);
 }

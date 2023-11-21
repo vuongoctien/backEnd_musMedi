@@ -13,9 +13,25 @@ let sendSimpleEmail = async (req, res) => { //ok
     }
 }
 
+let guiMail = async (req, res) => { //ok
+    try {
+        let info = await emailService.guiMail(req.body)
+        return res.status(200).json(info)
+    } catch (e) {
+        console.log(e)
+        return res.status(200).json({
+            errCode: -1,
+            errMes: "Có thể bạn đã điền sai email"
+        })
+    }
+}
+
+
+
 
 
 module.exports = {
-    sendSimpleEmail: sendSimpleEmail
+    sendSimpleEmail: sendSimpleEmail,
+    guiMail: guiMail,
 
 }

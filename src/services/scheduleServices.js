@@ -406,6 +406,54 @@ let changeStatus = (queryObject) => { // truyền vào cục queryObject chứa 
     })
 }
 
+let getOrderByClinic = (query) => { // ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!query.clinicID) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Điền thiếu em ơi'
+                })
+            } else {
+                let data
+                if (query.clinicID === 'ALL') {
+                    data = await db.Booking.findAll({
+                        include: [
+                            { model: db.Doctor, as: 'doctorData', attributes: ['name'] },
+                            { model: db.Clinic, as: 'clinicData1', attributes: ['name'] }
+                        ],
+                        raw: true,
+                        nest: true
+                    })
+                    resolve({
+                        errCode: 0,
+                        errMes: 'Đã tìm full Booking luôn',
+                        data
+                    })
+                } else {
+                    data = await db.Booking.findAll({
+                        where: { clinicID: query.clinicID },
+                        include: [
+                            { model: db.Doctor, as: 'doctorData', attributes: ['name'] },
+                            { model: db.Clinic, as: 'clinicData1', attributes: ['name'] }
+                        ],
+                        raw: true,
+                        nest: true
+                    })
+                    resolve({
+                        errCode: 0,
+                        errMes: 'Đã tìm theo clinic',
+                        data
+                    })
+                }
+            }
+
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
 
 
 module.exports = {
@@ -420,5 +468,6 @@ module.exports = {
     getOrderByStatusOfClinic: getOrderByStatusOfClinic,
     danhDauDaXem: danhDauDaXem,
     changeStatus: changeStatus,
+    getOrderByClinic: getOrderByClinic,
 
 }

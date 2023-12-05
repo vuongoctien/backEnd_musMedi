@@ -454,6 +454,35 @@ let getOrderByClinic = (query) => { // ok
     })
 }
 
+let xemSoLuongDaDat = (query) => { // ok
+    return new Promise(async (resolve, reject) => {
+        try {
+            if (!query.date && !query.dr_or_pk_ID) {
+                resolve({
+                    errCode: 1,
+                    errMes: 'Điền thiếu em ơi'
+                })
+            } else {
+                let data = await db.Booking.findAll({
+                    where: {
+                        date: query.date,
+                        dr_or_pk_ID: query.dr_or_pk_ID
+                    }
+                })
+                resolve({
+                    errCode: 0,
+                    errMes: 'Đã tìm full Booking luôn',
+                    data
+                })
+
+            }
+
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
 
 
 module.exports = {
@@ -469,5 +498,5 @@ module.exports = {
     danhDauDaXem: danhDauDaXem,
     changeStatus: changeStatus,
     getOrderByClinic: getOrderByClinic,
-
+    xemSoLuongDaDat: xemSoLuongDaDat
 }

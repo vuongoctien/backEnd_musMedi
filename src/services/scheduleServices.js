@@ -466,8 +466,9 @@ let xemSoLuongDaDat = (query) => { // ok
                 let data = await db.Booking.findAll({
                     where: {
                         date: query.date,
-                        dr_or_pk_ID: query.dr_or_pk_ID
-                    }
+                        dr_or_pk_ID: query.dr_or_pk_ID,
+                    },
+                    attributes: ['clockTime', 'status']
                 })
                 resolve({
                     errCode: 0,
